@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
   <head>
     <?php
@@ -14,17 +14,18 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Montserrat:400,700|Oswald:600|Poppins:600" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
 
     <?php if ($isMobile) { ?>
       <link rel="stylesheet" type="text/css" href="css/normalize.min.css" />
       <link rel="stylesheet" type="text/css" href="css/component.min.css" />
     <?php } ?>
 
-    
-    <link rel="stylesheet" href="css/slick.min.css" />  
+
+    <link rel="stylesheet" href="css/slick.min.css" />
     <link rel="stylesheet" href="css/master.min.css">
     <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -101,12 +102,12 @@
             <a href="#">Customer Care</a>
           </li>
         </ul>
-        
+
         <ul class="pull-right">
           <li><a href="#" class="track-order"><i class="fa fa-truck" aria-hidden="true"></i> Track an Order</a></li>
           <li><a href="#" class="my-account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
         </ul>
-    
+
       </div>
     </div>
 
@@ -143,7 +144,7 @@
           <?php include ('mobileMenu.php'); ?>
           </div>
 
-          <?php } else { 
+          <?php } else {
 
             include ('desktopMenu.php');
 
@@ -151,6 +152,3 @@
       ?>
 
     </header>
-
-      
-

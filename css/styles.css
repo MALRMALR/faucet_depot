@@ -110,3 +110,9 @@ h2.section-title {
   text-transform: none;
   margin-bottom:1em;
 }
+
+/*Michaels styles start here*/
+
+#banner .margin-top {
+  margin-top: 15px;
+}
