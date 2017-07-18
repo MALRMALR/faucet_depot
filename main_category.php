@@ -31,7 +31,9 @@
         <div class="vendor-info">
           <img class="vendor-photo" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
-          <div class="vendor_exit"><a href="#">Delta Kitchen Faucets >></a></div>
+          <div class="vendor_exit">
+            <a href="#"> Delta Kitchen Faucets >> </a>
+          </div>
         </div>
         <!-- main category description -->
         <div class="main-category-desc">
