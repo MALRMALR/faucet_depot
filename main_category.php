@@ -411,6 +411,29 @@
     </div>
   </div>
 
+  <div class="feat-prods margin-down clearfix">
+    <div class="">
+      <h2 class="section-title">Popular Categories</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-1 col-md-2">
+        <img src="imgs/collection_delta.png" alt="">
+      </div>
+      <div class="col-sm-1 col-md-2">
+        <img src="imgs/collection_kohler.png" alt="">
+      </div>
+      <div class="col-sm-1 col-md-2">
+        <img src="imgs/collection_blanco.png" alt="">
+      </div>
+      <div class="col-sm-1 col-md-2">
+        <img src="imgs/collection_insinkerator.png" alt="">
+      </div>
+      <div class="col-sm-1 col-md-2">
+        <img src="imgs/collection_insinkerator.png" alt="">
+      </div>
+    </div>
+  </div>
+
 
 
 </div> <!-- END container main -->
