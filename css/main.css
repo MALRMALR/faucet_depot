@@ -57,10 +57,10 @@
 ul.sub-category {
   float: left;
 }
-
-.sub-category ul li a {
+div.main-category-desc > ul > li > a {
   font-size: 12px;
   color: #0165ba;
+  margin-left: 25px;
 }
 
 .sub_category_photo {
