@@ -93,9 +93,7 @@ div.vendor-info>div>a {
 .sub_category_photo {
 	/*float: right;*/
 }
-.kitchen-accessories {
-	display: table;
-}
+
 
 select {
   -webkit-appearance: none;
@@ -152,7 +150,7 @@ select, input {
   float: right;
 }
 
-.vendor_info, img.vendor-photo, .sub_category_photo {
+.vendor_info, .vendor_info > img, img.vendor-photo, .sub_category_photo {
   display: none;
 }
 
@@ -164,6 +162,9 @@ img.vendor_photo {
   margin: 20px 0;
 }
 
+.kitchen-accessories h6 {
+  text-align: center;
+}
 /*featured */
 
 /*featured products*/
@@ -213,8 +214,35 @@ img.vendor_photo {
   width: 100%;
 }
 
+/*subcategory page*/
 
+.sub-cat-gallery-item {
+	margin: 50px 0 20px 0;
+}
 
+.sub-cat-gallery-item img {
+	border: 1px solid #ebebeb;
+	/*margin: 20px;*/
+	width: 100%;
+}
+
+.sub-cat-gallery-item-desc {
+	margin-top: 10px;
+}
+
+.sub_category_info {
+	width: 100%;
+	margin: 0;
+}
+
+.sub_category_info h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+	color: #2c4f6f;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -231,6 +259,11 @@ img.vendor_photo {
   ul.sub-category {
     float: left;
   }
+
+  .kitchen-accessories {
+  	display: table;
+  }
+
 
 }
 
