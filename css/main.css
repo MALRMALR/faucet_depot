@@ -200,6 +200,7 @@ img.vendor_photo {
 
 /*featured categories*/
 .featured-category-desc {
+  font-family: "Montserrat", sans-serif;
   color: #2c4f6f;
   text-align: left;
   padding: 10px 0;
