@@ -29,29 +29,29 @@
           <input type="text" name="search" placeholder="Model # / Description">
 
           <select class="" name="manufacturer">
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
           </select>
           <select class="" name="Select Product Type">
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
           </select>
 
           <select class="" name="Select Product Option">
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
           </select>
           <select class="" name="Select Finish">
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
-            <option value="">your search parameter will go here</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
+            <option value="">parameter</option>
           </select>
           <input type="submit" value="Search">
           <p><a href="#">Clear Search</a></p>
@@ -74,7 +74,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-1" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6 col-xs-12" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
           <div class="vendor_exit">
             <a href="#"> Delta Kitchen Faucets >> </a>
@@ -100,6 +100,7 @@
             <li><a href="#">Pot Filler</a></li>
             <li><a href="#">View All</a></li>
           </ul>
+          </br
 
 
           <!-- sub category vendor photos -->
@@ -115,7 +116,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-1" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6 col-xs-12" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
           <div class="vendor_exit">
             <a href="#"> Blanco Undermount Kitchen Sinks >> </a>
@@ -156,7 +157,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-1" src="imgs/garbage_disposal.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6 col-xs-12" src="imgs/garbage_disposal.png" alt="">
           <!-- <img class="vendor-logo" src="imgs/delta_logo.png" alt=""> -->
           <div class="vendor_exit">
             <!-- <a href="#"></a> -->
@@ -169,21 +170,21 @@
           <p>Insinkerator has your drain pipes covered with their top of the line waste disposals.
           CHoose from features like noise reduction, safety covers, extra horsepower and reversible blade
         action to find a perfect fit.</p>
-        <div class="col-md-2 col-sm-2 sub_cat_desc">
+        <div class="col-md-3 col-sm-2 sub_cat_desc">
           <img src="imgs/insinkerator_logo.png" alt="">
           <h6>Grind Almost Anything.  Hear Almost Nothing</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
         of professionals worldwide.</p>
         </div>
-        <div class="col-md-2 col-sm-2 sub_cat_desc">
+        <div class="col-md-3 col-sm-2 sub_cat_desc">
           <img src="imgs/insinkerator_septic_assist.png" alt="">
           <h6>InSinkerator Septic Assist.</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
         of professionals worldwide.</p>
         </div>
-        <div class="col-md-2 col-sm-2 sub_cat_desc">
+        <div class="col-md-3 col-sm-2 sub_cat_desc">
           <img src="imgs/insinkerator_evolution.png" alt="">
           <h6>InSinkErator Evolution Excel</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
@@ -200,7 +201,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-1" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6 col-xs-12" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/insinkerator_logo_small.png" alt="">
           <div class="vendor_exit">
             <a href="#"> InSinkErator F-HC1100C 1100 Instant Hot Water Dispenser >> </a>
@@ -233,7 +234,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-1" src="imgs/dish_drain.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6 col-xs-12" src="imgs/dish_drain.png" alt="">
           <!-- <img class="vendor-logo" src="imgs/delta_logo.png" alt=""> -->
           <div class="vendor_exit">
             <!-- <a href="#"></a> -->
