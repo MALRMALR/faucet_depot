@@ -226,13 +226,14 @@
 	        </div>
 		</div>
 
+    <!-- begin gallery -->
 		<div id="products-carousel" class="slider">
 			<div class="slick-slide img-text-box">
 	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -241,7 +242,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -250,7 +251,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -259,7 +260,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -268,7 +269,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -277,7 +278,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -286,7 +287,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -295,7 +296,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
@@ -304,7 +305,7 @@
 	          <div class="desc">
 	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
 
-	          		Our Price<br>$345.78
+	          		Our Price: $345.78
 
 	          </div>
 	        </div>
