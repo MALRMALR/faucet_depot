@@ -391,19 +391,22 @@
       <h2 class="section-title">Featured Collections</h2>
     </div>
     <div class="row">
-      <div class="col-sm-4 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_delta.png" alt="">
       </div>
-      <div class="col-sm-4 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_kohler.png" alt="">
       </div>
-      <div class="col-sm-4 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_blanco.png" alt="">
       </div>
-      <div class="col-sm-4 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
-      <div class="col-sm-4 col-md-2">
+      <div class="col-sm-6 col-md-2">
+        <img src="imgs/collection_insinkerator.png" alt="">
+      </div>
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
     </div>
@@ -414,22 +417,22 @@
       <h2 class="section-title">Popular Categories</h2>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_delta.png" alt="">
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_kohler.png" alt="">
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_blanco.png" alt="">
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-2">
+      <div class="col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
     </div>
