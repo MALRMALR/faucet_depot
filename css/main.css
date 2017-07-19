@@ -37,7 +37,7 @@
 	font-weight: 600;
 	color: #2c4f6f;
 	text-transform: uppercase;
-	margin: 20px;
+  /*margin: 0;*/
 }
 
 h2.section-title {
@@ -152,8 +152,16 @@ select, input {
   float: right;
 }
 
-.sub_category_photo, .vendor_photo {
+.vendor_info, img.vendor-photo, .sub_category_photo {
   display: none;
+}
+
+img.vendor_photo {
+  padding: 0;
+}
+
+.main-category-desc h3, h3.cat-title {
+  margin: 20px 0;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -165,9 +173,16 @@ select, input {
     display: block;
   }
 
+  img.vendor-photo {
+    display: block;
+  }
+
   ul.sub-category {
     float: left;
   }
+
+
+\
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -183,7 +198,6 @@ select, input {
   #kitchen-categories > div > div.col-md-3 {
     margin-bottom: 600px;
   }
-
 
 }
 

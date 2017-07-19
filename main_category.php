@@ -12,7 +12,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-4" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
           <div class="vendor_exit">
             <a href="#"> Delta Kitchen Faucets >> </a>
@@ -53,7 +53,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-4" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
           <div class="vendor_exit">
             <a href="#"> Blanco Undermount Kitchen Sinks >> </a>
@@ -94,7 +94,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-4" src="imgs/garbage_disposal.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6" src="imgs/garbage_disposal.png" alt="">
           <!-- <img class="vendor-logo" src="imgs/delta_logo.png" alt=""> -->
           <div class="vendor_exit">
             <!-- <a href="#"></a> -->
@@ -138,7 +138,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-4" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/insinkerator_logo_small.png" alt="">
           <div class="vendor_exit">
             <a href="#"> InSinkErator F-HC1100C 1100 Instant Hot Water Dispenser >> </a>
@@ -171,7 +171,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-sm-6 col-xs-4" src="imgs/dish_drain.png" alt="">
+          <img class="vendor-photo col-md-2 col-sm-6" src="imgs/dish_drain.png" alt="">
           <!-- <img class="vendor-logo" src="imgs/delta_logo.png" alt=""> -->
           <div class="vendor_exit">
             <!-- <a href="#"></a> -->
