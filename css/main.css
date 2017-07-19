@@ -176,14 +176,8 @@ select, input {
     margin: 0;
   }
 
-
-
   .vendor-photo {
-  	width: 150px;
     padding: 0 10px 10px 0;
-  }
-  .vendor-info .vendor-logo {
-  	/*display: none;*/
   }
 
   #kitchen-categories > div > div.col-md-3 {
@@ -204,7 +198,7 @@ select, input {
   	float: left;
   }
   .vendor-photo {
-  	width: 270px;
+  	width: 250px;
   }
   .vendor-info .vendor-logo {
   	position: absolute;

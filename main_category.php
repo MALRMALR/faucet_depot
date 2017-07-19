@@ -2,7 +2,7 @@
 
 
 <div class="container main">
-
+    <!-- sidebar & top banner ad -->
   <?php include ('sidebar.php'); ?>
     <!-- end sidebar -->
     <!-- main -->
