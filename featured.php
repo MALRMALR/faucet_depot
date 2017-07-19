@@ -116,7 +116,7 @@
 
 
 <!-- featured collections -->
-<div class="feat-prods margin-down clearfix">
+<div class="featured margin-down clearfix">
 <div class="">
   <h2 class="section-title">Featured Collections</h2>
 </div>
@@ -160,7 +160,7 @@
 </div>
 </div>
 
-<div class="feat-prods margin-down clearfix">
+<div class="featured margin-down clearfix">
 <div class="">
   <h2 class="section-title">Popular Categories</h2>
 </div>

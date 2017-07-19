@@ -196,6 +196,7 @@ img.vendor_photo {
   color: #005efa;
   text-align: center;
   padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 /*featured categories*/
@@ -204,8 +205,15 @@ img.vendor_photo {
   color: #2c4f6f;
   text-align: left;
   padding: 10px 0;
+  margin-bottom: 20px;
   font-size: 16px;
 }
+
+.featured, .featured img {
+  width: 100%;
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -238,6 +246,10 @@ img.vendor_photo {
 
   #kitchen-categories > div > div.col-md-3 {
     margin-bottom: 600px;
+  }
+
+  .featured-category-desc, .featured-collection-desc {
+    width: 100%;
   }
 
 }
