@@ -67,7 +67,7 @@ h3.cat-title {
 }
 
 .sub_cat_desc {
-  
+
 }
 .sub_cat_desc img {
   display: table;
@@ -209,7 +209,7 @@ select, input {
   .vendor-info .vendor-logo {
   	position: absolute;
     width: 75px;
-    bottom: 20px;
+    bottom: 10px;
   	left: 15px;
   }
 
