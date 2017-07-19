@@ -63,8 +63,11 @@ h3.cat-title {
 	border-bottom: 1px solid #ebebeb;
 }
 .sub_cat_desc {
-  /*margin: 0 10px;*/
   text-align: left;
+}
+
+.sub_cat_desc {
+  
 }
 .sub_cat_desc img {
   display: table;
