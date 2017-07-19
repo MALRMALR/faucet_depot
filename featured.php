@@ -105,8 +105,8 @@
         <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
         <div class="featured-desc">
           <h3><a href="#">Delta 9178-AR-DST</a></h3>
-
-            Our Price<br>$345.78
+          <div class="featured-retail-price">Retail Price: $373.78</div>
+          <div class="featured-our-price">Our Price: $182.85</div>
 
         </div>
       </div>
