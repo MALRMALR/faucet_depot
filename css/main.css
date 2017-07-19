@@ -11,7 +11,7 @@
 	text-transform: uppercase;
 }
 #main-cat-sidebar {
-	margin-bottom: 100%;
+	margin-bottom: 200px
 }
 #main-cat-sidebar ul {
 	margin-left: 15px;
@@ -69,15 +69,14 @@ h3.cat-title {
 	border-bottom: 1px solid #ebebeb;
 }
 .sub_cat_desc {
-  margin: 0 20px;
-  text-align: center;
+  margin: 0 10px;
+  text-align: left;
 }
 .sub_cat_desc img {
 	padding: 25px 0;
 }
 ul.sub-category {
 	float: left;
-  /*margin: 0 40px 0 0;*/
 }
 ul.sub-category >li {
 	list-style: none;
@@ -154,4 +153,25 @@ select, input {
 .divider{
   border-top: 2px solid #2c4f6f;
   margin-right: 60%;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  ul.sub-category {
+  	float: left;
+    margin-left: -20px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
 }

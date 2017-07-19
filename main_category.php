@@ -89,7 +89,7 @@
             and more in beautiful long-lasting finishes and styles, like stainless steel and bronze.
           </p>
           <!-- sub categories -->
-          <div class="col-md-2">
+          <div>
 
 
           <ul class="sub-category">
@@ -130,7 +130,7 @@
             and more in beautiful long-lasting finishes and styles, like stainless steel and bronze.
           </p>
           <!-- sub categories -->
-          <div class="col-md-2">
+          <div>
 
 
           <ul class="sub-category">
@@ -172,21 +172,21 @@
           <p>Insinkerator has your drain pipes covered with their top of the line waste disposals.
           CHoose from features like noise reduction, safety covers, extra horsepower and reversible blade
         action to find a perfect fit.</p>
-        <div class="col-md-2 sub_cat_desc">
+        <div class="col-md-2 col-sm-2 sub_cat_desc">
           <img src="imgs/insinkerator_logo.png" alt="">
           <h6>Grind Almost Anything.  Hear Almost Nothing</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
         of professionals worldwide.</p>
         </div>
-        <div class="col-md-2 sub_cat_desc">
+        <div class="col-md-2 col-sm-2 sub_cat_desc">
           <img src="imgs/insinkerator_septic_assist.png" alt="">
           <h6>InSinkerator Septic Assist.</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
         of professionals worldwide.</p>
         </div>
-        <div class="col-md-2 sub_cat_desc">
+        <div class="col-md-2 col-sm-2 sub_cat_desc">
           <img src="imgs/insinkerator_evolution.png" alt="">
           <h6>InSinkErator Evolution Excel</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
@@ -416,19 +416,22 @@
       <h2 class="section-title">Popular Categories</h2>
     </div>
     <div class="row">
-      <div class="col-sm-1 col-md-2">
+      <div class="col-xs-12 col-sm-6 col-md-2">
         <img src="imgs/collection_delta.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-xs-12 col-sm-6 col-md-2">
         <img src="imgs/collection_kohler.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-xs-12 col-sm-6 col-md-2">
         <img src="imgs/collection_blanco.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-xs-12 col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-xs-12 col-sm-6 col-md-2">
+        <img src="imgs/collection_insinkerator.png" alt="">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
     </div>
