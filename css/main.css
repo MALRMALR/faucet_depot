@@ -146,15 +146,23 @@ select, input {
   margin-right: 60%;
 }
 
-.vendor-info {
+.vendor-logo {
+  position: relative;
+  float: right;
+}
+
+.sub_category_photo {
   display: none;
 }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  .sub_category_photo {
+    display: block;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -187,7 +195,7 @@ select, input {
   	float: left;
   }
   .vendor-photo {
-  	width: 250px;
+  	width: 200px;
   }
   .vendor-info .vendor-logo {
   	position: absolute;

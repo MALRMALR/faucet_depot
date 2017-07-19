@@ -103,9 +103,9 @@
 
 
           <!-- sub category vendor photos -->
-          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_moen.png" alt=""></div>
-          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_grohe.png" alt=""></div>
-          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_pfister.png" alt=""></div>
+          <div class="col-md-2 col-sm-3"><img class="sub_category_photo" src="imgs/faucet_moen.png" alt=""></div>
+          <div class="col-md-2 col-sm-3"><img class="sub_category_photo" src="imgs/faucet_grohe.png" alt=""></div>
+          <div class="col-md-2 col-sm-3"><img class="sub_category_photo" src="imgs/faucet_pfister.png" alt=""></div>
         </div>
       </div>
     </div>
