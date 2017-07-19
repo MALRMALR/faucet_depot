@@ -1,11 +1,11 @@
-<div id="banner" class="row margin-top margin-down clearfix">
+<div id="banner" class="margin-top margin-down clearfix">
 
     <img src="imgs/main_category_ad.png" alt="banner ad">
 
 </div>
 
 <div id="kitchen-categories" class="margin-top">
-  <div class="row">
+  <div class="">
     <!-- Sidebar -->
   <div class="col-md-3 col-sm-12">
     <div id="main-cat-sidebar" class="">
@@ -61,3 +61,6 @@
 
     </div>
   </div>
+
+</div>
+</div>

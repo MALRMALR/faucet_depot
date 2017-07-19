@@ -235,13 +235,38 @@ img.vendor_photo {
 	margin: 0;
 }
 
-.sub_category_info h3 {
+.sub-category-info h3 {
 	font-family: "Poppins", sans-serif;
 	font-size: 19px;
 	font-weight: 700;
 	color: #2c4f6f;
 	text-transform: uppercase;
 	margin: 10px 0;
+}
+
+.sub-category-photo img {
+	padding: 10px;
+}
+
+.sub-category-text, .sub-category-photo {
+	margin: 20px 0;
+}
+.sub-category-text h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #003064;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+.sub-category-text p {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.feat-prods {
+	clear: both;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */

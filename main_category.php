@@ -216,10 +216,10 @@
   </div>
   </div>
 
+  <?php include('') ?>
 
 
 
-  <?php include('featured.php') ?>
 </div> <!-- END container main -->
 
 
