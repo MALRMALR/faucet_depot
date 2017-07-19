@@ -167,21 +167,39 @@
 <div class="row">
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_delta.png" alt="">
+    <div class="featured-category-desc">
+      <a href="#">Kitchen Pullout Faucets</a>
+    </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_kohler.png" alt="">
+    <div class="featured-category-desc">
+      <a href="#">Stainless Steel Sinks</a>
+    </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
+    <div class="featured-category-desc">
+      <a href="#">Bathroom Ventilation Fans</a>
+    </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
+    <div class="featured-category-desc">
+      <a href="#">Stainless Steel Sinks</a>
+    </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
+    <div class="featured-category-desc">
+      <a href="#">Toilet Seats &amp; Washlets</a>
+    </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
+    <div class="featured-category-desc">
+      <a href="#">Toilet Seats &amp; Washlets</a>
+    </div>
   </div>
 </div>
 </div>

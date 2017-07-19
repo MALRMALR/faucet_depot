@@ -198,6 +198,14 @@ img.vendor_photo {
   padding: 10px 0;
 }
 
+/*featured categories*/
+.featured-category-desc {
+  color: #2c4f6f;
+  text-align: left;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
