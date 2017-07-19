@@ -11,7 +11,7 @@
 	text-transform: uppercase;
 }
 #main-cat-sidebar {
-	margin-bottom: 200px
+  margin: 0 auto 20px auto;
 }
 #main-cat-sidebar ul {
 	margin-left: 15px;
@@ -21,23 +21,18 @@
 	padding: 5px 0;
 	border-bottom: 1px solid #ebebeb;
 }
+/*ad*/
+#main-cat-sidebar > img {
+  margin: 0 auto;
+  display: table;
+}
 .category-border {
 	border: 1px solid #ebebeb;
-	padding: 15px 15px 0 0;
+	padding: 15px;
 	border-bottom: none;
 }
-.vendor-info {
-	display: block;
-	float: left;
-}
-.vendor-photo {
-	width: 250px;
-}
-.vendor-info .vendor-logo {
-	position: absolute;
-	left: 15px;
-	bottom: 20px;
-}
+
+
 .main-category-desc h3, h3.cat-title {
 	font-family: "Poppins", sans-serif;
 	font-weight: 600;
@@ -69,7 +64,7 @@ h3.cat-title {
 	border-bottom: 1px solid #ebebeb;
 }
 .sub_cat_desc {
-  margin: 0 10px;
+  /*margin: 0 10px;*/
   text-align: left;
 }
 .sub_cat_desc img {
@@ -101,10 +96,6 @@ div.vendor-info>div>a {
 	display: table;
 }
 
-/*left rail*/
-#kitchen-categories > div > div.col-md-3 {
-  margin-bottom: 200px;
-}
 select {
   -webkit-appearance: none;
     -moz-appearance: none;
@@ -155,23 +146,57 @@ select, input {
   margin-right: 60%;
 }
 
+.vendor-info {
+  display: none;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-  ul.sub-category {
-  	float: left;
-    margin-left: -20px;
-  }
+@media (min-width: 768px) {
+
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media (min-width: 992px) {
+  ul.sub-category {
+    margin: 0;
+  }
+
+
+
+  .vendor-photo {
+  	width: 150px;
+    padding: 0 10px 10px 0;
+  }
+  .vendor-info .vendor-logo {
+  	/*display: none;*/
+  }
+
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+@media (min-width: 1200px) {
+  ul.sub-category {
+    margin: 0 20px;
+  }
 
+  .vendor-info {
+  	display: block;
+  	float: left;
+  }
+  .vendor-photo {
+  	width: 250px;
+  }
+  .vendor-info .vendor-logo {
+  	position: absolute;
+  	left: 15px;
+  	bottom: 20px;
+  }
+
+  /*left rail*/
+  #kitchen-categories > div > div.col-md-3 {
+    margin-bottom: 200px;
+  }
 }

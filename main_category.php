@@ -74,7 +74,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-xs-1" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-xs-12" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
           <div class="vendor_exit">
             <a href="#"> Delta Kitchen Faucets >> </a>
@@ -89,7 +89,7 @@
             and more in beautiful long-lasting finishes and styles, like stainless steel and bronze.
           </p>
           <!-- sub categories -->
-          <div>
+
 
 
           <ul class="sub-category">
@@ -101,11 +101,11 @@
             <li><a href="#">View All</a></li>
           </ul>
 
-          </div>
+
           <!-- sub category vendor photos -->
-          <div class="col-md-2 col-xs-2"><img class="sub_category_photo" src="imgs/faucet_moen.png" alt=""></div>
-          <div class="col-md-2 col-xs-2"><img class="sub_category_photo" src="imgs/faucet_grohe.png" alt=""></div>
-          <div class="col-md-2 col-xs-2"><img class="sub_category_photo" src="imgs/faucet_pfister.png" alt=""></div>
+          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_moen.png" alt=""></div>
+          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_grohe.png" alt=""></div>
+          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_pfister.png" alt=""></div>
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-xs-1" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-xs-12" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
           <div class="vendor_exit">
             <a href="#"> Blanco Undermount Kitchen Sinks >> </a>
@@ -130,8 +130,6 @@
             and more in beautiful long-lasting finishes and styles, like stainless steel and bronze.
           </p>
           <!-- sub categories -->
-          <div>
-
 
           <ul class="sub-category">
             <li><a href="#">Undermount</a></li>
@@ -142,12 +140,11 @@
             <li><a href="#">View All</a></li>
           </ul>
 
-          </div>
           <!-- sub category vendor photos -->
 
-          <div class="col-md-2 col-xs-2"><img class="sub_category_photo" src="imgs/faucet_moen.png" alt=""></div>
-          <div class="col-md-2 col-xs-2"><img class="sub_category_photo" src="imgs/faucet_grohe.png" alt=""></div>
-          <div class="col-md-2 col-xs-2"><img class="sub_category_photo" src="imgs/faucet_pfister.png" alt=""></div>
+          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_moen.png" alt=""></div>
+          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_grohe.png" alt=""></div>
+          <div class="col-md-2"><img class="sub_category_photo" src="imgs/faucet_pfister.png" alt=""></div>
         </div>
       </div>
 
@@ -159,7 +156,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-xs-1" src="imgs/garbage_disposal.png" alt="">
+          <img class="vendor-photo col-md-2 col-xs-12" src="imgs/garbage_disposal.png" alt="">
           <!-- <img class="vendor-logo" src="imgs/delta_logo.png" alt=""> -->
           <div class="vendor_exit">
             <!-- <a href="#"></a> -->
@@ -203,7 +200,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-xs-1" src="imgs/delta_faucet.png" alt="">
+          <img class="vendor-photo col-md-2 col-xs-12" src="imgs/delta_faucet.png" alt="">
           <img class="vendor-logo" src="imgs/insinkerator_logo_small.png" alt="">
           <div class="vendor_exit">
             <a href="#"> InSinkErator F-HC1100C 1100 Instant Hot Water Dispenser >> </a>
@@ -236,7 +233,7 @@
       <div class="main-category">
         <!-- category images -->
         <div class="vendor-info">
-          <img class="vendor-photo col-md-2 col-xs-1" src="imgs/dish_drain.png" alt="">
+          <img class="vendor-photo col-md-2 col-xs-12" src="imgs/dish_drain.png" alt="">
           <!-- <img class="vendor-logo" src="imgs/delta_logo.png" alt=""> -->
           <div class="vendor_exit">
             <!-- <a href="#"></a> -->
@@ -251,24 +248,24 @@
         action to find a perfect fit.</p>
         <div class="kitchen-accessories">
           <!-- kitchen accessory sub category -->
-          <div class="col-md-2 sub_cat_desc">
+          <div class="col-md-2 col-sm-12 sub_cat_desc">
             <img src="imgs/cutting_board.png" alt="">
             <h6><a href="">Cutting Boards</a></h6>
           </div>
           <!-- kitchen accessory sub category -->
-          <div class="col-md-2 sub_cat_desc">
+          <div class="col-md-2 col-sm-12 sub_cat_desc">
             <img src="imgs/air_gap.png" alt="">
             <h6><a href="">Air Gaps</a></h6>
 
           </div>
           <!-- kitchen accessory sub category -->
-          <div class="col-md-2 sub_cat_desc">
+          <div class="col-md-2 col-sm-12 sub_cat_desc">
             <img src="imgs/basket_strainer.png" alt="">
             <h6><a href="">Basket Strainers</a></h6>
 
           </div>
           <!-- kitchen accessory sub category -->
-          <div class="col-md-2 sub_cat_desc">
+          <div class="col-md-2 col-sm-12 sub_cat_desc">
             <img src="imgs/soap_dispenser.png" alt="">
             <h6><a href="">Soap Dispensers</a></h6>
 
@@ -393,19 +390,19 @@
       <h2 class="section-title">Featured Collections</h2>
     </div>
     <div class="row">
-      <div class="col-sm-1 col-md-2">
+      <div class="col-sm-4 col-md-2">
         <img src="imgs/collection_delta.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-sm-4 col-md-2">
         <img src="imgs/collection_kohler.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-sm-4 col-md-2">
         <img src="imgs/collection_blanco.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-sm-4 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
-      <div class="col-sm-1 col-md-2">
+      <div class="col-sm-4 col-md-2">
         <img src="imgs/collection_insinkerator.png" alt="">
       </div>
     </div>
