@@ -251,12 +251,16 @@ img.vendor_photo {
 .sub-category-text, .sub-category-photo {
 	margin: 20px 0;
 }
-.sub-category-text h3 {
+.sub-category-text h3, .sub-category-text div {
 	font-family: "Montserrat", sans-serif;
 	color: #003064;
 	font-size: 16px;
 	text-transform: uppercase;
 	line-height: 18px;
+}
+
+.sub-category-text div {
+	text-transform: capitalize;
 }
 
 .sub-category-text p {
@@ -267,6 +271,36 @@ img.vendor_photo {
 
 .feat-prods {
 	clear: both;
+}
+
+.generic-content-page {
+	font-family: "Monserrat", sans-serif;
+	font-size: 14px;
+	line-height: 22px
+}
+
+.generic-content-page .indent {
+	margin-left: 60px;
+}
+
+.generic-content-page h3, .chat-online div {
+	font-size: 19px;
+	color: #2c4f6f;
+	text-align: center;
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+.generic-content-page p {
+	padding: 0 30px;
+}
+
+.chat-online {
+	margin-top: 40px;
+	text-align: center;
+}
+.chat-online div {
+	font-size: 12px;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
