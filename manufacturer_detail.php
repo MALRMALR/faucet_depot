@@ -262,6 +262,15 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
       </div>
       <div class="col-md-9 manufacturers-collections-exhaustive">
         <h3 class="cat-title">Kohler Collections</h3>
+        <div class="col-md-2">
+          <ul>
+            <li><a href="#">Accent</a></li>
+            <li><a href="#">Addison (Kohler)</a></li>
+            <li><a href="#">Alberry</a></li>
+
+          </ul>
+
+        </div>
       </div>
     </div><!-- end BODY -->
     <div class="col-md-12 manufacturer-desc">

@@ -308,6 +308,28 @@ img.vendor_photo {
 }
 
 /*manufacturer detail page*/
+
+.manufacturers-collections-exhaustive {
+	float: right;
+}
+
+.manufacturers-collections-exhaustive ul li {
+	list-style-type: none;
+	font-size: 10px;
+}
+
+.manufacturers-collections-exhaustive ul li a {
+	color: #3b18ee;
+}
+.manufacturers-collections-exhaustive ul li::before {
+	content: " >> ";
+}
+
+.manufacturers-collections-exhaustive h3.cat-title {
+	background-color: rgba(243, 243, 243, 0.75);
+	padding: 10px;
+}
+
 ul.manufacturer-sub-cat-list {
 	list-style-type: square;
 }
