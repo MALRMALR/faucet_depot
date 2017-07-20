@@ -323,6 +323,7 @@ img.vendor_photo {
 }
 .manufacturers-collections-exhaustive ul li::before {
 	content: " >> ";
+	font-size: 8px;
 }
 
 .manufacturers-collections-exhaustive h3.cat-title {
