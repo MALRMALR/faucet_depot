@@ -311,8 +311,12 @@ img.vendor_photo {
 ul.manufacturer-sub-cat-list {
 	list-style-type: square;
 }
-
-.manufacturer-desc
+.manufacturer-desc img {
+	padding: 15px;
+}
+.right {
+	float: right;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
