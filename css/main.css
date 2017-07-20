@@ -31,6 +31,10 @@
 	border-bottom: none;
 }
 
+body > div.container.main > div:nth-child(7) {
+  border-bottom: 1px solid #ebebeb;
+}
+
 
 .main-category-desc h3, h3.cat-title {
 	font-family: "Poppins", sans-serif;
