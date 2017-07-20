@@ -306,6 +306,14 @@ img.vendor_photo {
 .chat-online div {
 	font-size: 12px;
 }
+
+/*manufacturer detail page*/
+ul.manufacturer-sub-cat-list {
+	list-style-type: square;
+}
+
+.manufacturer-desc
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

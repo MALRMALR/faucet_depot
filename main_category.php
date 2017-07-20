@@ -1,9 +1,9 @@
-<?php include ('header.php'); ?>
+<?php include('header.php'); ?>
 
 
 <div class="container main">
     <!-- sidebar & top banner ad -->
-  <?php include ('sidebar.php'); ?>
+  <?php include('sidebar.php'); ?>
     <!-- end sidebar -->
     <!-- main -->
     <!-- kitchen faucets -->
