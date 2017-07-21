@@ -28,17 +28,10 @@
 
 .img-text-box  a.img-link,
 .img-text-box  .desc {
-
     float: left;
     width: 50%;
 }
-.img-text-box h3 {
-  margin:0;
-  padding:0;
-  text-transform: uppercase;
-  color:#0153a5;
-  font-weight: 700;
-}
+
 .img-text-box  .desc {
   padding-left:15px;
 }
