@@ -306,6 +306,41 @@ img.vendor_photo {
 .chat-online div {
 	font-size: 12px;
 }
+
+/*manufacturer detail page*/
+
+.manufacturers-collections-exhaustive {
+	float: right;
+}
+
+.manufacturers-collections-exhaustive ul li {
+	list-style-type: none;
+	font-size: 10px;
+}
+
+.manufacturers-collections-exhaustive ul li a {
+	color: #3b18ee;
+}
+.manufacturers-collections-exhaustive ul li::before {
+	content: " >> ";
+	font-size: 8px;
+}
+
+.manufacturers-collections-exhaustive h3.cat-title {
+	background-color: rgba(243, 243, 243, 0.75);
+	padding: 10px;
+}
+
+ul.manufacturer-sub-cat-list {
+	list-style-type: square;
+}
+.manufacturer-desc img {
+	padding: 15px;
+}
+.right {
+	float: right;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
