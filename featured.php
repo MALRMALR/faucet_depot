@@ -21,6 +21,8 @@
 
         </div>
       </div>
+
+      
   <div class="slick-slide featured-img-textbox">
         <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
         <div class="featured-desc">

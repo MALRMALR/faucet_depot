@@ -8,7 +8,7 @@
       $isMobile = $detect->isMobile() && !$detect->isTablet();
       $isTablet = $detect->isTablet();
 
-      $BASE_URL = "/faucetdepot/site";
+      $BASE_URL = "";
     ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Montserrat:400,700|Oswald:600|Poppins:600" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    
+
     <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/slick.min.css" />
     <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/master.min.css">
     <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/styles.min.css">
@@ -44,7 +44,7 @@
     <div class="promo-bar header-bar">
       <div class="container">
         <button data-toggle="collapse" data-target="#promos" class="visible-xs arrow-down collapsed">View our Promo Codes</button>
-        
+
         <ul id="promos" class="collapse">
           <li>
             <img src="imgs/faucet-small.png">
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    
+
     <?php if (!$isMobile) { ?>
       <div class="upper-bar header-bar">
         <div class="container">
@@ -128,7 +128,7 @@
 
     <?php } ?>
 
-    
+
 
 
     <header class="main-header">
@@ -155,11 +155,11 @@
             </div>
           </div>
         </div>
-        
+
         <div class="row phone-bar">
           <div class="container">
             <ul>
-              <li>Toll Free: (888) 328-2389</li>    
+              <li>Toll Free: (888) 328-2389</li>
               <li>Live Chat Support Online</li>
             </ul>
           </div>
@@ -174,7 +174,7 @@
           </div>
         </div>
 
-        
+
         <?php if (!$isMobile) { ?>
         <div class="col-xs-12 col-sm-3 cart-holder">
           <div class="cart">

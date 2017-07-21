@@ -44,13 +44,13 @@ body > div.container.main > div:nth-child(7) {
   /*margin: 0;*/
 }
 
-/*h2.section-title {
+h2.section-title {
   font-size: 19px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #2c4f6f;
   text-transform: uppercase;
-}*/
+}
 
 h3.cat-title {
   margin: 20px 0 10px 0;
@@ -70,8 +70,8 @@ h3.cat-title {
   text-align: left;
 }
 
-.sub_cat_desc {
-
+.sub_cat_desc_img_wrapper {
+	min-height: 100px;
 }
 .sub_cat_desc img {
   display: table;
@@ -346,15 +346,33 @@ ul.manufacturer-sub-cat-list {
 	font-size: 16px;
 }
 
-.manufacturer-popular-products div {
+.manufacturer-popular-products div img {
 	border: 1px solid #ebebeb;
-
 }
 
 .manufacturer-popular-products a {
 	color: #2c4f6f;
 	margin: 10px 0;
 }
+
+.manufacturer-popular-products img {
+	width: 100%;
+}
+
+.manufacturer-popular-products div.manufacturer-product-line-desc {
+	color: #717171;
+	background-color: rgb(211,211,211);
+	padding: 20px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.manufacturer-popular-products h3.cat-title {
+	text-align: left;
+	margin: 0 0 20px 0; /* resets default .cat-title styles for this section */
+}
+
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

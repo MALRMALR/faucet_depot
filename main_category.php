@@ -108,21 +108,27 @@
           CHoose from features like noise reduction, safety covers, extra horsepower and reversible blade
         action to find a perfect fit.</p>
         <div class="col-md-2 col-sm-12 sub_cat_desc">
-          <img src="imgs/insinkerator_logo.png" alt="">
+          <div class="sub_cat_desc_img_wrapper">
+            <img src="imgs/insinkerator_logo.png" alt="">
+          </div>
           <h6>Grind Almost Anything.  Hear Almost Nothing</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
         of professionals worldwide.</p>
         </div>
         <div class="col-md-2 col-sm-12 sub_cat_desc">
+          <div class="sub_cat_desc_img_wrapper">
           <img src="imgs/insinkerator_septic_assist.png" alt="">
+          </div>
           <h6>InSinkerator Septic Assist.</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
         of professionals worldwide.</p>
         </div>
         <div class="col-md-2 col-sm-12 sub_cat_desc">
-          <img src="imgs/insinkerator_evolution.png" alt="">
+          <div class="sub_cat_desc_img_wrapper">
+            <img src="imgs/insinkerator_evolution.png" alt="">
+          </div>
           <h6>InSinkErator Evolution Excel</h6>
           <p>Insinkerator is the world's largest manufacturer of food waster disposers
           for home and commercial use.  For decades, InsinkErator has been the #1 choice
