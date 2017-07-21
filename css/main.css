@@ -341,6 +341,20 @@ ul.manufacturer-sub-cat-list {
 	float: right;
 }
 
+.manufacturer-popular-products {
+	text-align: center;
+	font-size: 16px;
+}
+
+.manufacturer-popular-products div {
+	border: 1px solid #ebebeb;
+
+}
+
+.manufacturer-popular-products a {
+	color: #2c4f6f;
+	margin: 10px 0;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

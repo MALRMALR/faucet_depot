@@ -457,7 +457,7 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
           </ul>
 
         </div>
-        <div class="col-md-9 col-sm-12">
+        <div class="col-md-9 col-sm-12 manufacturer-info">
           <h3 class="cat-title">
             Search Kohler
           </h3>
@@ -479,6 +479,26 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
       <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
       <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
       <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
+    </div>
+    <!-- Manufacturer popular product lines -->
+    <div class="col-md-12 manufacturer-popular-products">
+      <h3 class="cat-title">Popular Kitchen Faucets By Kohler</h3>
+      <div class="col-md-3">
+        <img src="imgs/kohler_parq.png" alt="">
+      </div>
+      <div class="col-md-3">
+        <img src="imgs/kohler_simplice.png" alt="">
+      </div>
+      <div class="col-md-3">
+        <img src="imgs/kohler_simplice.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-12 manufacturer-desc">
+      <h3 class="cat-title">Bathroom Products By Kohler</h3>
+      <img class="right" src="imgs/kohler_kitchen.png" alt="">
+      <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
+      Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.
+
     </div>
 
 
