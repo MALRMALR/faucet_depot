@@ -11,19 +11,24 @@
   display: inline-block;
   padding:10px;
   background:#fff;
-    padding: 5px 12px;
+  padding: 5px 12px;
   border:1px solid #ddd;
   cursor: pointer;
 }
+
+
 
 .arrows .slick-arrow:hover {
   background-color: #0153a5;
   color:#fff;
 }
 
-.logo-arrows {
-      position: absolute;
-    right: -31px;
+
+
+
+.side-arrows {
+  position: absolute;
+  right: -31px;
 }
 
 .img-text-box  a.img-link,
@@ -36,21 +41,21 @@
   padding-left:15px;
 }
 
-#categories > div.cat-item ul {
+#categories div.cat-item ul {
   padding-top:5px;
 }
-#categories > div.cat-item li {
+#categories div.cat-item li {
   list-style-type: none;
   margin-bottom:0.1em;
 }
-#categories > div.cat-item li a {
+#categories div.cat-item li a {
   font-size: 0.9em;
 }
 
-h2.section-title {
-  display: inline-block;
-  margin-bottom: 1em;
-}
+  #categories .side-arrows {
+    display: none;
+  }
+
 
 .guide-arrows,
 .products-arrows {
@@ -103,6 +108,59 @@ h2.section-title {
   text-transform: none;
   margin-bottom:1em;
 }
+
+
+@media screen and (max-width:767px) {
+  .border-around {
+    padding:20px;
+  }
+  .slick-dots {
+    display: none !important;
+  }
+  .slick-slide img {
+    margin:0 auto;
+  }
+  .side-arrows {
+    float:none;
+    width: 100%;
+    position: static;
+  }
+  .side-arrows .slick-arrow {
+    position: absolute;
+    top: calc(50% - 17px);
+    border: none;
+  }
+  .side-arrows .arrow-prev {
+    /*float:left;*/
+    left:-15px;
+  }
+  .side-arrows .arrow-next {
+    /*float:right;*/
+    right:-15px;
+  }
+  .arrows .slick-arrow:hover {
+    background-color: transparent;
+    color: #0153a5;
+  }
+  #categories .side-arrows {
+    display: block;
+  }
+  #logo-carousel .side-arrows .arrow-prev {
+    left:-35px;
+  }
+  #logo-carousel .side-arrows .arrow-next {
+    right:-35px;
+  }
+
+  #ads > div {
+    margin-bottom:20px;
+  }
+  .guide-arrows, .products-arrows {
+      margin-top: 18px;
+  }
+}
+
+
 
 /*Michaels styles start here*/
 

@@ -7,27 +7,27 @@
       $detect = new Mobile_Detect;
       $isMobile = $detect->isMobile() && !$detect->isTablet();
       $isTablet = $detect->isTablet();
+
+      $BASE_URL = "/faucetdepot/site";
     ?>
 
-    <link rel="shortcut icon" href="imgs/favicon.png" />  
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Montserrat:400,700|Oswald:600|Poppins:600" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-
-    <?php if ($isMobile) { ?>
-      <link rel="stylesheet" type="text/css" href="css/normalize.min.css" />
-      <link rel="stylesheet" type="text/css" href="css/component.min.css" />
-    <?php } ?>
-
-
-    <link rel="stylesheet" href="css/slick.min.css" />
-    <link rel="stylesheet" href="css/master.min.css">
-    <link rel="stylesheet" href="css/styles.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/slick.min.css" />
+    <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/master.min.css">
+    <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/styles.min.css">
+    <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/main.css">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -43,7 +43,7 @@
 
     <div class="promo-bar header-bar">
       <div class="container">
-        <button data-toggle="collapse" data-target="#promos" class="visible-xs">View our Promo Codes <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+        <button data-toggle="collapse" data-target="#promos" class="visible-xs arrow-down collapsed">View our Promo Codes</button>
         
         <ul id="promos" class="collapse">
           <li>
@@ -76,7 +76,7 @@
           </li>
 
           <li class="view-all-discounts">
-            <a href="./generic_content_page.php">
+            <a href="<?php echo $BASE_URL;?>/generic_content_page.php">
               <img src="imgs/sale.png">
               View all of our promo codes
             </a>
@@ -93,19 +93,19 @@
 
           <ul class="pull-left show-dots">
             <li>
-              <a href="./generic_content_page.php">Are You a Pro?</a>
+              <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Are You a Pro?</a>
             </li>
             <li>
-              <a href="./generic_content_page.php">Hospitality Plumbing Supplies</a>
+              <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Hospitality Plumbing Supplies</a>
             </li>
             <li>
-              <a href="./generic_content_page.php">Returns</a>
+              <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Returns</a>
             </li>
             <li>
-              <a href="./generic_content_page.php">Shipping</a>
+              <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Shipping</a>
             </li>
             <li>
-              <a href="./generic_content_page.php">Customer Care</a>
+              <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Customer Care</a>
             </li>
           </ul>
 
@@ -135,11 +135,14 @@
 
       <div class="container top">
         <div class="col-xs-12 col-sm-3 logo-holder">
-          <img src="imgs/main-logo.jpg" class="logo">
+          <a href="<?php echo $BASE_URL;?>/"><img src="imgs/main-logo.jpg" class="logo"></a>
         </div>
 
         <?php if ($isMobile) { ?>
-        <div class="row upper-bar">
+
+        <?php include ('menu.php'); ?>
+
+        <div class="upper-bar">
           <div class="container">
             <div class="col-xs-10">
               <ul>
@@ -164,6 +167,7 @@
 
         <?php } ?>
 
+
         <div class="col-sm-5 col-sm-offset-1 search-fld-holder">
           <div>
             <input type="text" class="search-fld" placeholder="Search"><button id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -171,7 +175,7 @@
         </div>
 
         
-        <?php if (!$isMobile){ ?>
+        <?php if (!$isMobile) { ?>
         <div class="col-xs-12 col-sm-3 cart-holder">
           <div class="cart">
               <img src="imgs/shopping-cart.jpg">
@@ -186,7 +190,6 @@
       </div>
 
 
-      <?php include ('desktopMenu.php');
-      ?>
+      <?php if (!$isMobile) include ('menu.php'); ?>
 
     </header>
