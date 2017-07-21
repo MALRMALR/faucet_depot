@@ -457,6 +457,17 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
           </ul>
 
         </div>
+        <div class="col-md-9 col-sm-12">
+          <h3 class="cat-title">
+            Search Kohler
+          </h3>
+          <form class="" action="SEARCH" method="POST">
+            <input type="text" name="search" placeholder="Part # / SKU / Keywords">
+          </form>
+          <a href="#">View All Kohler Products</a>
+          <p>Kohler Customer Service <strong>1-800-4-KOHLER</strong></p>
+          <p>Kohler Website <a href="http://www.us.kohler.com">http://www.us.kohler.com</a></p>
+        </div>
       </div>
     </div><!-- end BODY -->
     <div class="col-md-12 manufacturer-desc">
