@@ -5,7 +5,7 @@
   <?php include ('sidebar.php'); ?>
 
     <!-- body -->
-    <div class="">
+    <div class="manufacturer">
 
       <div class="taxonomy">
         <a href="#">Home</a>
@@ -457,7 +457,7 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
           </ul>
 
         </div>
-        <div class="col-md-9 col-sm-12 manufacturer-info">
+        <div class="col-md-9 col-sm-12">
           <h3 class="cat-title">
             Search Kohler
           </h3>
@@ -466,7 +466,7 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
           </form>
           <a href="#">View All Kohler Products</a>
           <p>Kohler Customer Service <strong>1-800-4-KOHLER</strong></p>
-          <p>Kohler Website <a href="http://www.us.kohler.com">http://www.us.kohler.com</a></p>
+          <p>Kohler Website <a href="#">http://www.us.kohler.com</a></p>
         </div>
       </div>
     </div><!-- end BODY -->
@@ -479,70 +479,6 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
       <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
       <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
       <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
-    </div>
-    <!-- Manufacturer popular product lines -->
-    <div class="row col-md-12 manufacturer-popular-products">
-      <div class="container">
-
-
-      <h3 class="cat-title">Popular Kitchen Faucets By Kohler</h3>
-      <div class="col-md-4">
-        <img src="imgs/kohler_simplice.png" alt="">
-        <div class="manufacturer-product-line-desc">
-          <h3 class="cat-title">Torq</h3>
-Kohler's Torq bridge faucet brings a contemporary edge to a traditional design. This unique faucet is accentuated by its dynamic curved spout. This spout accommodates even the tallest of pots and cookers.         </div>
-      </div>
-      <div class="col-md-4">
-        <img src="imgs/kohler_simplice.png" alt="">
-        <div class="manufacturer-product-line-desc">
-          <h3 class="cat-title">Torq</h3>
-Kohler's Torq bridge faucet brings a contemporary edge to a traditional design. This unique faucet is accentuated by its dynamic curved spout. This spout accommodates even the tallest of pots and cookers.         </div>
-      </div>
-      <div class="col-md-4">
-        <img src="imgs/kohler_simplice.png" alt="">
-        <div class="manufacturer-product-line-desc">
-          <h3 class="cat-title">Torq</h3>
-Kohler's Torq bridge faucet brings a contemporary edge to a traditional design. This unique faucet is accentuated by its dynamic curved spout. This spout accommodates even the tallest of pots and cookers.         </div>
-      </div>
-
-      </div>
-    </div>
-
-    <div id="manufacturer-products-wide-carousel">
-
-      <div class="col-md-12 manufacturer-desc">
-        <h3 class="cat-title">Bathroom Products By Kohler</h3>
-        <img class="right" src="imgs/kohler_kitchen.png" alt="">
-        <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
-
-      </div>
-    </div>
-
-    <div class="row col-md-12 manufacturer-popular-products">
-      <div class="container">
-
-
-      <h3 class="cat-title">Popular Kitchen Faucets By Kohler</h3>
-      <div class="col-md-4">
-        <img src="imgs/kohler_simplice.png" alt="">
-        <div class="manufacturer-product-line-desc">
-          <h3 class="cat-title">Torq</h3>
-Kohler's Torq bridge faucet brings a contemporary edge to a traditional design. This unique faucet is accentuated by its dynamic curved spout. This spout accommodates even the tallest of pots and cookers.         </div>
-      </div>
-      <div class="col-md-4">
-        <img src="imgs/kohler_simplice.png" alt="">
-        <div class="manufacturer-product-line-desc">
-          <h3 class="cat-title">Torq</h3>
-Kohler's Torq bridge faucet brings a contemporary edge to a traditional design. This unique faucet is accentuated by its dynamic curved spout. This spout accommodates even the tallest of pots and cookers.         </div>
-      </div>
-      <div class="col-md-4">
-        <img src="imgs/kohler_simplice.png" alt="">
-        <div class="manufacturer-product-line-desc">
-          <h3 class="cat-title">Torq</h3>
-Kohler's Torq bridge faucet brings a contemporary edge to a traditional design. This unique faucet is accentuated by its dynamic curved spout. This spout accommodates even the tallest of pots and cookers.         </div>
-      </div>
-
-      </div>
     </div>
 
 

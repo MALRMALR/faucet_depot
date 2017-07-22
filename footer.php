@@ -1,15 +1,15 @@
     
   <div class="pro-site-bar">
     <div class="container">
-        
+
         <div class="col-xs-12">
           <strong>Join Our Professional Site</strong> for Deeper Discounts with Access to Inventory at 21 Warehouses!
-          <a href="#" class="more-info-btn">Click for More Info &nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>      
-          
+          <a href="#" class="more-info-btn">Click for More Info &nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
           <img src="<?php echo $BASE_URL;?>/imgs/plumber.png" class="plumber-img">
-       
+
         </div>
-  
+
 
     </div>
   </div>
@@ -20,7 +20,7 @@
         <div class="col-xs-12 col-sm-8">
 
           <div class="row menu-items">
-            
+
             <div class="col-xs-12 col-sm-4">
               <h3 class="title <?php if ($isMobile) echo 'arrow-down collapsed';?>" data-toggle="<?php if ($isMobile) echo 'collapse';?>" data-target="#faucet-depot-menu">Facuet Depot</h3>
               <ul id="faucet-depot-menu" class="<?php if ($isMobile) echo 'collapse';?>">
@@ -31,7 +31,7 @@
                 <li><a href="<?php echo $BASE_URL;?>/generic_content_page.php">Blog</a></li>
               </ul>
             </div>
-            
+
             <div class="col-xs-12 col-sm-4">
               <h3 class="title <?php if ($isMobile) echo 'arrow-down collapsed';?>" data-toggle="<?php if ($isMobile) echo 'collapse';?>" data-target="#store-links-menu">Store Links</h3>
               <ul id="store-links-menu" class="<?php if ($isMobile) echo 'collapse';?>">
@@ -81,7 +81,7 @@
         </div>
 
       </div>
-        
+
       <div class="row copyright">
         <div class="pull-left">© 2017  Copyright  Faucet Depot | <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Privacy Policy</a> | <a href="<?php echo $BASE_URL;?>/generic_content_page.php">Legal</a></div>
         <div class="pull-right"><a href="http://www.studioumbrella.com" target="_blank">Site design by Studio Umbrella</a></div>
@@ -89,7 +89,7 @@
 
 
     </div>
-    
+
 
   </footer>
 

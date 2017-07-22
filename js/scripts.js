@@ -82,6 +82,28 @@ function setSlideshow () {
   		nextArrow : $(".guide-arrows .arrow-next")
 	});
 
+	// $("#product-detail").on('init', function(){
+		// top image
+		$(".product-slider-image").slick({
+			slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: false,
+		  fade: true,
+		  asNavFor: '.product-slider-nav'
+		});
+
+		// bottom nav
+		$(".product-slider-nav").slick({
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			asNavFor: '.slider-for',
+			dots: true,
+			centerMode: true,
+			focusOnSelect: true
+		});
+
+	// })
+
 
 	if (isMobile) {
 		$('#categories .slider').on('init',function () {
