@@ -10,7 +10,7 @@ $(document).ready(function($) {
 
 
 	setSlideshow();
-	
+
 });
 
 
@@ -81,6 +81,7 @@ function setSlideshow () {
   		prevArrow : $(".guide-arrows .arrow-prev"),
   		nextArrow : $(".guide-arrows .arrow-next")
 	});
+
 
 	if (isMobile) {
 		$('#categories .slider').on('init',function () {
