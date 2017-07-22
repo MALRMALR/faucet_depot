@@ -22,7 +22,7 @@
       <div class="divider"></div>
       <form class="" action="#" method="post">
         <input type="text" name="search" placeholder="Model # / Description">
-      <div class="dropdown">
+      <div class="product-search-parameters">
         <select class="" name="manufacturer" placeholder="Select Manufacturer">
           <option value="">Select Manufacturer</option>
           <option value="">Select Manufacturer</option>
@@ -30,7 +30,7 @@
           <option value="">Select Manufacturer</option>
         </select>
       </div>
-      <div class="dropdown">
+      <div class="product-search-parameters">
 
         <select class="" name="Select Product Type" placeholder="Select Product Type">
           <option value="">Select Product Type</option>
@@ -39,7 +39,7 @@
           <option value="">Select Product Type</option>
         </select>
       </div>
-      <div class="dropdown">
+      <div class="product-search-parameters">
 
         <select class="" name="Select Product Option" placeholder="Select Product Option">
           <option value="">Select Product Option</option>
@@ -48,7 +48,7 @@
           <option value="">Select Product Option</option>
         </select>
       </div>
-      <div class="dropdown">
+      <div class="product-search-parameters">
         <select class="" name="Select Finish" placeholder="Select Finish">
           <option value="">Select Finish</option>
           <option value="">Select Finish</option>
