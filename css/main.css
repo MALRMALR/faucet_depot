@@ -108,12 +108,13 @@ select {
    font-size: 16px;
    margin: 0;
    background-color: white;
+	 cursor: pointer;
 }
 
 select:hover {
   background-color: rgb(39,70,100);
   color: white;
-  transition: background-color ease-in .8s;
+  /*transition: background-color ease-in .8s;*/
 }
 select, input {
   width: 100%;
