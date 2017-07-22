@@ -372,6 +372,26 @@ ul.manufacturer-sub-cat-list {
 	margin: 0 0 20px 0; /* resets default .cat-title styles for this section */
 }
 
+/*manufacturer list page*/
+
+#manufacturer-list {
+	text-align: center;
+}
+
+#manufacturer-list .row {
+	margin: 20px 0 10px 0;
+}
+
+#manufacturer-list p {
+	margin: 10px 0;
+	text-align: center
+}
+
+#manufacturer-list .img-wrapper {
+	min-height: 100px;
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
