@@ -22,32 +22,40 @@
       <div class="divider"></div>
       <form class="" action="#" method="post">
         <input type="text" name="search" placeholder="Model # / Description">
+      <div class="dropdown">
+        <select class="" name="manufacturer" placeholder="Select Manufacturer">
+          <option value="">Select Manufacturer</option>
+          <option value="">Select Manufacturer</option>
+          <option value="">Select Manufacturer</option>
+          <option value="">Select Manufacturer</option>
+        </select>
+      </div>
+      <div class="dropdown">
 
-        <select class="" name="manufacturer">
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
+        <select class="" name="Select Product Type" placeholder="Select Product Type">
+          <option value="">Select Product Type</option>
+          <option value="">Select Product Type</option>
+          <option value="">Select Product Type</option>
+          <option value="">Select Product Type</option>
         </select>
-        <select class="" name="Select Product Type">
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-        </select>
+      </div>
+      <div class="dropdown">
 
-        <select class="" name="Select Product Option">
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
+        <select class="" name="Select Product Option" placeholder="Select Product Option">
+          <option value="">Select Product Option</option>
+          <option value="">Select Product Option</option>
+          <option value="">Select Product Option</option>
+          <option value="">Select Product Option</option>
         </select>
-        <select class="" name="Select Finish">
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
-          <option value="">parameter</option>
+      </div>
+      <div class="dropdown">
+        <select class="" name="Select Finish" placeholder="Select Finish">
+          <option value="">Select Finish</option>
+          <option value="">Select Finish</option>
+          <option value="">Select Finish</option>
+          <option value="">Select Finish</option>
         </select>
+      </div>
         <input type="submit" value="Search">
         <p><a href="#">Clear Search</a></p>
       </form>
