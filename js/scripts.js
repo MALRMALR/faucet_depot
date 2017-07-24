@@ -82,7 +82,7 @@ function setSlideshow () {
   		nextArrow : $(".guide-arrows .arrow-next")
 	});
 
-	// $("#product-detail").on('init', function(){
+	$("#product-detail").on('init', function(){
 		// top image
 		$(".product-slider-image").slick({
 			slidesToShow: 1,
@@ -96,13 +96,13 @@ function setSlideshow () {
 		$(".product-slider-nav").slick({
 			slidesToShow: 3,
 			slidesToScroll: 1,
-			asNavFor: '.slider-for',
+			asNavFor: '.product-slider-image',
 			dots: true,
 			centerMode: true,
 			focusOnSelect: true
 		});
 
-	// })
+	})
 
 
 	if (isMobile) {
