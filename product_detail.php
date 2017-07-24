@@ -14,19 +14,22 @@
   </div>
 
   <h3 class="cat-title">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet - Stainless</h3>
+  <div class="product-slider-image">
 
-    <img src="imgs/kohler_parq.png" class="product-slider-image" alt="">
+    <img src="imgs/kohler_parq.png" alt="">
 
-    <img src="imgs/kohler_simplice.png" class="product-slider-image" alt="">
+    <img src="imgs/kohler_simplice.png" alt="">
 
-    <img src="imgs/kohler_torq.png" class="product-slider-image" alt="">
+    <img src="imgs/kohler_torq.png" alt="">
+  </div>
+  <div class="product-slider-nav">
 
-    <img src="imgs/kohler_parq.png"  class="product-slider-nav" alt="">
+    <img src="imgs/kohler_parq.png" alt="">
 
+    <img src="imgs/kohler_simplice.png" alt="">
 
-  <img src="imgs/kohler_simplice.png"  class="product-slider-nav" alt="">
-
-<img src="imgs/kohler_torq.png"  class="product-slider-nav" alt="">
+    <img src="imgs/kohler_torq.png" alt="">
+</div>
 
   <?php include ('featured.php') ?>
 </div> <!-- END container main -->
