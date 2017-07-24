@@ -16,12 +16,13 @@ $(document).ready(function($) {
 
 function setSlideshow () {
 
+	//PRODUCT DETAIL PAGE
 			// $("#product-detail").on('init', function(){
 				// top image
 				$(".product-slider-image").slick({
 					slidesToShow: 1,
 				  slidesToScroll: 1,
-				  arrows: true,
+				  arrows: false,
 				  fade: true,
 				  asNavFor: '.product-slider-nav'
 				});
@@ -36,7 +37,7 @@ function setSlideshow () {
 					focusOnSelect: true
 				});
 
-			// })
+			// });
 
 
 	$('#gallery').on('init',function () {

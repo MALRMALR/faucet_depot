@@ -435,6 +435,26 @@ ul.manufacturer-sub-cat-list {
 }
 
 /*product detail page*/
+.product-detail {
+}
+
+.product-detail-nav {
+	border: 1px solid #ebebeb;
+	min-height: 150px;
+	margin: 0 10px;
+}
+
+.retail-price {
+
+}
+
+.product-detail-info-price-label {
+
+}
+
+.product-detail-info-price-number {
+
+}
 
 
 
