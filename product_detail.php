@@ -131,7 +131,26 @@
   </div>
   <div class="suggested-accessories">
     <h3 class="cat-title">Suggested Accessories</h3>
-    <img src="imgs/kohler_parq.png" alt="">
+    <div class="suggested-item">
+      <div class="suggested-images col-md-7">
+        <img src="imgs/suggested-item.png" alt="">
+        <a href="product_detail.php">Delta RP1001AR Classic Soap/ Lotion  Dispenser - Arctic Stainless</a>
+        <a href="product_detail.php">Model No. DRP1001APR</a>
+        <a href="#">Finish: Stainless Steel</a>
+
+
+      </div>
+      <div class="suggested-info col-md-4">
+        <div class="retail-price">
+          Retail Price: $61.50
+        </div>
+        <div class="our-price">
+          <span>Our Price: $39.99</span>
+        </div>
+        <button id="add_suggested" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
+      </div>
+    </div>
+
   </div>
   </div>
 

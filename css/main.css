@@ -479,7 +479,7 @@ ul.manufacturer-sub-cat-list {
   text-align: center;
 }
 
-#add_to_cart {
+#add_to_cart, #add_suggested {
   background-color: #2c4f6f;
   padding: 20px 30px;
   border-radius: 45px;
@@ -488,6 +488,15 @@ ul.manufacturer-sub-cat-list {
   border-style: none;
   margin: 0 auto;
   cursor: pointer;
+}
+
+#add_suggested {
+	font-size: 16px;
+}
+
+.suggested-info {
+	display: inline-block;
+	float: right;
 }
 
 .fa-shopping-cart {
@@ -580,6 +589,12 @@ li.prod-nav {
 #select-checkbox {
   width: 15%;
 }
+
+.suggested-accessories img, .suggested-images a {
+	display: inline;
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
