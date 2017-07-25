@@ -17,27 +17,25 @@ $(document).ready(function($) {
 function setSlideshow () {
 
 	//PRODUCT DETAIL PAGE
-			// $("#product-detail").on('init', function(){
-				// top image
-				$(".product-slider-image").slick({
-					slidesToShow: 1,
-				  slidesToScroll: 1,
-				  arrows: false,
-				  fade: true,
-				  asNavFor: '.product-slider-nav'
-				});
 
-				// bottom nav
-				$(".product-slider-nav").slick({
-					slidesToShow: 3,
-					slidesToScroll: 1,
-					asNavFor: '.product-slider-image',
-					dots: true,
-					centerMode: true,
-					focusOnSelect: true
-				});
+	// top image
+	$(".product-slider-image").slick({
+		slidesToShow: 1,
+	  slidesToScroll: 1,
+	  arrows: false,
+	  fade: true,
+	  asNavFor: '.product-slider-nav'
+	});
 
-			// });
+	// bottom nav
+	$(".product-slider-nav").slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.product-slider-image',
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true
+	});
 
 
 	$('#gallery').on('init',function () {

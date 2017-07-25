@@ -76,15 +76,21 @@
   <span>Compare Now</span>
 </div>
 
+<!-- Warranty Info / Spec Sheet -->
 <div class="warranty-spec">
   <a href="#"><span>Warranty Information</span></a>
   <a href="#"><span>Spec Sheet</span></a>
 </div>
 
-
-    <!-- Warranty Info / Spec Sheet -->
-
     <!-- Social Icons -->
+
+    <div class="product-page-social-icons">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+      <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    </div>
     </div>
   </div>
   <div class="col-md-9">
