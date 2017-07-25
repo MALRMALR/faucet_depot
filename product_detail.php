@@ -107,20 +107,19 @@
     </ul>
     <div id="prod-features" class="prod-info">
       <ul>
-      <li>The design was inspired by the sleek elegance of modern European design.</li>
-      <li>A sleek sophistication in the kitchen for both style and functionality</li>
-      <li>Pull-down wand operates in an aerated or spray mode via ergonomic buttons</li>
-      <li>High-arc spout provides large work area in your sink</li>
-      <li>Single handle design for precise control with one hand</li>
-      <li>For three hole, 8″ installation - Order optional escutcheon RP64070AR</li>
-      <li>ADA Compliant</li>
-      <li>Touch Clean</li>
-      <li>DIAMOND Seal Technology</li>
-      <li>MagnaTite Docking</li>
-      <li>Water Efficient</li>
-      <li>CA/VT Compliant</li>
-
-    </ul>
+        <li>The design was inspired by the sleek elegance of modern European design.</li>
+        <li>A sleek sophistication in the kitchen for both style and functionality</li>
+        <li>Pull-down wand operates in an aerated or spray mode via ergonomic buttons</li>
+        <li>High-arc spout provides large work area in your sink</li>
+        <li>Single handle design for precise control with one hand</li>
+        <li>For three hole, 8″ installation - Order optional escutcheon RP64070AR</li>
+        <li>ADA Compliant</li>
+        <li>Touch Clean</li>
+        <li>DIAMOND Seal Technology</li>
+        <li>MagnaTite Docking</li>
+        <li>Water Efficient</li>
+        <li>CA/VT Compliant</li>
+      </ul>
     </div>
     <div id="prod-specs" class="prod-info">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec mattis leo. Vivamus molestie condimentum pulvinar. Ut volutpat elit justo, eget lacinia orci aliquam eu. Nullam bibendum, ipsum nec aliquet feugiat, turpis dolor sollicitudin lorem, nec finibus metus arcu a purus. Quisque finibus, lectus a faucibus mattis, neque tortor finibus eros, id bibendum massa augue eu purus. Sed ultrices a nunc quis suscipit. Donec ut arcu tempor, euismod nibh vel, euismod nunc. Aenean ac sapien congue, facilisis elit quis, pulvinar magna. Maecenas sed odio non tellus volutpat sagittis.</p>
@@ -132,7 +131,7 @@
   <div class="suggested-accessories">
     <h3 class="cat-title">Suggested Accessories</h3>
     <div class="suggested-item">
-      <div class="suggested-images">
+      <div class="suggested-images col-md-4">
         <img src="imgs/suggested-item.png" alt="">
         <a href="product_detail.php">Delta RP1001AR Classic Soap/ Lotion  Dispenser - Arctic Stainless</a>
         <a href="product_detail.php">Model No. DRP1001APR</a>
@@ -150,16 +149,67 @@
         <button id="add_suggested" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
       </div>
     </div>
+  </div>
+
+  <div class="review">
+    <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
+    <div class="product-overall-rating">
+      <img src="imgs/full_star.png" alt="">
+      <img src="imgs/full_star.png" alt="">
+      <img src="imgs/full_star.png" alt="">
+      <img src="imgs/full_star.png" alt="">
+      <img src="imgs/half_star.png" alt="">
+      <div class="overall-rating-wrapper">
+
+
+      <span class="overall-rating"><span class="numerical-rating">4.5</span> Based on 6 Reviews</span>
+      <span class="customer-recommendation">100% of Customers would recommend this product to a friend</span>
+      </div>
+    </div>
     <div class="review">
-      <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
-      <div class="product-overall-rating">
+      <h3 class="cat-title">Well Made Faucet</h3>
+      <div class="customer-overall-rating">
+        <img src="imgs/full_star.png" alt="">
+        <img src="imgs/full_star.png" alt="">
+        <img src="imgs/full_star.png" alt="">
         <img src="imgs/full_star.png" alt="">
         <img src="imgs/half_star.png" alt="">
       </div>
+      <p>Replaced a similar Grohe faucet whose plastic parts had failed over the years *badly*. This faucet was super-easy to install thanks to the numerous youtube videos out there. I like the shape of the faucet and the feel is that of a sturdy professional faucet.</p>
     </div>
+    <div class="pro customer-review col-md-4">
+      <h4 class="cat-title">Pros</h4>
+      <ul>
+        <li>Easy to Install</li>
+        <li>Functions Smoothly</li>
+        <li>Attractive Design</li>
+        <li>Sturdy Materials</li>
+        <li>Easy to Clean</li>
+      </ul>
+    </div>
+    <div class="con customer-review col-md-4">
+      <h4 class="cat-title">Cons</h4>
+    </div>
+    <div class="best-uses customer-review col-md-4">
+      <h4 class="cat-title">Best Uses</h4>
+      <ul>
+        <li>Family Kitchen</li>
+      </ul>
+    </div>
+    <div class="recommended col-md-12">
+      <span>Recommend to a Friend?</span>
+      <span class="green">Yes</span>
+      <div class="">
+      <span>Submitted by JohnRamella in Columbus OH on 2016-04-15</span>
+      <div class="load-more-reviews">
+        <a href="#">Load More Reviews</a>
+      </div>
 
+    </div>
+    </div>
   </div>
   </div>
+
 
   <?php include ('featured.php') ?>
 </div> <!-- END container main -->

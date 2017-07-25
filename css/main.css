@@ -36,7 +36,7 @@ body > div.container.main > div:nth-child(7) {
 }
 
 
-.main-category-desc h3, h3.cat-title {
+.main-category-desc h3, h3.cat-title, h4.cat-title {
 	font-family: "Poppins", sans-serif;
 	font-weight: 600;
 	color: #2c4f6f;
@@ -594,8 +594,74 @@ li.prod-nav {
 	display: inline;
 }
 
+/*reviews*/
 
+.product-overall-rating img {
+	width: 5%;
+}
+.review {
+	clear: both;
+	padding-top: 50px;
+	border-top: 1px solid #ebebeb;
+}
 
+.review ul li {
+	list-style-type: none;
+}
+
+.overall-rating, .customer-recommendation {
+	font-size: 16px;
+	color: #999999;
+	display: block;
+	text-transform: uppercase;
+}
+
+.overall-rating {
+	text-align: right;
+}
+
+span.numerical-rating {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.overall-rating-wrapper {
+	display: inline-block;
+	float: right;
+	margin: 20px 0;
+}
+.customer-overall-rating {
+	display: inline-block;
+}
+.customer-overall-rating img {
+	width: 10%;
+}
+
+.customer-overall-rating p {
+	margin: 20px 0;
+	font-size: 16px;
+	line-height: 20px;
+	color: #999999;
+}
+
+.review h3.cat-title {
+	display: inline-block;
+}
+
+.recommended {
+	margin: 30px 0;
+}
+
+span.green {
+	color: #35ae5a;
+	font-weight: 700;
+}
+
+.load-more-reviews {
+	text-align: right;
+	margin: 20px 0;
+	width: 100%;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
