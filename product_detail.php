@@ -6,10 +6,16 @@
   <div>
       <div class="taxonomy">
         <a href="#">Home</a>
-        <span> > </span>
-        <a href="#">Manufacturers </a>
-        <span> > </span>
-        <a href="#">Kohler</a>
+        <span> &#62; </span>
+        <a href="#">Kitchen</a>
+        <span> &#62; </span>
+        <a href="#">Faucets</a>
+        <span> &#62; </span>
+        <a href="#">Pullout</a>
+        <span> &#62; </span>
+        <a href="#">Delta Kitchen Pullout</a>
+        <span> &#62; </span>
+        <a href="#">DELTA 9159-AR-DST</a>
       </div>
   </div>
 

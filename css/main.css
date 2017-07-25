@@ -435,7 +435,8 @@ ul.manufacturer-sub-cat-list {
 }
 
 /*product detail page*/
-.product-detail {
+.product-detail .product-slider-image {
+  border: 1px solid #ebebeb;
 }
 
 .product-detail-nav {

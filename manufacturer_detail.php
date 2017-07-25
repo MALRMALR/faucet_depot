@@ -9,9 +9,9 @@
 
       <div class="taxonomy">
         <a href="#">Home</a>
-        <span> > </span>
+        <span> &#62; </span>
         <a href="#">Manufacturers </a>
-        <span> > </span>
+        <span> &#62; </span>
         <a href="#">Kohler</a>
       </div>
       <!-- manufacturer sub category lists (left side body)-->
