@@ -663,6 +663,32 @@ span.green {
 	width: 100%;
 }
 
+/*PRODUCT CATEGORY PAGE*/
+.prod-cat-item {
+	border: 1px solid #999999;
+	margin: 0 20px 10px 0;
+}
+.prod-cat-stars img {
+	max-width: 10px;
+}
+
+.item-title-wrapper {
+	background-color: #2c4f6f;
+	color: #ffffff;
+}
+
+.item-specs ul li {
+	list-style-type: none;
+}
+
+.item-title, .item-specs ul, .compare-item, .prod-cat-item img {
+	padding: 10px;
+}
+
+div.prod-cat-item.col-md-3 {
+	padding-right: 0;
+	padding-left: 0;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
