@@ -450,6 +450,7 @@ ul.manufacturer-sub-cat-list {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  margin: 30px 0 0 0;
 }
 .our-price {
   font-size: 19px;
@@ -498,13 +499,88 @@ ul.manufacturer-sub-cat-list {
   font-size: 10px;
 }
 
-.warranty-span a {
-  margin: 0 10px;
+.warranty-spec a {
+  margin: 20px 10px;
+  color: #3b18ee;
 }
 .warranty-spec span::before {
   content: " >> ";
   font-size: 8px;
 }
+
+/*social icons*/
+.product-page-social-icons i {
+  margin: 12px;
+}
+
+i.fa.fa-facebook {
+  color: rgb(38, 78, 112);
+}
+
+i.fa.fa-twitter {
+  color: rgb(0, 146, 255);
+}
+
+i.fa.fa-google-plus {
+  color: rgb(255, 0, 0);
+}
+
+i.fa.fa-pinterest-p {
+  color: rgb(255, 0, 1);
+}
+
+i.fa.fa-plus-circle {
+  color: rgb(0, 199, 33);
+}
+
+
+
+#product-information ul {
+  border: 1px solid #ccc;
+}
+
+#prod-features > ul {
+  border: none;
+}
+#product-information ul li.prod-nav {
+  display: inline-block;
+  list-style: none;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  color: #fff;
+}
+
+li.prod-nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#product-information ul li a {
+  color: #2c4f6f;
+}
+
+.prod-info {
+  margin: 30px 0;
+}
+
+/*compare button*/
+.compare {
+  margin: 10px 0;
+}
+.compare button {
+  background-color: #2c4f6f;
+  color: #ffffff;
+  border-style: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  /*margin: 20px;*/
+  float: right;
+}
+
+#select-checkbox {
+  width: 15%;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

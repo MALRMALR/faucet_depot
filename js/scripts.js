@@ -37,6 +37,8 @@ function setSlideshow () {
 		focusOnSelect: true
 	});
 
+	$("#product-information").tabs();
+
 
 	$('#gallery').on('init',function () {
 		//...
