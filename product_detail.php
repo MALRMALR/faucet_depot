@@ -39,7 +39,7 @@
     </div>
 </div>
   <div class="col-md-3">
-    <div class="product-detail-info">
+    <div class="product-detail">
       <div class="retail-price">
         <span class="product-detail-info-price-label">Retail Price: </span>
         <span class="product-detail-info-price-number">$501.70</span>
@@ -61,12 +61,26 @@
           <option value="">Choose Another Finish</option>
         </select>
     </div>
+
     <div class="shipping">
       Free Shipping!
     </div>
     <!-- add to cart -->
 
+    <button id="add_to_cart" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
+
     <!-- select (compare) -->
+<div class="compare">
+  <input type="checkbox" name="compare" value="Select">
+  Select
+  <span>Compare Now</span>
+</div>
+
+<div class="warranty-spec">
+  <a href="#"><span>Warranty Information</span></a>
+  <a href="#"><span>Spec Sheet</span></a>
+</div>
+
 
     <!-- Warranty Info / Spec Sheet -->
 
