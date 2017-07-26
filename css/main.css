@@ -256,6 +256,7 @@ img.vendor_photo {
 }
 /*featured products*/
 .featured-img img {
+  width: 100%;
   float: none;
 	padding: 0;
 	opacity: 0.75;
