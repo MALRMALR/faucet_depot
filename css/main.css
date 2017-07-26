@@ -1,7 +1,7 @@
 .margin-top {
 	margin-top: 15px;
 }
-#kitchen-categories>div {
+#categories-sidebar>div {
 	margin: 0;
 }
 #banner img {
@@ -10,19 +10,19 @@
 .cat-title {
 	text-transform: uppercase;
 }
-#main-cat-sidebar {
+#categories-sidebar {
   margin: 0 auto 20px auto;
 }
-#main-cat-sidebar ul {
+#categories-sidebar ul {
 	margin-left: 15px;
   list-style-type: square
 }
-#main-cat-sidebar ul li {
+#categories-sidebar ul li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ebebeb;
 }
 /*ad*/
-#main-cat-sidebar > img {
+#categories-sidebar > img {
   margin: 0 auto;
   display: table;
 }
@@ -63,7 +63,7 @@ h3.cat-title {
 	font-weight: 200;
 	color: #999999;
 }
-#kitchen-categories>div>div:nth-child(6) {
+#categories-sidebar>div>div:nth-child(6) {
 	border-bottom: 1px solid #ebebeb;
 }
 .sub_cat_desc {
@@ -164,11 +164,11 @@ select, input {
   padding: 10px;
 }
 
-#main-cat-sidebar > form > input[type="text"]:nth-child(1) {
+#categories-sidebar > form > input[type="text"]:nth-child(1) {
   margin: 10px 0;
 }
 /*submit button*/
-#main-cat-sidebar > form > input[type="submit"]:nth-child(6) {
+#categories-sidebar > form > input[type="submit"]:nth-child(6) {
   background-color: rgb(39,70,100);
   color: #ffffff;
   border: none;
@@ -178,7 +178,7 @@ select, input {
   display: table;
 }
 /*clear search*/
-#main-cat-sidebar > form > p {
+#categories-sidebar > form > p {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 100;
@@ -189,7 +189,7 @@ select, input {
 
 .divider{
   border-top: 2px solid #2c4f6f;
-  margin-right: 60%;
+  width: 40%;
 }
 
 .vendor-logo {
@@ -268,7 +268,7 @@ img.vendor_photo {
 }
 
 .featured-retail-price {
-  color: #6fbdf7
+  color: #ccc;
 }
 
 .featured-our-price {
@@ -319,6 +319,12 @@ img.vendor_photo {
 	width: 100%;
 }
 
+.sub-cat-gallery-item:hover a,
+.sub-cat-gallery-item:hover img {
+  border-color:#0153a5;
+  color:#0153a5;
+}
+
 .sub-cat-gallery-item-desc {
 	margin-top: 10px;
 }
@@ -338,29 +344,29 @@ img.vendor_photo {
 }
 
 .sub-category-photo img {
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 .sub-category-text, .sub-category-photo {
 	margin: 20px 0;
 }
-.sub-category-text h3, .sub-category-text div {
-	font-family: "Montserrat", sans-serif;
-	color: #003064;
+.sub-category-text div.title h3 {
+	/*font-family: "Montserrat", sans-serif;*/
+  font-weight: 400;
+	color: #0153a5;
 	font-size: 16px;
-	text-transform: uppercase;
-	line-height: 18px;
+	text-transform: capitalize;
+  line-height:1.4em;
 }
 
-.sub-category-text div {
-	text-transform: capitalize;
-}
 
 .sub-category-text p {
 	margin-top: 10px;
-	font-size: 12px;
-	line-height: 20px;
+	/*font-size: 12px;*/
+	/*line-height: 20px;*/
 }
+
+
 
 .feat-prods {
 	clear: both;
@@ -384,13 +390,14 @@ img.vendor_photo {
 	font-weight: 700;
 }
 
-.generic-content-page p {
-	padding: 0 30px;
+.generic-content-page ul {
+	padding-left:30px;
 }
 
 .chat-online {
-	margin-top: 40px;
+	margin: 60px 0;
 	text-align: center;
+  
 }
 .chat-online div {
 	font-size: 12px;
@@ -398,9 +405,9 @@ img.vendor_photo {
 
 /*manufacturer detail page*/
 
-.manufacturers-collections-exhaustive {
+/*.manufacturers-collections-exhaustive {
 	float: right;
-}
+}*/
 
 .manufacturers-collections-exhaustive ul li {
 	list-style-type: none;
@@ -479,6 +486,10 @@ ul.manufacturer-sub-cat-list {
 #manufacturer-list .img-wrapper {
 	min-height: 100px;
 }
+
+#manufacturer-list .manu-item {
+  margin-bottom:50px;
+} 
 
 /*product detail page*/
 .product-detail, .product-detail-nav {
@@ -581,11 +592,12 @@ ul.manufacturer-sub-cat-list {
 
 .warranty-spec {
   font-size: 10px;
+  margin-top:30px;
 }
 
 .warranty-spec a {
   margin: 20px 10px;
-  color: #3b18ee;
+  /*color: #3b18ee;*/
 }
 .warranty-spec span::before {
   content: " >> ";
@@ -797,11 +809,11 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 	border: 15px solid #fff;
 }
 
-div.prod-cat-item.col-md-3 {
+/*div.prod-cat-item.col-md-3 {
 	padding-right: 0;
 	padding-left: 0;
 	float: right;
-}
+}*/
 
 .item-title a:hover {
 	color: #ffffff;
@@ -849,7 +861,7 @@ div.prod-cat-item.col-md-3 {
     padding: 0 10px 10px 0;
   }
 
-  #kitchen-categories > div > div.col-md-3 {
+  #categories-sidebar > div > div.col-md-3 {
     margin-bottom: 600px;
   }
 
@@ -858,7 +870,8 @@ div.prod-cat-item.col-md-3 {
   }
 
 	.prod-cat-item {
-		margin: 1px;
+		margin-right: -1px;
+    margin-bottom:-2px;
 	}
 
 	i.fa-th, i.fa.fa-list {
@@ -898,7 +911,7 @@ div.prod-cat-item.col-md-3 {
   }
 
   /*left rail*/
-  #kitchen-categories > div > div.col-md-3 {
+  #categories-sidebar > div > div.col-md-3 {
     margin-bottom: 700px;
   }
 

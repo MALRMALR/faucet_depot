@@ -1,4 +1,5 @@
 var mobileMenu,cartSummary;
+$("body").removeClass('no-js')
 $(document).ready(function($) {
 
 
