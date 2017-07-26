@@ -25,9 +25,9 @@
   <div class="container">
 
 
-  <div id="prod-cat">
+  <div id="prod-cat" class="row">
     <!-- individual item -->
-    <?php for($i = 0; $i < 16; ++$i) { ?>
+    <?php for($i = 0; $i < 15; ++$i) { ?>
     <div class="prod-cat-item col-md-3">
       <div class="prod-images">
 
@@ -36,7 +36,7 @@
     </div>
       <div class="item-title-wrapper">
         <div class="item-title">
-          Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet-Stainless
+          <a href="product_detail.php">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet-Stainless</a>
         </div>
       </div>
       <div class="item-specs">

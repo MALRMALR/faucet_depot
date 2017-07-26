@@ -685,7 +685,8 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 }
 .prod-cat-item {
 	border: 1px solid #999999;
-	margin: 5px 0;
+	margin: 1px 0;
+	padding: 0;
 }
 .prod-cat-stars img {
 	max-width: 10px;
@@ -722,6 +723,11 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 div.prod-cat-item.col-md-3 {
 	padding-right: 0;
 	padding-left: 0;
+	float: right;
+}
+
+.item-title a:hover {
+	color: #ffffff;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -745,7 +751,7 @@ div.prod-cat-item.col-md-3 {
   }
 
 	.prod-cat-item {
-		margin: 0 2px 10px 0;
+		margin: 1px;
 	}
 
 
