@@ -664,6 +664,19 @@ span.green {
 }
 
 /*PRODUCT CATEGORY PAGE*/
+i.fa-th, i.fa.fa-list {
+	color: #999999;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	padding: 4px;
+	margin: 0 0 20px 0;
+	font-size: 20px;
+}
+#prod-cat.col-md-9 {
+	margin: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
 .prod-cat-item {
 	border: 1px solid #999999;
 	margin: 0 20px 10px 0;
