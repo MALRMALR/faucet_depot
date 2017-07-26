@@ -37,24 +37,30 @@ function setSlideshow () {
 		focusOnSelect: true
 	});
 
+	// product detail page
+	// prod specs tabs - jquery ui
 	$("#product-information").tabs();
 
+	// event handlers for grid / row toggle
+
+	// grid icon
 	$("i.fa.fa-th").on('click', function(e){
 		e.preventDefault();
 
 		$(this).addClass("selected");
 		$("i.fa.fa-list").removeClass("selected");
-		
-		$(".prod-cat-item").removeClass("col-md-9").addClass("col-md-3")
-	});
 
+		$(".prod-cat-item").removeClass("col-md-9").addClass("col-md-3");
+	});
+	
+	// list icon
 	$("i.fa.fa-list").on('click', function(e){
 		e.preventDefault();
 
 		$(this).addClass("selected");
 		$("i.fa.fa-th").removeClass("selected");
 
-		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-9")
+		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-9");
 	});
 
 

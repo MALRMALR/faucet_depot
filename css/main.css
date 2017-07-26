@@ -601,7 +601,7 @@ li.prod-nav {
 }
 .review {
 	clear: both;
-	padding-top: 50px;
+	padding: 20px 10px;
 	border-top: 1px solid #ebebeb;
 }
 
@@ -665,6 +665,7 @@ span.green {
 
 /*PRODUCT CATEGORY PAGE*/
 i.fa-th, i.fa.fa-list {
+	visibility: hidden;
 	color: #999999;
 	background-color: #ffffff;
 	border: 1px solid #999999;
@@ -729,6 +730,10 @@ div.prod-cat-item.col-md-3 {
 .item-title a:hover {
 	color: #ffffff;
 }
+
+.pro, .con, .bes- {
+	padding-bottom: 30px;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -749,10 +754,6 @@ div.prod-cat-item.col-md-3 {
   .kitchen-accessories {
   	display: table;
   }
-
-	.prod-cat-item {
-		margin: 1px;
-	}
 
 
 }
@@ -775,6 +776,13 @@ div.prod-cat-item.col-md-3 {
     width: 100%;
   }
 
+	.prod-cat-item {
+		margin: 1px;
+	}
+
+	i.fa-th, i.fa.fa-list {
+		visibility: visible;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */

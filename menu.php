@@ -172,7 +172,7 @@
 					    </div>
 					    <div class="row">
 							<div class="col-sm-12">
-								<a href="<?php echo $BASE_URL;?>/main_category.php" class="view-all-cat-btn">View entire Kitchen Category</a>		
+								<a href="<?php echo $BASE_URL;?>/main_category.php" class="view-all-cat-btn">View entire Kitchen Category</a>
 							</div>
 					    </div>
 					</li>
@@ -346,7 +346,7 @@
 					    </div>
 					    <div class="row">
 							<div class="col-sm-12">
-								<a href="<?php echo $BASE_URL;?>/main_category.php" class="view-all-cat-btn">View entire Kitchen Category</a>		
+								<a href="<?php echo $BASE_URL;?>/main_category.php" class="view-all-cat-btn">View entire Kitchen Category</a>
 							</div>
 					    </div>
 					</li>

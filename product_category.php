@@ -5,11 +5,11 @@
   <?php include ('sidebar.php'); ?>
   <div>
       <div class="taxonomy">
-        <a href="#">Home</a>
+        <a href="<?php echo $BASE_URL; ?>/index.php">Home</a>
         <span> &#62; </span>
-        <a href="#">Manufacturers</a>
+        <a href="<?php echo $BASE_URL; ?>/generic-content-page.php">Manufacturers</a>
         <span> &#62; </span>
-        <a href="#">Kohler</a>
+        <a href="<?php echo $BASE_URL; ?>/manufacturer_detail.php">Kohler</a>
         <span>(1 - 12 of 391)</span>
       </div>
   </div>
@@ -24,11 +24,11 @@
   <!-- begin grid -->
   <div class="container">
 
-
+<!-- product / bootstrap container -->
   <div id="prod-cat" class="row">
     <!-- individual item -->
     <?php for($i = 0; $i < 15; ++$i) { ?>
-    <div class="prod-cat-item col-md-3">
+    <div class="prod-cat-item col-xs-12 col-sm-6 col-md-3">
       <div class="prod-images">
 
       <img src="imgs/kohler_faucet.png" alt="">

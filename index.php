@@ -1,8 +1,8 @@
-	
+
 <?php include ('header.php'); ?>
- 
+
 <div class="container main">
-	
+
 	<div class="margin-down clearfix">
 
 		<div id="gallery" class="slider">
@@ -102,7 +102,7 @@
 						<li><a href="#">Bathroom Widespread</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 
 			<div class="cat-item img-text-box col-xs-12 col-md-4 col-lg-4 border-around">
 				<a href="#" class="img-link"><img src="imgs/facuet-img.jpg" class="shadow"></a>
@@ -117,7 +117,7 @@
 						<li><a href="#">Bathroom Widespread</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 			<div class="cat-item img-text-box col-xs-12 col-md-4 col-lg-4 border-around">
 				<a href="#" class="img-link"><img src="imgs/facuet-img.jpg" class="shadow"></a>
 				<div class="desc">
@@ -131,7 +131,7 @@
 						<li><a href="#">Bathroom Widespread</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 			<div class="cat-item img-text-box col-xs-12 col-md-4 col-lg-4 border-around">
 				<a href="#" class="img-link"><img src="imgs/facuet-img.jpg" class="shadow"></a>
 				<div class="desc">
@@ -145,7 +145,7 @@
 						<li><a href="#">Bathroom Widespread</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 			<div class="cat-item img-text-box col-xs-12 col-md-4 col-lg-4 border-around">
 				<a href="#" class="img-link"><img src="imgs/facuet-img.jpg" class="shadow"></a>
 				<div class="desc">
@@ -159,7 +159,7 @@
 						<li><a href="#">Bathroom Widespread</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 			<div class="cat-item img-text-box col-xs-12 col-md-4 col-lg-4 border-around">
 				<a href="#" class="img-link"><img src="imgs/facuet-img.jpg" class="shadow"></a>
 				<div class="desc">
@@ -173,16 +173,16 @@
 						<li><a href="#">Bathroom Widespread</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 
 			<div class="side-arrows arrows">
 	          <a class="arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 	          <a class="arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 	        </div>
 
-		</div>	
+		</div>
 	</div>
-	
+
 
 	<div class="feat-prods margin-down clearfix">
 
@@ -195,97 +195,28 @@
 		</div>
 
 		<div id="products-carousel" class="slider">
-			<div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-			<div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        <div class="slick-slide img-text-box">
-	          <a href="#" class="img-link"><img src="imgs/faucet.jpg"></a>
-	          <div class="desc">
-	          	<h3><a href="#">Moen Arbor 123456 Kitchen Pullout</a></h3>
-	          	
-	          		Our Price<br>$345.78
-	          	
-	          </div>
-	        </div>
-	        
+			<?php for ($i = 0; $i < 10; ++$i) { ?>
+				<div class="slick-slide img-text-box">
+		          <a href="<?php echo $BASE_URL; ?>/product_detail.php" class="img-link"><img src="imgs/faucet.jpg"></a>
+		          <div class="desc">
+		          	<h3><a href="<?php echo $BASE_URL; ?>/product_detail.php">Moen Arbor 123456 Kitchen Pullout</a></h3>
+
+		          		Our Price<br>$345.78
+
+		          </div>
+		        </div>
+
+			<?php } ?>
+
+
+
+
+
+
+
+
+
+
 		</div>
 	</div>
 
@@ -303,7 +234,7 @@
 		</div>
 
 	</div>
-	
+
 	<div class="guide-carousel-holder margin-down clearfix">
 		<div>
 			<h2 class="section-title">Faucet Depot Guide</h2>
@@ -320,9 +251,9 @@
 	          <div class="desc">
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
-	          	
-	          	<a href="#" class="read-more-btn">Read more</a>	
-	          	
+
+	          	<a href="#" class="read-more-btn">Read more</a>
+
 	          </div>
 	        </div>
 
@@ -331,9 +262,9 @@
 	          <div class="desc">
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
-	          	
-	          	<a href="#" class="read-more-btn">Read more</a>	
-	          	
+
+	          	<a href="#" class="read-more-btn">Read more</a>
+
 	          </div>
 	        </div>
 
@@ -342,9 +273,9 @@
 	          <div class="desc">
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
-	          	
-	          	<a href="#" class="read-more-btn">Read more</a>	
-	          	
+
+	          	<a href="#" class="read-more-btn">Read more</a>
+
 	          </div>
 	        </div>
 
@@ -353,9 +284,9 @@
 	          <div class="desc">
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
-	          	
-	          	<a href="#" class="read-more-btn">Read more</a>	
-	          	
+
+	          	<a href="#" class="read-more-btn">Read more</a>
+
 	          </div>
 	        </div>
 
@@ -364,9 +295,9 @@
 	          <div class="desc">
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
-	          	
-	          	<a href="#" class="read-more-btn">Read more</a>	
-	          	
+
+	          	<a href="#" class="read-more-btn">Read more</a>
+
 	          </div>
 	        </div>
 
@@ -375,9 +306,9 @@
 	          <div class="desc">
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
-	          	
-	          	<a href="#" class="read-more-btn">Read more</a>	
-	          	
+
+	          	<a href="#" class="read-more-btn">Read more</a>
+
 	          </div>
 	        </div>
 	    </div>
@@ -390,7 +321,3 @@
 
 
 <?php include('footer.php'); ?>
-
-
-
-

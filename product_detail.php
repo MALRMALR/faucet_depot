@@ -5,17 +5,17 @@
   <?php include ('sidebar.php'); ?>
   <div>
       <div class="taxonomy">
-        <a href="#">Home</a>
+        <a href="<?php echo $BASE_URL; ?>/index.php">Home</a>
         <span> &#62; </span>
-        <a href="#">Kitchen</a>
+        <a href="<?php echo $BASE_URL; ?>/main_category.php">Kitchen</a>
         <span> &#62; </span>
-        <a href="#">Faucets</a>
+        <a href="<?php echo $BASE_URL; ?>/sub_category.php">Faucets</a>
         <span> &#62; </span>
-        <a href="#">Pullout</a>
+        <a href="<?php echo $BASE_URL; ?>/sub_category.php">Pullout</a>
         <span> &#62; </span>
-        <a href="#">Delta Kitchen Pullout</a>
+        <a href="<?php echo $BASE_URL; ?>/manufacturer_detail.php">Delta Kitchen Pullout</a>
         <span> &#62; </span>
-        <a href="#">DELTA 9159-AR-DST</a>
+        <a href="<?php echo $BASE_URL; ?>/product_detail.php">DELTA 9159-AR-DST</a>
       </div>
   </div>
 
@@ -165,7 +165,10 @@
         <span class="customer-recommendation">100% of Customers would recommend this product to a friend</span>
       </div>
     </div>
+    <?php for ($i = 0; $i < 5; ++$i) { ?>
     <!-- individual reviews -->
+    <div class="">
+
     <div class="review">
 
       <h3 class="cat-title">Well Made Faucet</h3>
@@ -202,6 +205,8 @@
         <li>Family Kitchen</li>
       </ul>
     </div>
+    </div>
+    <?php } ?>
     <div class="recommended col-md-12">
       <span>Recommend to a Friend?</span>
       <span class="green">Yes</span>
@@ -212,8 +217,8 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
+  </div> <!-- end review -->
+</div>
 
 
   <?php include ('featured.php') ?>
