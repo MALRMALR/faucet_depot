@@ -219,7 +219,7 @@ img.vendor_photo {
 #feature-overlay-icon-wrapper > i.fa.fa-plus-circle, #feature-overlay-icon-wrapper > i.fa.fa-search-plus {
 	position: absolute;
 	top: 45%;
-	right: 50%;
+	right: 55%;
 	color: #2c4f6f;
 	background-color: rgba(255, 255, 255, 0.75);
 	border-radius: 15px;
@@ -229,7 +229,7 @@ img.vendor_photo {
 }
 
 #feature-overlay-icon-wrapper > i.fa.fa-search-plus {
-	right: 40%;
+	right: 35%;
 }
 
 .featured-img-wrapper {
@@ -835,6 +835,7 @@ div.prod-cat-item.col-md-3 {
 	}
 
 
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -864,6 +865,14 @@ div.prod-cat-item.col-md-3 {
 	}
 	.add_featured {
 		left: 19%;
+	}
+
+	#feature-overlay-icon-wrapper > i.fa.fa-plus-circle {
+		right: 55%;
+	}
+
+	#feature-overlay-icon-wrapper > i.fa.fa-search-plus {
+		right: 35%;
 	}
 }
 
@@ -898,5 +907,13 @@ div.prod-cat-item.col-md-3 {
 
 	.add_featured {
 		left: 23%;
+	}
+
+	#feature-overlay-icon-wrapper > i.fa.fa-plus-circle {
+		right: 50%;
+	}
+
+	#feature-overlay-icon-wrapper > i.fa.fa-search-plus {
+		right: 40%;
 	}
 }
