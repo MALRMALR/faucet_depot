@@ -256,7 +256,6 @@ img.vendor_photo {
 }
 /*featured products*/
 .featured-img img {
-  width: 100%;
   float: none;
 	padding: 0;
 	opacity: 0.75;
@@ -525,7 +524,7 @@ ul.manufacturer-sub-cat-list {
   text-align: center;
 }
 
-#add_to_cart, #add_suggested, .add_featured {
+.add_featured, #add_to_cart, #add_suggested {
   background-color: #2c4f6f;
   padding: 20px 30px;
   border-radius: 45px;
