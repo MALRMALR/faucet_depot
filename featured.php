@@ -14,7 +14,7 @@
   <?php for ($i = 0; $i < 10; ++$i) { ?>
   <div class="featured-slide">
     <div class="featured-img-wrapper clearfix">
-      <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
+      <a href="<?php echo $BASE_URL; ?>/product_detail.php" class="featured-img"><img src="imgs/faucet.jpg"></a>
       <button class="add_featured" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Add To Cart</span></button>
       <span class="featured-sale">Sale</span>
       <div id="feature-overlay-icon-wrapper" class="featured-overlay">
@@ -24,7 +24,7 @@
     </div>
     <div class="featured-desc">
       <h3>
-        <a href="#">Delta 9178-AR-DST</a>
+        <a href="<?php echo $BASE_URL; ?>/product_detail.php">Delta 9178-AR-DST</a>
       </h3>
       <div class="featured-retail-price">Retail Price: $373.78</div>
       <div class="featured-our-price">Our Price: $182.85</div>
@@ -43,37 +43,37 @@
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_delta.png" alt="">
     <div class="featured-collection-desc">
-      <a href="#">Delta Touch Faucets With Touch2o Technology</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Delta Touch Faucets With Touch2o Technology</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_kohler.png" alt="">
     <div class="featured-collection-desc">
-      <a href="#">Kohler Simplice Kitchen Faucets</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Kohler Simplice Kitchen Faucets</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-collection-desc">
-      <a href="#">Blanco Silgranit Drop-in &amp; Undermount sinks</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Blanco Silgranit Drop-in &amp; Undermount sinks</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-collection-desc">
-      <a href="#">InSinkErator Instant Hot Water Dispensers</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">InSinkErator Instant Hot Water Dispensers</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-collection-desc">
-      <a href="#">InSinkErator Garbage Disposals</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">InSinkErator Garbage Disposals</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-collection-desc">
-      <a href="#">InSinkErator Garbage Disposals</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">InSinkErator Garbage Disposals</a>
     </div>
   </div>
 </div>
@@ -87,37 +87,37 @@
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_delta.png" alt="">
     <div class="featured-category-desc">
-      <a href="#">Kitchen Pullout Faucets</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Kitchen Pullout Faucets</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_kohler.png" alt="">
     <div class="featured-category-desc">
-      <a href="#">Stainless Steel Sinks</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Stainless Steel Sinks</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-category-desc">
-      <a href="#">Bathroom Ventilation Fans</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Bathroom Ventilation Fans</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-category-desc">
-      <a href="#">Stainless Steel Sinks</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Stainless Steel Sinks</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-category-desc">
-      <a href="#">Toilet Seats &amp; Washlets</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Toilet Seats &amp; Washlets</a>
     </div>
   </div>
   <div class="col-sm-6 col-md-2">
     <img src="imgs/collection_blanco.png" alt="">
     <div class="featured-category-desc">
-      <a href="#">Toilet Seats &amp; Washlets</a>
+      <a href="<?php echo $BASE_URL; ?>/product_category.php">Toilet Seats &amp; Washlets</a>
     </div>
   </div>
 </div>
