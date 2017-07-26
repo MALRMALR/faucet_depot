@@ -25,7 +25,7 @@
   <div id="prod-cat" class="col-md-9">
     <!-- individual item -->
     <?php for($i = 0; $i < 16; ++$i) { ?>
-    <div class="prod-cat-item col-sm-3">
+    <div class="prod-cat-item col-sm-4">
       <div class="prod-images">
 
       <img src="imgs/kohler_faucet.png" alt="">
