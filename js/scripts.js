@@ -52,7 +52,7 @@ function setSlideshow () {
 
 		$(".prod-cat-item").removeClass("col-md-9").addClass("col-md-3");
 	});
-	
+
 	// list icon
 	$("i.fa.fa-list").on('click', function(e){
 		e.preventDefault();
@@ -63,6 +63,22 @@ function setSlideshow () {
 		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-9");
 	});
 
+	$('#featured-bottom-widget').on('init',function () {
+		//...
+	}).slick({
+		dots : false,
+		infinite : true,
+		pauseOnHover : true,
+		pauseOnFocus : true,
+		slide : ".featured-slide",
+		speed : 800,
+		autoplay: true,
+			autoplaySpeed: 5000,
+			slidesToShow: (!isMobile) ? 4 : 1,
+			slidesToScroll: (!isMobile) ? 4 : 1,
+			prevArrow : $(".products-arrows .arrow-prev"),
+			nextArrow : $(".products-arrows .arrow-next")
+	});
 
 	$('#gallery').on('init',function () {
 		//...

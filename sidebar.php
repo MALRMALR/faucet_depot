@@ -24,10 +24,10 @@
         <input type="text" name="search" placeholder="Model # / Description">
       <div class="product-search-parameters">
         <select class="" name="manufacturer" placeholder="Select Manufacturer">
-          <option value="">Select Manufacturer</option>
-          <option value="">Select Manufacturer</option>
-          <option value="">Select Manufacturer</option>
-          <option value="">Select Manufacturer</option>
+          <option value="">Select Manufacturer 1</option>
+          <option value="">Select Manufacturer 2</option>
+          <option value="">Select Manufacturer 3</option>
+          <option value="">Select Manufacturer 4</option>
         </select>
       </div>
       <div class="product-search-parameters">
@@ -60,11 +60,7 @@
         <p><a href="#">Clear Search</a></p>
       </form>
       <!-- left rail ad -->
-      <img src="imgs/live_help_right_rail_ad.png" alt="">
-      <!-- <img src="imgs/live_help_right_rail_ad.png" alt="">
-      <img src="imgs/live_help_right_rail_ad.png" alt="">
-      <img src="imgs/live_help_right_rail_ad.png" alt="">
-      <img src="imgs/live_help_right_rail_ad.png" alt=""> -->
+      <img src="imgs/live_help_right_rail_ad.png" alt="faucet depot ad">
 
 
     </div>

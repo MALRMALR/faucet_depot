@@ -214,14 +214,32 @@ img.vendor_photo {
 }
 /*featured */
 
+.featured-img-wrapper {
+	width: 100%;
+}
+
+.featured-img-wrapper:hover {
+	background-color: #6dcff6;
+}
+
+.featured-img-wrapper:hover .add_featured {
+	opacity: 1;
+}
+
+.feat-prods .slick-slide {
+	padding: 0;
+}
 /*featured products*/
 .featured-img img {
   width: 100%;
   float: none;
+	padding: 0;
+	opacity: 0.75;
 }
 
 .featured-img-textbox {
   width: 100%;
+
 }
 
 .featured-retail-price {
@@ -232,6 +250,9 @@ img.vendor_photo {
   color: #007dda;
 }
 
+.featured-desc {
+	padding: 15px;
+}
 .featured-desc h3 a {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -479,7 +500,7 @@ ul.manufacturer-sub-cat-list {
   text-align: center;
 }
 
-#add_to_cart, #add_suggested {
+#add_to_cart, #add_suggested, .add_featured {
   background-color: #2c4f6f;
   padding: 20px 30px;
   border-radius: 45px;
@@ -490,8 +511,23 @@ ul.manufacturer-sub-cat-list {
   cursor: pointer;
 }
 
-#add_suggested {
+#add_suggested, .add_featured {
 	font-size: 16px;
+	opacity: 0;
+}
+
+.add_featured span {
+	font-size: 14px;
+}
+.featured-slide {
+	position: relative
+}
+
+.add_featured {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	padding: 10px 20px;
 }
 
 .suggested-info {

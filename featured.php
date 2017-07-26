@@ -10,111 +10,22 @@
 </div>
 
 <!-- begin gallery -->
-<div id="products-carousel" class="slider">
-  <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-
-      
-  <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-            <div class="featured-retail-price">Retail Price: $373.78</div>
-            <div class="featured-our-price">Our Price: $182.85</div>
-
-
-        </div>
-      </div>
-      <div class="slick-slide featured-img-textbox">
-        <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
-        <div class="featured-desc">
-          <h3><a href="#">Delta 9178-AR-DST</a></h3>
-          <div class="featured-retail-price">Retail Price: $373.78</div>
-          <div class="featured-our-price">Our Price: $182.85</div>
-
-        </div>
-      </div>
-
-</div>
-</div>
+<div id="featured-bottom-widget" class="slider">
+  <?php for ($i = 0; $i < 10; ++$i) { ?>
+  <div class="featured-slide">
+    <div class="featured-img-wrapper clearfix">
+      <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
+      <button class="add_featured" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Add To Cart</span></button>
+    </div>
+    <div class="featured-desc">
+      <h3>
+        <a href="#">Delta 9178-AR-DST</a>
+      </h3>
+      <div class="featured-retail-price">Retail Price: $373.78</div>
+      <div class="featured-our-price">Our Price: $182.85</div>
+    </div>
+  </div>
+  <?php } ?>
 
 
 <!-- featured collections -->
