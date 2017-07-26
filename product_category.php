@@ -14,7 +14,7 @@
       </div>
   </div>
   <!-- grid button -->
-  <i class="fa fa-th" aria-hidden="true"></i>
+  <i class="fa fa-th selected" aria-hidden="true"></i>
   <!-- list button -->
   <i class="fa fa-list" aria-hidden="true"></i>
   <!-- sort by -->
@@ -22,10 +22,10 @@
   <!-- compare -->
 
   <!-- begin grid -->
-  <div id="prod-cat" class="col-md-9">
+  <div id="prod-cat" class="">
     <!-- individual item -->
     <?php for($i = 0; $i < 16; ++$i) { ?>
-    <div class="prod-cat-item col-sm-4">
+    <div class="prod-cat-item col-sm-3">
       <div class="prod-images">
 
       <img src="imgs/kohler_faucet.png" alt="">

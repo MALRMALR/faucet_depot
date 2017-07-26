@@ -669,17 +669,23 @@ i.fa-th, i.fa.fa-list {
 	background-color: #ffffff;
 	border: 1px solid #999999;
 	padding: 4px;
-	margin: 0 0 20px 0;
+	margin: 20px 0;
 	font-size: 20px;
+	cursor: pointer;
+}
+
+i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
+	background-color: #2c4f6f;
+	color: #ffffff;
 }
 #prod-cat.col-md-9 {
-	margin: 0;
+	margin: 20px 0;
 	padding-right: 0;
 	padding-left: 0;
 }
 .prod-cat-item {
 	border: 1px solid #999999;
-	/*margin: 0 40px 10px 0;*/
+	margin: 5px 0;
 }
 .prod-cat-stars img {
 	max-width: 10px;
@@ -705,8 +711,12 @@ i.fa-th, i.fa.fa-list {
 	list-style-type: none;
 }
 
-.item-title, .item-specs ul, .compare-item, .prod-cat-item img {
+.item-title, .item-specs ul, .compare-item {
 	padding: 10px;
+}
+
+.prod-cat-item img {
+	padding: 15px;
 }
 
 div.prod-cat-item.col-sm-3 {
@@ -733,6 +743,10 @@ div.prod-cat-item.col-sm-3 {
   .kitchen-accessories {
   	display: table;
   }
+
+	.prod-cat-item {
+		/*margin: 0 40px 10px 0;*/
+	}
 
 
 }
@@ -785,4 +799,5 @@ div.prod-cat-item.col-sm-3 {
 	.product-detail-nav {
 		min-height: 130px;
 	}
+
 }
