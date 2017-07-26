@@ -218,7 +218,7 @@ img.vendor_photo {
 }
 #feature-overlay-icon-wrapper > i.fa.fa-plus-circle, #feature-overlay-icon-wrapper > i.fa.fa-search-plus {
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	right: 55%;
 	color: #2c4f6f;
 	background-color: rgba(255, 255, 255, 0.75);
@@ -559,8 +559,8 @@ ul.manufacturer-sub-cat-list {
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	padding: 4px 16px;
-	border-radius: 10px;
+  padding: 0px 15px;
+  border-radius: 5px;
 }
 
 .add_featured {
@@ -793,7 +793,8 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 }
 
 .prod-cat-item img {
-	padding: 15px;
+	/*extremely hacky way to avoid using padding thus screwing hover state*/
+	border: 15px solid #fff;
 }
 
 div.prod-cat-item.col-md-3 {

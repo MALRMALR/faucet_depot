@@ -31,12 +31,16 @@
     <div class="prod-cat-item col-xs-12 col-sm-6 col-md-3">
       <div class="prod-images">
 
-      <img src="imgs/kohler_faucet.png" alt="">
-      <img class="prod-logo" src="imgs/logo1.jpg" alt="">
+      <div class="featured-img-wrapper clearfix">
+        <a href="<?php echo $BASE_URL; ?>/product_detail.php" class="featured-img"><img src="imgs/kohler_faucet.png" alt=""></a>
+        <img class="prod-logo" src="imgs/logo1.jpg" alt="">
+        <span class="featured-sale">Sale</span>
+        <?php include('hover.php'); ?>
+      </div>
     </div>
       <div class="item-title-wrapper">
         <div class="item-title">
-          <a href="product_detail.php">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet-Stainless</a>
+          <a href="product_detail.php">Kohler 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet-Stainless</a>
         </div>
       </div>
       <div class="item-specs">
