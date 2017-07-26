@@ -39,6 +39,22 @@ function setSlideshow () {
 
 	$("#product-information").tabs();
 
+	$("i.fa.fa-th").on('click', function(e){
+		e.preventDefault();
+		// if ($(this).hasClass("selected") == true) {
+			$(this).addClass("selected");
+			$("i.fa.fa-list").removeClass("selected");
+		// }
+		$(".prod-cat-item").removeClass("col-md-9").addClass("col-md-3")
+	});
+
+	$("i.fa.fa-list").on('click', function(e){
+		e.preventDefault();
+		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-9")
+		$(this).addClass("selected");
+		$("i.fa.fa-th").removeClass("selected");
+	});
+
 
 	$('#gallery').on('init',function () {
 		//...

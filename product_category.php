@@ -22,10 +22,13 @@
   <!-- compare -->
 
   <!-- begin grid -->
-  <div id="prod-cat" class="">
+  <div class="container">
+
+
+  <div id="prod-cat">
     <!-- individual item -->
     <?php for($i = 0; $i < 16; ++$i) { ?>
-    <div class="prod-cat-item col-sm-3">
+    <div class="prod-cat-item col-md-3">
       <div class="prod-images">
 
       <img src="imgs/kohler_faucet.png" alt="">
@@ -64,6 +67,7 @@
     <!-- end individual item -->
     <?php } ?>
   </div>
+    </div>
   <?php include ('featured.php') ?>
 </div> <!-- END container main -->
 
