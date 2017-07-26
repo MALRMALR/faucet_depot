@@ -16,6 +16,7 @@
       </div>
       <!-- manufacturer sub category lists (left side body)-->
       <div class="col-md-3 manufacturer-sub-cat-list">
+        <?php for ($i = 0; $i < 9; ++$i) { ?>
         <a href="#">
           <h3 class="cat-title">Kohler Kitchen Faucets</h3>
         </a>
@@ -29,201 +30,7 @@
           <li>Kitchen Wall-Mount</li>
           <li>Kitchen Bridge</li>
         </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
-        <a href="#">
-          <h3 class="cat-title">Kohler Kitchen Faucets</h3>
-        </a>
-        <ul class="manufacturer-sub-cat-list">
-          <li>View All Kitchen Faucets</li>
-          <li>Kitchen Pullout</li>
-          <li>Kitchen Single-Handle</li>
-          <li>Kitchen Two-Handle</li>
-          <li>Bar Faucets</li>
-          <li>Pot Fillers</li>
-          <li>Kitchen Wall-Mount</li>
-          <li>Kitchen Bridge</li>
-        </ul>
+        <?php } ?>
       </div> <!-- end manufacturer-sub-cat-list -->
 
       <div class="manufacturer-desc">
@@ -231,37 +38,16 @@
         <p class="col-md-6">Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.</p>
         <p class="col-md-6">Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads,
 Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
+        <?php for ($i = 0; $i < 5; ++$i) { ?>
         <div class="col-md-4">
           <img src="imgs/kohler_faucet.png" alt="">
           <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
         </div>
-        <div class="col-md-4">
-          <img src="imgs/kohler_faucet.png" alt="">
-          <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
-        </div>
-        <div class="col-md-4">
-          <img src="imgs/kohler_faucet.png" alt="">
-          <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
-        </div>
-        <div class="col-md-4">
-          <img src="imgs/kohler_faucet.png" alt="">
-          <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
-        </div>
-        <div class="col-md-4">
-          <img src="imgs/kohler_faucet.png" alt="">
-          <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
-        </div>
-        <div class="col-md-4">
-          <img src="imgs/kohler_faucet.png" alt="">
-          <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
-        </div>
-        <div class="col-md-4">
-          <img src="imgs/kohler_faucet.png" alt="">
-          <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
-        </div>
+        <?php } ?>
       </div>
       <div class="col-md-9 manufacturers-collections-exhaustive">
         <h3 class="cat-title">Kohler Collections</h3>
+        <?php for ($i = 0; $i < 3; ++$i) { ?>
         <div class="col-md-3">
           <ul>
             <li><a href="#">Accent</a></li>
@@ -327,136 +113,7 @@ Devonshire series water saving bathroom faucets, and Kohler toilets. We also sto
           </ul>
 
         </div>
-        <div class="col-md-3">
-          <ul>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-          </ul>
-
-        </div>
-        <div class="col-md-3">
-          <ul>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-            <li><a href="#">Accent</a></li>
-            <li><a href="#">Addison (Kohler)</a></li>
-            <li><a href="#">Alberry</a></li>
-          </ul>
-
-        </div>
+        <?php } ?>
         <div class="col-md-9 col-sm-12">
           <h3 class="cat-title">
             Search Kohler

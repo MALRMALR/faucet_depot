@@ -22,9 +22,9 @@
   <!-- compare -->
 
   <!-- begin grid -->
-  <div id="prod-cat" class="col-md-9 col-sm-12">
+  <div id="prod-cat" class="">
     <!-- individual item -->
-    <?php for($i = 0; $i < 16; ++$i) { ?>
+    <?php for($i = 0; $i < 9; ++$i) { ?>
     <div class="prod-cat-item col-md-3">
       <img src="imgs/kohler_faucet.png" alt="">
       <div class="item-title-wrapper">
