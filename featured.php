@@ -32,7 +32,8 @@
   </div>
   <?php } ?>
 
-
+</div>
+</div>
 <!-- featured collections -->
 <div class="featured margin-down clearfix">
 <div class="">
