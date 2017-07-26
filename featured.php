@@ -16,6 +16,7 @@
     <div class="featured-img-wrapper clearfix">
       <a href="#" class="featured-img"><img src="imgs/faucet.jpg"></a>
       <button class="add_featured" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Add To Cart</span></button>
+      <span class="featured-sale">Sale</span>
     </div>
     <div class="featured-desc">
       <h3>

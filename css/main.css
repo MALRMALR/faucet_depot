@@ -523,6 +523,17 @@ ul.manufacturer-sub-cat-list {
 	position: relative
 }
 
+.featured-sale {
+	background-color: #2c4f6f;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 4px 16px;
+	border-radius: 10px;
+}
+
 .add_featured {
 	position: absolute;
 	top: 30%;
