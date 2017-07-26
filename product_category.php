@@ -22,11 +22,15 @@
   <!-- compare -->
 
   <!-- begin grid -->
-  <div id="prod-cat" class="">
+  <div id="prod-cat" class="col-md-9">
     <!-- individual item -->
     <?php for($i = 0; $i < 16; ++$i) { ?>
-    <div class="prod-cat-item col-md-3">
+    <div class="prod-cat-item col-sm-3">
+      <div class="prod-images">
+
       <img src="imgs/kohler_faucet.png" alt="">
+      <img class="prod-logo" src="imgs/logo1.jpg" alt="">
+    </div>
       <div class="item-title-wrapper">
         <div class="item-title">
           Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet-Stainless
@@ -42,8 +46,6 @@
         </ul>
       </div>
       <div class="compare-item">
-        <input type="checkbox" name="Compare" value="Select"> <span>Select</span>
-        <a href="#">Compare Now</a>
         <div class="prod-cat-stars">
           <img src="imgs/full_star.png" alt="">
           <img src="imgs/full_star.png" alt="">
@@ -51,6 +53,9 @@
           <img src="imgs/full_star.png" alt="">
           <img src="imgs/half_star.png" alt="">
         </div>
+        <input type="checkbox" name="Compare" value="Select">
+        <span>Select</span>
+        <a href="#">Compare Now</a>
         <div class="number-reviews">
           (9 Reviews)
         </div>
