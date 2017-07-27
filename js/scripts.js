@@ -51,7 +51,7 @@ function setSlideshow () {
 		$(this).addClass("selected");
 		$("i.fa.fa-list").removeClass("selected");
 
-		$(".prod-cat-item").removeClass("col-md-6").addClass("col-md-3");
+		$(".prod-cat-item").removeClass("col-md-12").addClass("col-md-3");
 	});
 
 	// list icon
@@ -61,7 +61,7 @@ function setSlideshow () {
 		$(this).addClass("selected");
 		$("i.fa.fa-th").removeClass("selected");
 
-		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-6");
+		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-12");
 	});
 
 	$('#featured-bottom-widget').on('init',function () {

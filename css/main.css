@@ -784,12 +784,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 }
 .prod-cat-item {
 	border: 1px solid #999999;
-<<<<<<< HEAD
 	margin: 5px 20px 5px 0;
-=======
-	margin: 1px 0;
-	padding: 0;
->>>>>>> 4f5344d1705d77c91ef3e1bc4211e7468f88174e
 }
 .prod-cat-stars img {
 	max-width: 10px;
