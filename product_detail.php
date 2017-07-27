@@ -8,11 +8,11 @@
 
     <!-- sidebar -->
     <?php include ('sidebar.php'); ?>
-  
+
 
     <div class="col-md-9 col-sm-12">
 
-      <div class="row">      
+      <div class="row">
         <div class="taxonomy col-md-12">
           <a href="<?php echo $BASE_URL; ?>/index.php">Home</a>
           <span> &#62; </span>
@@ -30,7 +30,7 @@
 
 
       <div class="row">
-        
+
         <div class="col-md-12">
           <h3 class="cat-title">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet - Stainless</h3>
         </div>
@@ -55,14 +55,13 @@
         </div>
 
 
-        <div class="col-md-3">
+        <div class="col-md-3 clearfix">
           <!-- <div class="compare">
             <button type="button" name="compare">Compare</button>
           </div> -->
-          <div class="product-detail">
+          <div class="product-detail clearfix">
             <div class="retail-price">
-              <span class="product-detail-info-price-label">Retail Price: </span>
-              <span class="product-detail-info-price-number">$501.70</span>
+              <span class="product-detail-info-price-label">Retail Price: $501.70</span>
             </div>
             <div class="our-price">
               <span class="product-detail-info-price-label">Our Price: </span>
@@ -82,9 +81,7 @@
               </select>
             </div>
 
-          <div class="shipping">
-            Free Shipping!
-          </div>
+          <div class="shipping">Free Shipping!</div>
 
           <!-- add to cart -->
           <button id="add_to_cart" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
@@ -114,7 +111,7 @@
 
         </div> <!-- END product-detail -->
       </div>
-    </div>
+    </div> <!-- end row -->
 
     <div class="row">
       <div class="col-md-12">
@@ -152,7 +149,7 @@
         </div>
       </div>
     </div>
-  
+
 
 
     <div class="row suggested-accessories">
@@ -179,7 +176,7 @@
       </div>
     </div>
 
-    
+
 
     <div class="review">
       <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
@@ -195,27 +192,26 @@
           <span class="customer-recommendation">100% of Customers would recommend this product to a friend</span>
         </div>
       </div>
-      <?php for ($i = 0; $i < 5; ++$i) { ?>
-      <!-- individual reviews -->
-      <div class="">
+    <?php for ($i = 0; $i < 5; ++$i) { ?>
+    <!-- individual reviews -->
 
       <div class="review">
 
         <h3 class="cat-title">Well Made Faucet</h3>
-        <!-- customer rating -->
-        <div class="customer-overall-rating">
-          <img src="imgs/full_star.png" alt="">
-          <img src="imgs/full_star.png" alt="">
-          <img src="imgs/full_star.png" alt="">
-          <img src="imgs/full_star.png" alt="">
-          <img src="imgs/half_star.png" alt="">
-        </div>
+          <!-- customer rating -->
+          <div class="customer-overall-rating">
+            <img src="imgs/full_star.png" alt="">
+            <img src="imgs/full_star.png" alt="">
+            <img src="imgs/full_star.png" alt="">
+            <img src="imgs/full_star.png" alt="">
+            <img src="imgs/half_star.png" alt="">
+          </div>
         <!-- review content -->
         <p>Replaced a similar Grohe faucet whose plastic parts had failed over the years *badly*. This faucet was super-easy to install thanks to the numerous youtube videos out there. I like the shape of the faucet and the feel is that of a sturdy professional faucet.</p>
-      </div>
       <div class="pro customer-review col-md-4">
         <!-- pros -->
         <h4 class="cat-title">Pros</h4>
+
         <ul>
           <li>Easy to Install</li>
           <li>Functions Smoothly</li>
@@ -223,23 +219,25 @@
           <li>Sturdy Materials</li>
           <li>Easy to Clean</li>
         </ul>
+
       </div>
-      <!-- cons -->
-      <div class="con customer-review col-md-4">
-        <h4 class="cat-title">Cons</h4>
+        <!-- cons -->
+        <div class="con customer-review col-md-4">
+          <h4 class="cat-title">Cons</h4>
+        </div>
+
+        <!-- best uses -->
+        <div class="best-uses customer-review col-md-4">
+            <h4 class="cat-title">Best Uses</h4>
+            <ul>
+              <li>Family Kitchen</li>
+            </ul>
+        </div>
       </div>
-      <!-- best uses -->
-      <div class="best-uses customer-review col-md-4">
-        <h4 class="cat-title">Best Uses</h4>
-        <ul>
-          <li>Family Kitchen</li>
-        </ul>
-      </div>
-      </div>
-      <?php } ?>
+    <?php } ?>
 
 
-      
+
       <div class="recommended col-md-12">
         <span>Recommend to a Friend?</span>
         <span class="green">Yes</span>

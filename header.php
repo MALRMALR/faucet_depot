@@ -8,7 +8,7 @@
       $isMobile = $detect->isMobile() && !$detect->isTablet();
       $isTablet = $detect->isTablet();
 
-      $BASE_URL = "/faucetdepot/site";
+      $BASE_URL = "";
     ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
