@@ -79,9 +79,8 @@
                 <img src="imgs/half_star.png" alt="">
               </div>
 
-              <!-- <input type="checkbox" name="Compare" value="Select"> -->
-                <!-- <span>Select</span> -->
-                <!-- <a href="#">Compare Now</a> -->
+              <input type="checkbox" name="Compare" value="Select">
+                <span>Select to Compare</span>
                 <div class="number-reviews">(9 Reviews)</div>
             </div>
             </div><!-- item info wrapper -->
