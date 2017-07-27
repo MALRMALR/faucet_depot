@@ -22,7 +22,7 @@
   <!-- compare -->
 
   <!-- begin grid -->
-  <div id="prod-cat" class="">
+  <div id="prod-cat" class="col-md-9">
     <!-- individual item -->
     <?php for($i = 0; $i < 9; ++$i) { ?>
     <div class="prod-cat-item col-md-3">
