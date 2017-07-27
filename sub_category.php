@@ -6,9 +6,9 @@
   <?php include ('banner.php'); ?>
 
   <div class="row margin-down">
-  
+
     <!-- sidebar -->
-    <?php include ('sidebar.php'); ?>
+    <?php include ('category-sidebar.php'); ?>
 
     <div class="col-md-9 col-sm-12">
 
@@ -163,7 +163,7 @@
 
     </div>
 
-  </div>  
+  </div>
 
   <?php include ('featured.php') ?>
 

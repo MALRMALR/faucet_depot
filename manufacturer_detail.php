@@ -3,15 +3,15 @@
 <div class="container main">
   <!-- top banner -->
   <?php include ('banner.php'); ?>
-  
+
   <div class="row margin-down">
 
   <!-- sidebar -->
   <?php include ('sidebar.php'); ?>
-    
+
     <!-- body -->
     <div class="col-md-9 col-sm-12 manufacturer">
-      
+
       <div class="row">
         <div class="taxonomy col-md-12">
           <a href="#">Home</a>
@@ -50,11 +50,12 @@
           <p>Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads,
   Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
         </div>
-        <div class="row">  
+        <div class="row">
           <?php for ($i = 0; $i < 5; ++$i) { ?>
           <div class="col-md-4">
             <img src="imgs/kohler_faucet.png" alt="">
-            <a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a>
+            <h3><a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a></h3>
+
           </div>
           <?php } ?>
         </div>
@@ -147,7 +148,7 @@
 
 
   </div><!-- end BODY -->
-    
+
   </div>
 
   <div class="row manufacturer-desc">
@@ -160,7 +161,7 @@
     <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
     <p>Distinctive style, array of choices, uncompromising performance. As a recognized kitchen and bath industry leader, Kohler Company leads the way in design, craftsmanship and innovation, all knit together by uncompromising quality.Faucet Depot is an authorized online retailer of Kohler products, featuring all the latest innovations and models including Sensate Touchless kitchen faucets, Moxie showerheads, Devonshire series water saving bathroom faucets, and Kohler toilets. We also stock a giant selection of repair parts to keep your current Kohler products working as if you installed them yesterday.</p>
   </div>
-  
+
 
 
   <?php include ('featured.php') ?>

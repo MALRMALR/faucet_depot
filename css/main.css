@@ -4,6 +4,7 @@
 #categories-sidebar>div {
 	margin: 0;
 }
+
 #banner img {
 	padding: 0 15px;
 }
@@ -118,6 +119,17 @@ div.vendor-info>div>a {
   pointer-events: none;
 }
 
+/*category-sidebar.phop*/
+
+#price-ranges ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+#price-ranges ul li {
+	border: none;
+}
+
 /* IE11 hide native button (thanks Matt!) */
 select::-ms-expand {
 display: none;
@@ -157,7 +169,7 @@ select:hover {
   color: white;
   /*transition: background-color ease-in .8s;*/
 }
-select, input {
+select {
   width: 100%;
   font-family: "Myriad Pro", sans-serif;
   padding: 10px;
@@ -403,8 +415,6 @@ h3.cat-title {
 
 .sub-category-text p {
 	margin-top: 10px;
-	/*font-size: 12px;*/
-	/*line-height: 20px;*/
 }
 
 
@@ -944,7 +954,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
   }
 
   .vendor-photo {
-    padding: 0 10px 10px 0;
+    padding: 0 20px 10px 0;
   }
 
   #categories-sidebar > div > div.col-md-3 {
@@ -972,7 +982,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   ul.sub-category {
-    margin: 0 20px;
+    margin: 0 40px 0 0;
   }
 
   .vendor-info {
