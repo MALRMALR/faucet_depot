@@ -35,7 +35,7 @@
     </div>
 
   </div>
-</div> 
+</div>
 
 
 <!-- featured collections -->
@@ -111,37 +111,37 @@
 
       <div class="col-sm-6 col-md-2">
         <a href="<?php echo $BASE_URL; ?>/product_category.php"><img src="imgs/collection_delta.png" alt=""></a>
-        <div class="featured-category-desc">
+        <div class="featured-collection-desc">
           <a href="<?php echo $BASE_URL; ?>/product_category.php">Kitchen Pullout Faucets</a>
         </div>
       </div>
       <div class="col-sm-6 col-md-2">
         <a href="<?php echo $BASE_URL; ?>/product_category.php"><img src="imgs/collection_kohler.png" alt=""></a>
-        <div class="featured-category-desc">
+        <div class="featured-collection-desc">
           <a href="<?php echo $BASE_URL; ?>/product_category.php">Stainless Steel Sinks</a>
         </div>
       </div>
       <div class="col-sm-6 col-md-2">
         <a href="<?php echo $BASE_URL; ?>/product_category.php"><img src="imgs/collection_blanco.png" alt=""></a>
-        <div class="featured-category-desc">
+        <div class="featured-collection-desc">
           <a href="<?php echo $BASE_URL; ?>/product_category.php">Bathroom Ventilation Fans</a>
         </div>
       </div>
       <div class="col-sm-6 col-md-2">
         <a href="<?php echo $BASE_URL; ?>/product_category.php"><img src="imgs/collection_blanco.png" alt=""></a>
-        <div class="featured-category-desc">
+        <div class="featured-collection-desc">
           <a href="<?php echo $BASE_URL; ?>/product_category.php">Stainless Steel Sinks</a>
         </div>
       </div>
       <div class="col-sm-6 col-md-2">
         <a href="<?php echo $BASE_URL; ?>/product_category.php"><img src="imgs/collection_blanco.png" alt=""></a>
-        <div class="featured-category-desc">
+        <div class="featured-collection-desc">
           <a href="<?php echo $BASE_URL; ?>/product_category.php">Toilet Seats &amp; Washlets</a>
         </div>
       </div>
       <div class="col-sm-6 col-md-2">
         <a href="<?php echo $BASE_URL; ?>/product_category.php"><img src="imgs/collection_blanco.png" alt=""></a>
-        <div class="featured-category-desc">
+        <div class="featured-collection-desc">
           <a href="<?php echo $BASE_URL; ?>/product_category.php">Toilet Seats &amp; Washlets</a>
         </div>
       </div>
