@@ -427,6 +427,7 @@ h3.cat-title {
 	font-size: 10px;
 }
 
+
 .manufacturers-collections-exhaustive ul li a {
 	color: #3b18ee;
 }
@@ -548,6 +549,7 @@ ul.manufacturer-sub-cat-list {
   padding: 20px 0;
   text-align: center;
 }
+
 
 .add_featured, #add_to_cart, #add_suggested {
   background-color: #2c4f6f;
@@ -813,9 +815,17 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 	padding: 10px;
 }
 
+.compare-item {
+	float: right;
+}
+
+.number-reviews {
+	font-size: 10px;
+}
+
 .prod-cat-item img {
 	/*extremely hacky way to avoid using padding thus screwing hover state*/
-	border: 15px solid #fff;
+	/*border: 15px solid #fff;*/
 }
 
 /*div.prod-cat-item.col-md-3 {
@@ -929,7 +939,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 	}
 
 	.add_featured {
-		left: 23%;
+		left: 34%;
 	}
 
 	#feature-overlay-icon-wrapper > i.fa.fa-plus-circle {
