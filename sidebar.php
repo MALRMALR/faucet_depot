@@ -1,6 +1,6 @@
 
 <div id="categories-sidebar" class="col-md-3 col-sm-12">
-  
+
     <h3 class="cat-title"><a href="#" class="">Kitchen Categories</a></h3>
     <div class="divider"></div>
     <ul>
@@ -51,10 +51,10 @@
           <option value="">Select Finish</option>
         </select>
       </div>
+    </form>
       <input type="submit" value="Search">
       <p><a href="#">Clear Search</a></p>
 
-    </form>
 
 
     <!-- left rail ad -->

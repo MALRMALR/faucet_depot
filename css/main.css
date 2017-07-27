@@ -11,7 +11,7 @@
 	text-transform: uppercase;
 }
 #categories-sidebar {
-  margin: 0 auto 20px auto;
+  margin: -10px auto 20px auto;
 }
 #categories-sidebar ul {
 	margin-left: 15px;
@@ -168,14 +168,23 @@ select, input {
   margin: 10px 0;
 }
 /*submit button*/
-#categories-sidebar > form > input[type="submit"]:nth-child(6) {
+#categories-sidebar > input[type="submit"] {
   background-color: rgb(39,70,100);
   color: #ffffff;
   border: none;
   border-radius: 25px;
   width: 50%;
-  margin: 20px auto;
-  display: table;
+  margin: 20px 25%;
+  /*display: table;*/
+}
+
+#categories-sidebar > p {
+	text-align: center;
+	width: 100%;
+}
+
+#categories-sidebar > p > a {
+	color: #0165ba;
 }
 /*clear search*/
 #categories-sidebar > form > p {
@@ -205,8 +214,12 @@ img.vendor_photo {
   padding: 0;
 }
 
-.main-category-desc h3, h3.cat-title {
+.main-category-desc h3 {
   margin: 20px 0;
+}
+
+h3.cat-title {
+	margin: 10px 0;
 }
 
 .kitchen-accessories h6 {
@@ -752,9 +765,10 @@ i.fa-th, i.fa.fa-list {
 	background-color: #ffffff;
 	border: 1px solid #999999;
 	padding: 4px;
-	margin: 20px 0;
+	margin: 8px 4px;
 	font-size: 20px;
 	cursor: pointer;
+	float: right;
 }
 
 i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
@@ -911,7 +925,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
   }
 
 	.product-detail-nav {
-		min-height: 130px;
+		/*min-height: 130px;*/
 	}
 
 	.add_featured {
