@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', 'sans-serif';
   color: #6f6f6f;
+  line-height:1.6em;
 }
 
 a, button { 
@@ -376,6 +377,9 @@ header .menu-holder {
 
 /* mega menu 
 -------------------------------------------------- */
+
+
+
 .megamenu .nav {
     display: flex;
     justify-content: center;
@@ -393,6 +397,10 @@ header .menu-holder {
 .megamenu .dropdown-menu {
   left: auto;
 }
+.no-js .dropdown-menu {
+  display: block;
+}
+
 .megamenu .megamenu-content {
   padding: 15px;
   margin-top:1px;

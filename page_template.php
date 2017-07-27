@@ -1,7 +1,10 @@
 <?php include ('header.php'); ?>
 
 <div class="container main">
-  <!-- sidebar & top banner ad -->
+  <!-- top banner -->
+  <?php include ('banner.php'); ?>
+
+  <!-- sidebar -->
   <?php include ('sidebar.php'); ?>
 
   <?php include ('featured.php') ?>

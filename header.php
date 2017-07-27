@@ -39,7 +39,7 @@
   </head>
 
 
-  <body>
+  <body class="no-js">
 
     <div class="promo-bar header-bar">
       <div class="container">
