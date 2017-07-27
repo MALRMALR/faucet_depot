@@ -48,11 +48,11 @@
                 </a>
                 <img class="prod-logo" src="imgs/logo1.jpg" alt="">
                 <span class="featured-sale">Sale</span>
-                <?php include('hover.php'); ?>
+                <?php include('product-category-hover.php'); ?>
               </div>
             </div>
 
-            <div class="item-info-wrapper">
+            <div class="item-info-wrapper clearfix">
 
               <div class="item-title-wrapper">
                 <div class="item-title">
