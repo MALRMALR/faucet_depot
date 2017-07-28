@@ -266,7 +266,7 @@ img.vendor_photo {
 }
 
 h3.cat-title {
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .kitchen-accessories h6 {
@@ -612,6 +612,10 @@ ul.manufacturer-sub-cat-list {
   color: #3cc559;
 }
 
+.our-price span {
+	color: #21ae35;
+}
+
 .availability {
   margin: 50px 0 20px 0;
 }
@@ -636,9 +640,16 @@ ul.manufacturer-sub-cat-list {
   cursor: pointer;
 }
 
-#add_suggested, .add_featured {
+.add_featured {
 	font-size: 16px;
 	opacity: 0;
+}
+
+#add_suggested {
+	font-size: 18px;
+	padding: 10px 20px;
+	margin: 20px 30px 20px 0;
+
 }
 
 .add_featured span {
@@ -761,8 +772,18 @@ li.prod-nav {
   width: 15%;
 }
 
-.suggested-accessories img, .suggested-images a {
-	display: inline;
+.suggested-images a {
+	margin: 20px 0 0 0;
+	font-size: 16px;
+}
+
+.suggested-images a.product-name {
+	color: #0071d9
+}
+
+.suggested-accessories img {
+	float: left;
+	margin: 0 20px 0 0;
 }
 
 /*reviews*/
@@ -794,6 +815,7 @@ li.prod-nav {
 	cursor: pointer;
 	text-align: left;
 	font-size: 30px;
+	color: gold
 }
 .rating > span {
   display: inline-block;
