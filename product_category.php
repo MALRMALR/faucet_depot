@@ -24,13 +24,30 @@
 
       </div>
 
-      <div class="row">
+      <div class="row justify-content-md-center">
         <!-- list button -->
         <i class="fa fa-list" aria-hidden="true"></i>
         <!-- grid button -->
         <i class="fa fa-th selected" aria-hidden="true"></i>
         <!-- sort by -->
+        <div class="col col-md-auto sort-show">
+          <select class="" name="Sort By">
+            <option value="">Sort By</option>
+            <option value="">Sort By</option>
+            <option value="">Sort By</option>
+            <option value="">Sort By</option>
+          </select>
+
+        </div>
         <!-- show -->
+        <div class="col col-md-auto sort-show">
+          <select class="" name="Show">
+            <option value="">Show 12</option>
+            <option value="">Show 24</option>
+            <option value="">Show 36</option>
+            <option value="">Show 48</option>
+          </select>
+        </div>
         <!-- compare -->
       </div>
 

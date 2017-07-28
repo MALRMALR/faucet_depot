@@ -101,10 +101,14 @@ div.vendor-info>div>a {
 
 
 /*down arrows for menus*/
-.product-search-parameters {
+.product-search-parameters, .sort-show {
   position: relative;
   float: left;
   width: 100%;
+}
+
+.sort-show {
+	width: 20%;
 }
 
 .product-search-parameters:after {
@@ -119,6 +123,8 @@ div.vendor-info>div>a {
   pointer-events: none;
 }
 
+
+
 /*category-sidebar.phop*/
 
 #price-ranges ul {
@@ -130,7 +136,8 @@ div.vendor-info>div>a {
 	border: none;
 }
 
-/* IE11 hide native button (thanks Matt!) */
+
+/* IE11 hide native button */
 select::-ms-expand {
 display: none;
 }
@@ -139,9 +146,6 @@ display: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  display: block;
-  width: 100%;
-  height: 50px;
   float: right;
   margin: 2px 0px;
   font-size: 16px;
@@ -151,7 +155,37 @@ display: none;
 
 }
 
-/*end copy paste bs*/
+.sort-show {
+	margin-right: 40px;
+}
+
+.sort-show select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+	width: 100%;
+	height: 36px;
+	float: right;
+	margin: 2px 0px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #999999;
+	background-color: #ffffff;
+}
+
+.sort-show:after {
+  content: '\f078';
+  font: normal normal normal 10px/1 FontAwesome;
+  color: #999999;
+  right: 30px;
+  top: 8px;
+  height: 34px;
+  padding: 8px 0px 0px 8px;
+  position: absolute;
+  pointer-events: none;
+}
+
 select {
   -webkit-appearance: none;
     -moz-appearance: none;
@@ -176,7 +210,9 @@ select {
 }
 
 #categories-sidebar > form > input[type="text"]:nth-child(1) {
-  margin: 10px 0;
+	margin: 10px 0;
+	width: 100%;
+	padding: 10px;
 }
 /*submit button*/
 #categories-sidebar > input[type="submit"] {
@@ -823,7 +859,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 }
 .prod-cat-item {
 	border: 1px solid #ebebeb;
-	margin: 5px 20px 5px 0;
+	margin: 0;
 	padding: 0;
 }
 .prod-cat-stars img {
