@@ -59,9 +59,9 @@
           <div class="prod-cat-item col-sm-6 col-md-3">
 
             <div class="prod-images">
-              <div class="featured-img-wrapper clearfix">
-                <a href="<?php echo $BASE_URL; ?>/product_detail.php" class="featured-img">
-                  <img src="imgs/kohler_faucet.png" alt="">
+              <div class="featured-product-category-img-wrapper">
+                <a href="<?php echo $BASE_URL; ?>/product_detail.php" class="">
+                  <img class="featured-product-category-image" src="imgs/kohler_faucet.png" alt="">
                 </a>
                 <img class="prod-logo" src="imgs/logo1.jpg" alt="">
                 <span class="featured-sale">Sale</span>

@@ -175,7 +175,7 @@ display: none;
   content: '\f078';
   font: normal normal normal 10px/1 FontAwesome;
   color: #999999;
-  right: 30px;
+  right: 18px;
   top: 8px;
   height: 34px;
   padding: 8px 0px 0px 8px;
@@ -905,6 +905,7 @@ i.fa-th:hover, i.fa.fa-list:hover, i.fa.selected {
 }
 
 .prod-cat-item img.prod-logo {
+	display: none;
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -947,17 +948,7 @@ span.prod-cat-our-price, span.prod-cat-our-label {
 }
 
 
-/*grid view */
 
-.col-md-12 .item-info-wrapper {
-	width: 75%;
-	float: right;
-}
-
-/*row view*/
-.col-md-3 .item-info-wrapper {
-	width: 100%;
-}
 
 .item-specs ul li {
 	list-style-type: none;
@@ -980,17 +971,6 @@ span.prod-cat-our-price, span.prod-cat-our-label {
 	font-size: 10px;
 }
 
-.prod-cat-item img {
-	/*extremely hacky way to avoid using padding thus screwing hover state*/
-	/*border: 15px solid #fff;*/
-}
-
-/*div.prod-cat-item.col-md-3 {
-	padding-right: 0;
-	padding-left: 0;
-	float: right;
-}*/
-
 .col-sm-6 .item-title a:hover {
 	color: #ffffff;
 }
@@ -1002,6 +982,35 @@ span.prod-cat-our-price, span.prod-cat-our-label {
 
 .pro, .con, .bes- {
 	padding-bottom: 30px;
+}
+
+/*featured bottom widget*/
+.widget-bottom {
+	border: 1px solid #ebebeb;
+	min-height: 275px;
+}
+
+.col-md-12 .featured-product-category-img-wrapper img.featured-product-category-image {
+	width: 25%;
+	display: inline-block;
+	float: left;
+}
+
+.col-md-3 .featured-product-category-img-wrapper img.featured-product-category-image {
+	width: 100%;
+}
+
+/*grid view */
+
+.col-md-12 .item-info-wrapper {
+	width: 75%;
+	float: right;
+}
+
+/*row view*/
+.col-md-3 .item-info-wrapper {
+	width: 100%;
+
 }
 
 

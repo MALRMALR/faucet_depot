@@ -51,10 +51,7 @@ function setSlideshow () {
 		$(this).addClass("selected");
 		$("i.fa.fa-list").removeClass("selected");
 
-		$(".prod-cat-item").removeClass("col-md-12").addClass("col-md-3 prod-cat-item-row");
-		$(".prod-cat-item img").removeClass("img-row");
-		$(".item-title-wrapper").removeClass("title-wrapper-row-view");
-		$(".featured-img-wrapper").removeClass("product-image-row-view");
+		$(".prod-cat-item").removeClass("col-md-12").addClass("col-md-3");
 	});
 
 	// list icon
@@ -64,10 +61,7 @@ function setSlideshow () {
 		$(this).addClass("selected");
 		$("i.fa.fa-th").removeClass("selected");
 
-		$(".prod-cat-item").removeClass("col-md-3 prod-cat-item-row").addClass("col-md-12");
-		$(".prod-cat-item img").addClass("img-row");
-		$(".item-title-wrapper").addClass("title-wrapper-row-view");
-		$(".featured-img-wrapper").addClass("product-image-row-view");
+		$(".prod-cat-item").removeClass("col-md-3").addClass("col-md-12");
 	});
 
 	$('#featured-bottom-widget').on('init',function () {
