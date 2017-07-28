@@ -55,7 +55,7 @@
         </div>
 
 
-        <div class="col-md-4 clearfix">
+        <div class="col-md-3 clearfix">
           <!-- <div class="compare">
             <button type="button" name="compare">Compare</button>
           </div> -->
