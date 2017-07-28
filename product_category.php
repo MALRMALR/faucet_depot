@@ -42,10 +42,10 @@
         <!-- show -->
         <div class="col col-md-auto sort-show">
           <select class="" name="Show">
-            <option value="">Show 12</option>
-            <option value="">Show 24</option>
-            <option value="">Show 36</option>
-            <option value="">Show 48</option>
+            <option value="12">Show 12</option>
+            <option value="24">Show 24</option>
+            <option value="36">Show 36</option>
+            <option value="48">Show 48</option>
           </select>
         </div>
         <!-- compare -->
@@ -88,6 +88,10 @@
               </div>
 
             <div class="compare-item">
+
+              <input type="checkbox" name="Compare" value="Select">
+                <span>Select to Compare</span>
+
               <div class="prod-cat-stars">
                 <img src="imgs/full_star.png" alt="">
                 <img src="imgs/full_star.png" alt="">
@@ -95,10 +99,7 @@
                 <img src="imgs/full_star.png" alt="">
                 <img src="imgs/half_star.png" alt="">
               </div>
-
-              <input type="checkbox" name="Compare" value="Select">
-                <span>Select to Compare</span>
-                <div class="number-reviews">(9 Reviews)</div>
+              <div class="number-reviews">(9 Reviews)</div>
             </div>
             </div><!-- item info wrapper -->
 
