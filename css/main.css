@@ -787,6 +787,25 @@ li.prod-nav {
 	text-transform: uppercase;
 }
 
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+	cursor: pointer;
+	text-align: left;
+	font-size: 30px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
 .overall-rating {
 	text-align: right;
 }
@@ -965,6 +984,8 @@ span.prod-cat-our-price, span.prod-cat-our-label {
 .pro, .con, .bes- {
 	padding-bottom: 30px;
 }
+
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

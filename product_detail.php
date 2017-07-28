@@ -180,17 +180,13 @@
 
     <div class="review">
       <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
-      <div class="product-overall-rating">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/half_star.png" alt="">
+      <div class="rating">
+          <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
 
-        <div class="overall-rating-wrapper">
-          <span class="overall-rating"><span class="numerical-rating">4.5</span> Based on 6 Reviews</span>
-          <span class="customer-recommendation">100% of Customers would recommend this product to a friend</span>
-        </div>
+      </div>
+      <div class="overall-rating-wrapper">
+        <span class="overall-rating"><span class="numerical-rating">4.5</span> Based on 6 Reviews</span>
+        <span class="customer-recommendation">100% of Customers would recommend this product to a friend</span>
       </div>
     <?php for ($i = 0; $i < 5; ++$i) { ?>
     <!-- individual reviews -->
@@ -199,12 +195,15 @@
 
         <h3 class="cat-title">Well Made Faucet</h3>
           <!-- customer rating -->
-          <div class="customer-overall-rating">
+          <!-- <div class="customer-overall-rating">
             <img src="imgs/full_star.png" alt="">
             <img src="imgs/full_star.png" alt="">
             <img src="imgs/full_star.png" alt="">
             <img src="imgs/full_star.png" alt="">
             <img src="imgs/half_star.png" alt="">
+          </div> -->
+          <div class="rating customer-overall-rating">
+          <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
           </div>
         <!-- review content -->
         <p>Replaced a similar Grohe faucet whose plastic parts had failed over the years *badly*. This faucet was super-easy to install thanks to the numerous youtube videos out there. I like the shape of the faucet and the feel is that of a sturdy professional faucet.</p>
