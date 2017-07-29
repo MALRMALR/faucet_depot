@@ -88,7 +88,7 @@
       <button type="button" name="button">Apply Promo Code</button>
     </div>
     <div class="col-md-3">
-      <h3 class="cat-title">Sub Total: $383.50</h3>
+      <h3 class="cat-title sub-total">Sub Total: $383.50</h3>
     </div>
     <div class="col-md-12">
       <button class="proceed-to-checkout" type="button" name="button">Proceed to Checkout</button>

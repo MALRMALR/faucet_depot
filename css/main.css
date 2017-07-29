@@ -1167,7 +1167,7 @@ border-top: none;
 }
 
 /*shipping*/
-.shipping-section, .grand-total h3  {
+.sub-total, .shipping-section, .grand-total h3  {
 	float: right;
 	margin-top: 20px;
 }
