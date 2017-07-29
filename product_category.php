@@ -93,11 +93,7 @@
                 <span>Select to Compare</span>
 
               <div class="prod-cat-stars">
-                <img src="imgs/full_star.png" alt="">
-                <img src="imgs/full_star.png" alt="">
-                <img src="imgs/full_star.png" alt="">
-                <img src="imgs/full_star.png" alt="">
-                <img src="imgs/half_star.png" alt="">
+                <?php include('rating.php'); ?>
               </div>
               <div class="number-reviews">(9 Reviews)</div>
             </div>
@@ -108,7 +104,7 @@
         <?php } ?>
       </div>
 
-
+      <?php include('pagination.php'); ?>
     </div>
 
   </div>

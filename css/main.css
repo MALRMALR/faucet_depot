@@ -95,6 +95,11 @@ div.vendor-info>div>a {
 	/*float: right;*/
 }
 
+div.taxonomy {
+	padding-left: 0;
+	padding-bottom: 10px;
+}
+
 
 /*down arrows for menus*/
 .product-search-parameters, .sort-show {
@@ -1007,6 +1012,18 @@ span.prod-cat-our-price, span.prod-cat-our-label {
 .col-md-3 .item-info-wrapper {
 	width: 100%;
 
+}
+
+/*pagination*/
+
+.pagination {
+	margin-left: -14px;
+	width: 100%;
+}
+
+.showing-pagination {
+	float: right;
+	text-transform: uppercase;
 }
 
 

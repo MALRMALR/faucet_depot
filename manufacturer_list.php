@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
 
 <div class="container main">
-  
+
   <!-- top banner -->
   <?php include ('banner.php'); ?>
 
@@ -31,7 +31,7 @@
 
         <div id="manufacturer-list" class="row">
 
-          
+
           <?php for($i<0;$i<5;$i++) {?>
             <div class="manu-item col-md-3">
               <div class="img-wrapper">
@@ -73,9 +73,9 @@
         </div>
 
       </div>
-
+      <?php include ('pagination.php'); ?>
     </div>
-  
+
   </div>
 
 
