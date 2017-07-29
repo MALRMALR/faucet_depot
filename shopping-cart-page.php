@@ -32,7 +32,7 @@
       <!-- headers -->
       <div class="col-md-6 cart-column cart-product">
           <div class="cart-header">Product</div>
-          <div class="cart-section">
+          <div class="cart-section clearfix">
           <img src="imgs/faucet_grohe.png" alt="">
             <div class="cart-product-info">
             <ul>
@@ -53,7 +53,7 @@
           <div class="cart-header">
             Quantity
           </div>
-          <div class="cart-section">
+          <div class="cart-section clearfix">
             <button type="button" name="button">-</button>
             1
             <button type="button" name="button">+</button>
@@ -63,7 +63,7 @@
           <div class="cart-header">
             Remove
           </div>
-          <div class="cart-section">
+          <div class="cart-section clearfix">
             <input type="checkbox" name="" value="">
           </div>
       </div>
@@ -71,7 +71,7 @@
           <div class="cart-header">
             Price
           </div>
-          <div class="cart-section">
+          <div class="cart-section clearfix">
             <h3 class="cat-title">$383.50</h3>
           </div>
       </div>
@@ -95,8 +95,8 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 shipping-section">
-      <div class="">
+    <div class="shipping-section">
+      <div class="col-md-6">
         <ul>
           Shipping:
           <li><input type="checkbox" name="" value=""> Fedex or UPS Standard Overnight</li>
@@ -104,12 +104,15 @@
           <li><input type="checkbox" name="" value=""> 2 Day Service</li>
           <li><input type="checkbox" name="" value=""> Overnight Service</li>
         </ul>
-
-
       </div>
+        <div class="col-md-6">
+          <h3 class="cat-title sub-total">$5.50</h3>
+        </div>
+
+
     </div>
     <div class="col-md-12 grand-total">
-      <h3 class="cat-title">Grand Total: <span>$383.50</span></h3>
+      <h3 class="cat-title">Grand Total: <span>$389.00</span></h3>
     </div>
   </div>
 

@@ -641,6 +641,7 @@ ul.manufacturer-sub-cat-list {
 .proceed-to-checkout {
 	font-size: 16px;
 	float: right;
+	margin-right: 30px;
 }
 
 #compare {
@@ -1162,7 +1163,6 @@ border-top: none;
 
 .cart-section {
 	padding: 40px 20px 20px 20px;
-	min-height: 300px;
 	height: 100%;
 }
 
@@ -1239,6 +1239,10 @@ border-top: none;
 	}
 	.add_featured {
 		left: 19%;
+	}
+
+	.cart-section {
+		min-height: 250px;
 	}
 
 }
