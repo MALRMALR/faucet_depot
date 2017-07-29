@@ -5,7 +5,7 @@
     <div class="col-md-12 cart-header">
       <h3 id="shopping-cart-header">Shopping Cart</h3>
       <div class="return-from-cart">
-        Return to Previous Page
+        <a href="product_detail.php">Return to Previous Page</a>
       </div>
       <div class="subtotal">
         Subtotal: <span class="total-price">$594.30</span> (1 Items)
