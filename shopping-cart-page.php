@@ -24,7 +24,7 @@
       <div class="col-md-2 cart-link">
         <a href="#">Retrieve Cart</a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 clearfix">
         <button class="proceed-to-checkout" type="button" name="button">Proceed to Checkout</button>
       </div>
     </div>
@@ -104,9 +104,6 @@
           <li><input type="checkbox" name="" value=""> 2 Day Service</li>
           <li><input type="checkbox" name="" value=""> Overnight Service</li>
         </ul>
-
-
-
 
 
       </div>
