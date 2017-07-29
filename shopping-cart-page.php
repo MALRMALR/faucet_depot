@@ -8,7 +8,7 @@
         <a href="product_detail.php">Return to Previous Page</a>
       </div>
       <div class="subtotal">
-        Subtotal: <span class="total-price">$594.30</span> (1 Items)
+        Subtotal: <span class="total-price">$383.50</span> (1 Items)
       </div>
     </div>
     <div id="cart-links" class="col-md-12">
