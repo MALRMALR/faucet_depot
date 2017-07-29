@@ -11,20 +11,11 @@
 
     <div class="col-md-9 col-sm-12">
 
-      <div class="row">
-
-        <div class="taxonomy col-md-12">
-          <a href="<?php echo $BASE_URL; ?>/index.php">Home</a>
-          <span> &#62; </span>
-          <a href="<?php echo $BASE_URL; ?>/generic-content-page.php">Manufacturers</a>
-          <span> &#62; </span>
-          <a href="<?php echo $BASE_URL; ?>/manufacturer_detail.php">Kohler</a>
-          <span>(1 - 12 of 391)</span>
-        </div>
-
-      </div>
-
       <div class="row justify-content-md-center">
+        <h3 class="cat-title">Search Results</h3>
+        <div id="search-results">
+          Showing 2 of 2 for Search: 'Delta Faucet Single Knob Stainless Steel'
+        </div>
         <!-- list button -->
         <i class="fa fa-list" aria-hidden="true"></i>
         <!-- grid button -->
@@ -49,13 +40,13 @@
           </select>
         </div>
         <!-- compare -->
-        <button id="compare" type="button" name="button">Compare(0)</button>
+        <button id="compare" type="button" name="button">Compare (0)</button>
       </div>
 
       <!-- product / bootstrap container -->
       <div id="prod-cat" class="row">
         <!-- individual item -->
-        <?php for($i = 0; $i < 15; ++$i) { ?>
+        <?php for($i = 0; $i < 2; ++$i) { ?>
 
           <div class="prod-cat-item col-sm-6 col-md-3">
 
