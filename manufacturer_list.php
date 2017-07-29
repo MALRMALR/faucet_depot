@@ -60,12 +60,6 @@
               </div>
               <a href="manufacturer_detail.php"><p>ACT DMAND Kontrols</p></a>
             </div>
-            <!-- <div class="col-md-2">
-              <div class="img-wrapper">
-                <a href="manufacturer_detail.php"><img src="imgs/manu5.png" alt=""></a>
-              </div>
-              <a href="manufacturer_detail.php"><p>Advanced Gloves</p></a>
-            </div> -->
 
           <?php } ?>
 

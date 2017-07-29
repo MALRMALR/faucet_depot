@@ -1,7 +1,9 @@
 <div class="review">
 		<h3 class="cat-title">Well Made Faucet</h3><!-- customer rating -->
 		<div class="customer-overall-rating">
-			<?php include ('rating.php'); ?>
+			<div class="rating closed large">
+			<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+			</div>
 		</div><!-- review content -->
 		<p>Replaced a similar Grohe faucet whose plastic parts had failed over the years *badly*. This faucet was super-easy to install thanks to the numerous youtube videos out there. I like the shape of the faucet and the feel is that of a sturdy professional faucet.</p>
 		<div class="pro customer-review col-md-4">

@@ -811,6 +811,15 @@ li.prod-nav {
 	text-transform: uppercase;
 }
 
+.rating.closed.small span {
+	font-size: 14px;
+	cursor: default;
+}
+
+.rating.closed.large span {
+	font-size: 30px;
+	cursor: default;
+}
 
 .rating {
   unicode-bidi: bidi-override;

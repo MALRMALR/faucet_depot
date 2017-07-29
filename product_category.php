@@ -93,7 +93,10 @@
                 <span>Select to Compare</span>
 
               <div class="prod-cat-stars">
-                <?php include('rating.php'); ?>
+                <div class="rating closed small">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                </div>
+
               </div>
               <div class="number-reviews">(9 Reviews)</div>
             </div>
