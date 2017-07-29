@@ -49,6 +49,7 @@
           </select>
         </div>
         <!-- compare -->
+        <button id="compare" type="button" name="button">Compare</button>
       </div>
 
       <!-- product / bootstrap container -->

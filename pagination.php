@@ -1,6 +1,6 @@
 <div class="margin-top pagination">
   <div>
-    <span>page -
+    <span>Page -
       <button type="button" name="button">1</button>
       <button type="button" name="button">2</button>
       <button type="button" name="button">&#60;</button>
