@@ -55,11 +55,11 @@
         </div>
 
 
-        <div class="col-md-3 clearfix">
+        <div class="col-md-4 clearfix">
           <!-- <div class="compare">
             <button type="button" name="compare">Compare</button>
           </div> -->
-          <div class="product-detail clearfix">
+          <div class="product-detail">
             <div class="retail-price">
               <span class="product-detail-info-price-label">Retail Price: $501.70</span>
             </div>
@@ -152,40 +152,14 @@
 
 
 
-    <div class="row suggested-accessories">
-      <div class="col-md-12">
-        <h3 class="cat-title">Suggested Accessories</h3>
-        <div class="suggested-item">
-          <div class="suggested-images col-md-4">
-            <img src="imgs/suggested-item.png" alt="">
-            <a href="product_detail.php">Delta RP1001AR Classic Soap/ Lotion  Dispenser - Arctic Stainless</a>
-            <a href="product_detail.php">Model No. DRP1001APR</a>
-            <a href="#">Finish: Stainless Steel</a>
-          </div>
-        </div>
-
-        <div class="suggested-info">
-          <div class="retail-price">
-            Retail Price: $61.50
-          </div>
-          <div class="our-price">
-            <span>Our Price: $39.99</span>
-          </div>
-          <button id="add_suggested" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
-        </div>
-      </div>
-    </div>
+    <?php include('suggested-accessories.php'); ?>
 
 
 
     <div class="review">
       <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
       <div class="product-overall-rating">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/full_star.png" alt="">
-        <img src="imgs/half_star.png" alt="">
+        <?php include('rating.php'); ?>
 
         <div class="overall-rating-wrapper">
           <span class="overall-rating"><span class="numerical-rating">4.5</span> Based on 6 Reviews</span>
@@ -193,47 +167,7 @@
         </div>
       </div>
     <?php for ($i = 0; $i < 5; ++$i) { ?>
-    <!-- individual reviews -->
-
-      <div class="review">
-
-        <h3 class="cat-title">Well Made Faucet</h3>
-          <!-- customer rating -->
-          <div class="customer-overall-rating">
-            <img src="imgs/full_star.png" alt="">
-            <img src="imgs/full_star.png" alt="">
-            <img src="imgs/full_star.png" alt="">
-            <img src="imgs/full_star.png" alt="">
-            <img src="imgs/half_star.png" alt="">
-          </div>
-        <!-- review content -->
-        <p>Replaced a similar Grohe faucet whose plastic parts had failed over the years *badly*. This faucet was super-easy to install thanks to the numerous youtube videos out there. I like the shape of the faucet and the feel is that of a sturdy professional faucet.</p>
-      <div class="pro customer-review col-md-4">
-        <!-- pros -->
-        <h4 class="cat-title">Pros</h4>
-
-        <ul>
-          <li>Easy to Install</li>
-          <li>Functions Smoothly</li>
-          <li>Attractive Design</li>
-          <li>Sturdy Materials</li>
-          <li>Easy to Clean</li>
-        </ul>
-
-      </div>
-        <!-- cons -->
-        <div class="con customer-review col-md-4">
-          <h4 class="cat-title">Cons</h4>
-        </div>
-
-        <!-- best uses -->
-        <div class="best-uses customer-review col-md-4">
-            <h4 class="cat-title">Best Uses</h4>
-            <ul>
-              <li>Family Kitchen</li>
-            </ul>
-        </div>
-      </div>
+      <?php include('review.php'); ?>
     <?php } ?>
 
 
