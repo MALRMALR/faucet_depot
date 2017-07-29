@@ -627,7 +627,7 @@ ul.manufacturer-sub-cat-list {
 }
 
 
-#compare, .add_featured, #add_to_cart, #add_suggested {
+.proceed-to-checkout, #compare, .add_featured, #add_to_cart, #add_suggested {
   background-color: #2c4f6f;
   padding: 20px 30px;
   border-radius: 45px;
@@ -636,6 +636,11 @@ ul.manufacturer-sub-cat-list {
   border-style: none;
   margin: 0 auto;
   cursor: pointer;
+}
+
+.proceed-to-checkout {
+	font-size: 16px;
+	float: right;
 }
 
 #compare {
@@ -1056,6 +1061,126 @@ span.prod-cat-our-price, span.prod-cat-our-label {
 	text-transform: uppercase;
 	margin: 20px 0;
 }
+
+/*shopping cart*/
+
+#shopping-cart-header {
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+
+#shopping-cart > .cart-header {
+}
+
+.subtotal {
+	text-align: center;
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+.return-from-cart {
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #999999;
+}
+
+span.total-price {
+	color: rgb(37, 77, 113);
+}
+
+.cart-link {
+	color: rgb(37, 77, 113);
+	font-weight: 700;
+}
+
+div#cart-links {
+	padding: 30px;
+}
+
+.cart-copy {
+	padding: 20px;
+}
+
+.cart-copy-header {
+	text-align: center;
+	color: #2c4f6f;
+	padding: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.cart-column {
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+	text-align: center;
+}
+
+/*cart product*/
+.cart-product img {
+	float: left;
+	width: 25%;
+}
+
+.cart-product .cart-product-info {
+	width: 75;
+	float: right;
+}
+
+.cart-product ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.cart-product ul li span.customer-choice {
+	color: rgb(174, 174, 174);
+	font-weight: 700;
+}
+
+.cart-product ul li span.customer-choice.available {
+	color: rgb(0, 209, 0);
+}
+
+.cart-column:nth-child(2), .cart-column:nth-child(4),.cart-column:nth-child(6), .cart-column:nth-child(8) {
+	background-color: rgba(238, 238, 238, 0.9);
+}
+.cart-column:nth-child(4), .cart-column:nth-child(8) {
+	border-right: none;
+}
+
+.cart-column:nth-child(5), .cart-column:nth-child(6), .cart-column:nth-child(7), .cart-column:nth-child(8) {
+border-top: none;
+}
+
+.cart-header {
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.cart-section {
+	padding: 40px 20px 20px 20px;
+	min-height: 300px;
+	height: 100%;
+}
+
+/*shipping*/
+.shipping-section, .grand-total h3  {
+	float: right;
+	margin-top: 20px;
+}
+
+.shipping-section ul {
+	list-style-type: none;
+	float: right;
+}
+
+.grand-total span {
+	color: rgb(0, 209, 0);
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
