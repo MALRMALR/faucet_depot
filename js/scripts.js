@@ -38,6 +38,29 @@ function setSlideshow () {
 		focusOnSelect: true
 	});
 
+		// bottom nav
+		$(".feat-coll-slider").slick({
+			slidesToShow: 5,
+			slidesToScroll: 5,
+			slider: '.slick-slide',
+			dots: false,
+			centerMode: false,
+			focusOnSelect: true,
+			prevArrow : $(".products-arrows .feat-coll-arrow-prev"),
+			nextArrow : $(".products-arrows .feat-coll-arrow-next")
+		});
+
+		$(".feat-cat-slider").slick({
+			slidesToShow: 5,
+			slidesToScroll: 5,
+			slider: '.slick-slide',
+			dots: false,
+			centerMode: false,
+			focusOnSelect: true,
+			prevArrow : $(".products-arrows .feat-cat-arrow-prev"),
+			nextArrow : $(".products-arrows .feat-cat-arrow-next")
+		});
+
 	// product detail page
 	// prod specs tabs - jquery ui
 	$("#product-information").tabs();
