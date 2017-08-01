@@ -33,32 +33,25 @@
 
 
           <?php for($i<0;$i<5;$i++) {?>
-            <div class="manu-item col-md-3">
+            <div class="manu-item col-md-4">
               <div class="img-wrapper">
                 <a href="manufacturer_detail.php"><img src="imgs/manu1.png" alt=""></a>
               </div>
               <a href="manufacturer_detail.php"><p>AB and I Foundry</p></a>
             </div>
 
-            <div class="manu-item col-md-3">
+            <div class="manu-item col-md-4">
               <div class="img-wrapper">
                 <a href="manufacturer_detail.php"><img src="imgs/manu2.png" alt=""></a>
               </div>
               <a href="manufacturer_detail.php"><p>Accutools</p></a>
             </div>
 
-            <div class="manu-item col-md-3">
+            <div class="manu-item col-md-4">
               <div class="img-wrapper">
                 <a href="manufacturer_detail.php"><img src="imgs/manu3.png" alt=""></a>
               </div>
               <a href="manufacturer_detail.php"><p>Acorn Engineering</p></a>
-            </div>
-
-            <div class="manu-item col-md-3">
-              <div class="img-wrapper">
-                <a href="manufacturer_detail.php"><img src="imgs/manu4.png" alt=""></a>
-              </div>
-              <a href="manufacturer_detail.php"><p>ACT DMAND Kontrols</p></a>
             </div>
 
           <?php } ?>

@@ -41,8 +41,9 @@ function setSlideshow () {
 	// product detail page
 	// prod specs tabs - jquery ui
 	$("#product-information").tabs();
-
+	$("#customer-account-info").tabs();
 	// event handlers for grid / row toggle
+	$(".collapse").collapse();
 
 	// grid icon
 	$("i.fa.fa-th").on('click', function(e){

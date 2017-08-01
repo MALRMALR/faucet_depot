@@ -1,9 +1,9 @@
 
 <div id="categories-sidebar" class="col-md-3 col-sm-12">
 
-    <h3 class="cat-title"><a href="#" class="">Kitchen Categories</a></h3>
+    <h3 class="cat-title"><a data-toggle="collapse" href="#collapseCategories" aria-expanded="false" aria-controls="collapseCategories">Kitchen Categories</a></h3>
     <div class="divider"></div>
-    <ul>
+    <ul id="collapseCategories" class="collapse">
       <li><a href="#">Faucets</a></li>
       <li><a href="#">Garbage Disposal</a></li>
       <li><a href="#">Hot Water Dispensers</a></li>
@@ -11,10 +11,10 @@
       <li><a href="#">Accessories</a></li>
     </ul>
 
-    <h3 class="cat-title">Product Search</h3>
+    <h3 class="cat-title"><a data-toggle="collapse" href="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">Product Search</a></h3>
     <div class="divider"></div>
 
-    <form class="" action="#" method="post">
+    <form id="collapseSearch" class="" action="#" method="post">
       <input type="text" name="search" placeholder="Model # / Description">
       <div class="product-search-parameters">
         <select class="" name="manufacturer" placeholder="Select Manufacturer">

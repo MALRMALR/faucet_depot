@@ -25,7 +25,7 @@
 
       <!-- manufacturer sub category lists (left side body)-->
       <div class="row">
-        <div class="col-md-3 col-sm-12 manufacturer-sub-cat-list">
+        <div class="col-md-3 col-sm-12">
           <?php for ($i = 0; $i < 9; ++$i) { ?>
           <a href="#">
             <h3 class="cat-title">Kohler Kitchen Faucets</h3>
@@ -52,7 +52,7 @@
         </div>
         <div class="row">
           <?php for ($i = 0; $i < 5; ++$i) { ?>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <img src="imgs/kohler_faucet.png" alt="">
             <h3><a href="#">Kohler K-12177-BN Fairfax Pull Down Kitchen Faucet - Brushed Nickel</a></h3>
 

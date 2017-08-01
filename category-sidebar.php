@@ -1,7 +1,8 @@
 
 <div id="categories-sidebar" class="col-md-3 col-sm-12">
 
-    <h3 class="cat-title"><a href="#" class="">Narrow Your Options</a></h3>
+    <h3 class="cat-title"><a data-toggle="collapse" href="#collapseOptions" aria-expanded="false" aria-controls="collapseOptions">Narrow Your Options</a></h3>
+    <div id="collapseOptions">
     <div class="divider"></div>
     <div class="">
 
@@ -43,10 +44,11 @@
 
     </ul>
     </div>
-    <h3 class="cat-title">Product Search</h3>
+    </div>
+    <h3 class="cat-title"><a data-toggle="collapse" href="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">Product Search</a></h3>
     <div class="divider"></div>
 
-    <form class="" action="#" method="post">
+    <form id="collapseSearch" class="" action="#" method="post">
       <input type="text" name="search" placeholder="Model # / Description">
       <div class="product-search-parameters">
         <select class="" name="manufacturer" placeholder="Select Manufacturer">
