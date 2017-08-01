@@ -117,10 +117,10 @@
       <div class="col-md-12">
         <h3 class="cat-title">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet - Stainless</h3>
         <div id="product-information">
-          <ul>
-            <li class="prod-nav"><a href="#prod-features">Features: </a></li>
-            <li class="prod-nav "><a href="#prod-specs">Specifications: </a></li>
-            <li class="prod-nav "><a href="#prod-video">Video: </a></li>
+          <ul class="prod-info-nav">
+            <li class="prod-nav"><a href="#prod-features">Features</a></li>
+            <li class="prod-nav "><a href="#prod-specs">Specifications</a></li>
+            <li class="prod-nav "><a href="#prod-video">Video</a></li>
           </ul>
           <div id="prod-features" class="prod-info">
             <ul>

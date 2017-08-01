@@ -54,9 +54,9 @@
             Quantity
           </div>
           <div class="cart-section clearfix">
-            <button type="button" name="button">-</button>
+            <button class="change-quantity" type="button" name="button">-</button>
             1
-            <button type="button" name="button">+</button>
+            <button class="change-quantity" type="button" name="button">+</button>
         </div>
       </div>
       <div class="col-md-2 cart-column cart-remove">
@@ -81,11 +81,11 @@
   </div>
   <div class="row">
     <div class="col-md-3 cart-copy">
-      <button type="button" name="button">Update</button>
+      <button id="update-cart" type="button" name="button">Update</button>
     </div>
     <div class="col-md-6 cart-copy">
       <input type="text" name="" value="">
-      <button type="button" name="button">Apply Promo Code</button>
+      <button id="apply-promo-code" type="button" name="button">Apply Promo Code</button>
     </div>
     <div class="col-md-3">
       <h3 class="cat-title sub-total">Sub Total: $383.50</h3>

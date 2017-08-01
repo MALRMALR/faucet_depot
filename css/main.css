@@ -759,10 +759,23 @@ i.fa.fa-plus-circle {
 #product-information ul li.prod-nav {
   display: inline-block;
   list-style: none;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+  padding: 10px;
 	margin: 0 20px 0 0;
   color: #fff;
+	background-color: rgb(221, 221, 221);
+}
+
+#product-information ul li:hover {
+	background-color: #ffffff;
+}
+
+#product-information ul li a:hover {
+	text-decoration: none;
+}
+
+#product-information ul.prod-info-nav {
+	border-bottom: 1px solid #ebebeb;
+	/*border-top: 1px solid #ebebeb;*/
 }
 
 li.prod-nav {
@@ -1174,6 +1187,19 @@ border-top: none;
 	height: 100%;
 }
 
+button#update-cart, button#apply-promo-code {
+	padding: 2px 20px;
+	background-color: rgb(230, 230, 230);
+	color: rgb(44, 79, 111);
+	border: none;
+	font-weight: 700;
+}
+
+button#apply-promo-code {
+	color: #ffffff;
+	background-color: rgb(44, 79, 111);
+}
+
 /*shipping*/
 .sub-total, .shipping-section, .grand-total h3  {
 	float: right;
@@ -1187,6 +1213,19 @@ border-top: none;
 
 .grand-total span {
 	color: rgb(0, 209, 0);
+}
+
+button.change-quantity {
+	color #ebebeb;
+	background-color: #ffffff;
+	padding: 10px 16px;
+	border: none;
+	margin: 0 10px;
+}
+
+button.change-quantity:hover {
+	color: #ffffff;
+	background-color: #ebebeb;
 }
 
 /*account page*/
