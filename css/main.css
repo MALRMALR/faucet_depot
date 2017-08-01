@@ -1229,6 +1229,10 @@ ul.account-links li {
 	height: 100%;
 }
 
+#checkout {
+	margin: 30px 0;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
