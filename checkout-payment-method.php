@@ -7,7 +7,7 @@
   
   <div class="row  page-section-spacer checkout-title">
     <div class="col-sm-12">
-      <h2 class="cat-title">Login or Create an Account</h2>
+      <h2 class="cat-title">Payment Method</h2>
     </div>
 
   </div>
@@ -17,28 +17,28 @@
       active, complete, disabled 
       -->
 
-      <div class="col-xs-2 col-xs-offset-1 bs-wizard-step active">
+      <div class="col-xs-2 col-xs-offset-1 bs-wizard-step complete">
         <div class="text-center bs-wizard-stepnum">Login or Create an Account</div>
         <div class="progress"><div class="progress-bar"></div></div>
         <a href="checkout.php" class="bs-wizard-dot"></a>
         <!-- <div class="bs-wizard-info text-center">Lorem ipsum dolor sit amet.</div> -->
       </div>
       
-      <div class="col-xs-2 bs-wizard-step disabled">
+      <div class="col-xs-2 bs-wizard-step complete">
         <div class="text-center bs-wizard-stepnum">Billing & Shipping Address</div>
         <div class="progress"><div class="progress-bar"></div></div>
         <a href="checkout-billing-address.php" class="bs-wizard-dot"></a>
         <!-- <div class="bs-wizard-info text-center">Nam mollis tristique erat vel tristique. Aliquam erat volutpat. Mauris et vestibulum nisi. Duis molestie nisl sed scelerisque vestibulum. Nam placerat tristique placerat</div> -->
       </div>
       
-      <div class="col-xs-2 bs-wizard-step disabled">
+      <div class="col-xs-2 bs-wizard-step complete">
         <div class="text-center bs-wizard-stepnum">Shipping Method</div>
         <div class="progress"><div class="progress-bar"></div></div>
         <a href="checkout-shipping-method.php" class="bs-wizard-dot"></a>
         <!-- <div class="bs-wizard-info text-center">Integer semper dolor ac auctor rutrum. Duis porta ipsum vitae mi bibendum bibendum</div> -->
       </div>
       
-      <div class="col-xs-2 bs-wizard-step disabled">
+      <div class="col-xs-2 bs-wizard-step active">
         <div class="text-center bs-wizard-stepnum">Payment Method</div>
         <div class="progress"><div class="progress-bar"></div></div>
         <a href="checkout-payment-method.php" class="bs-wizard-dot"></a>
@@ -54,33 +54,67 @@
 
   </div>
 
-  <div class="row forms margin-down">
-      <div class="col-md-4">
-        <h4 class="cat-title">Returning Customers</h4>
-        
-        <form action="checkout-billing-address.php" method="POST">
-          <input type="text" name="email" value="" placeholder="Email Address">
-          <input type="password" name="password" value="" placeholder="Password">
-          <button type="submit">Login</button>
-          <a href="#" class="note forgot-password">Forgot your password?</a>
-        </form>
+  <div class="row forms margin-down shipping-method">
+    
+      <div class="col-md-5 col-md-offset-1">
+        <h4 class="cat-title">Credit Card Details</h4>
+        <form action="checkout-confirm-order.php" method="POST">
+          <input type="text" name="full-name" value="" placeholder="Full Name on Card">
+          <div class="select-holder">
+            <select>
+              <option>Card Type</option>
+              <option value="">Visa</option>
+              <option value="">Mastercard</option>
+              <option value="">American Express</option>
+              <option value="">Discover</option>
+            </select>
+          </div>
+          <input type="text" name="text" value="" placeholder="Card Number (No spaces or dashes)">
+          <div class="select-holder">
+            <select>
+              <option>Month</option>
+              <option value="">01</option>
+              <option value="">02</option>
+              <option value="">03</option>
+              <option value="">04</option>
+              <option value="">05</option>
+              <option value="">06</option>
+              <option value="">07</option>
+              <option value="">08</option>
+              <option value="">09</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+            </select>
+          </div>
 
-      </div>
+          <div class="select-holder">
+            <select>
+              <option>Year</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+              <option value="">2019</option>
+              <option value="">2020</option>
+              <option value="">2021</option>
+              <option value="">2022</option>
+              <option value="">2023</option>
+              <option value="">2024</option>
+              <option value="">2025</option>
+              <option value="">2026</option>
+              <option value="">2027</option>
+              <option value="">2028</option>
+              <option value="">2029</option>
+              <option value="">2030</option>
+            </select>
+          </div>
+          <input type="text" name="text" value="" placeholder="Card Security Code" class="sec-code"> &nbsp;&nbsp;<a href="#" class="note">How to locate it?</a>
 
-      <div class="col-md-4 new-customer"> 
-        <h4 class="cat-title">New Customers</h4>
+          <button type="submit">Continue</button> 
 
-        <form action="checkout-billing-address.php" method="POST">
-          <input type="text" name="first-name" value="" placeholder="First Name">
-          <input type="text" name="last-name" value="" placeholder="Last Name">
-          <input type="text" name="company" value="" placeholder="Company">
-          <input type="email" name="Email" value="" placeholder="Email">
-          <input type="email" name="Email-verify" value="" placeholder="Verify Email">
-          <input type="password" name="password" value="" placeholder="Password">
-          <input type="password" name="password-verify" value="" placeholder="Verify Password">
-          <input type="checkbox" id="mailing-list" name="" value="selected"> <label for="mailing-list">Would you like to join our mailing list?</label>
-          <button type="submit">Create Account</button>
-        </form>
+        </form>  
+        <br><br>
+        <h4 class="cat-title">Security Information</h4>
+        <p>It is our policy to require you to enter your credit card information each time you place an order. This provides additional safety and authentication for your orders.</p>
       </div>
 
       <div class="col-md-4 order-sumamry">
@@ -103,8 +137,11 @@
 
       </div>
 
-
+    
+    
   </div>
+
+
 </div> <!-- END container main -->
 
 

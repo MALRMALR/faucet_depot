@@ -3,20 +3,21 @@
 
   <head>
     <?php
-      require_once('Mobile_Detect.php');
+      require_once('includes/Mobile_Detect.php');
       $detect = new Mobile_Detect;
       $isMobile = $detect->isMobile() && !$detect->isTablet();
       $isTablet = $detect->isTablet();
 
-      $BASE_URL = "";
+      $BASE_URL = "/fd";
     ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $BASE_URL;?>/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $BASE_URL;?>/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $BASE_URL;?>/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $BASE_URL;?>/manifest.json">
+    <link rel="mask-icon" href="<?php echo $BASE_URL;?>/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <meta charset="utf-8">
@@ -27,7 +28,8 @@
     <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/slick.min.css" />
     <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/master.min.css">
     <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/styles.min.css">
-    <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/main.css">
+
+    <link rel="stylesheet" href="<?php echo $BASE_URL;?>/css/responsive.min.css">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -111,7 +113,7 @@
 
           <ul class="pull-right">
             <li><a href="#" class="track-order"><i class="fa fa-truck" aria-hidden="true"></i> Track an Order</a></li>
-            <li><a href="#" class="my-account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
+            <li><a href="account.php" class="my-account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
           </ul>
 
         </div>
@@ -131,7 +133,7 @@
 
 
 
-    <header class="main-header">
+    <header class="main-header ">
 
       <div class="container top">
         <div class="col-xs-12 col-sm-3 logo-holder">
@@ -147,11 +149,11 @@
             <div class="col-xs-10">
               <ul>
                 <li><a href="#" class="track-order"><i class="fa fa-truck" aria-hidden="true"></i> Track an Order</a></li>
-                <li><a href="#" class="my-account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
+                <li><a href="account.php" class="my-account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
               </ul>
             </div>
             <div class="col-xs-2 cart-holder">
-              <a href="#" class="cart" data-num-in-cart="0"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+              <a href="shopping-cart-page.php" class="cart" data-num-in-cart="0"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
@@ -170,7 +172,9 @@
 
         <div class="col-sm-5 col-sm-offset-1 search-fld-holder">
           <div>
-            <input type="text" class="search-fld" placeholder="Search"><button id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <form action="search-results.php" method="POST">
+              <input type="text" class="search-fld" placeholder="Search"><button id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
           </div>
         </div>
 
@@ -178,9 +182,11 @@
         <?php if (!$isMobile) { ?>
         <div class="col-xs-12 col-sm-3 cart-holder">
           <div class="cart">
-              <img src="imgs/shopping-cart.jpg">
+              <a href="shopping-cart-page.php">
+                <img src="imgs/shopping-cart.jpg">
+              </a>
               <div>
-                <strong>MY CART</strong><br>
+                <a href="shopping-cart-page.php"><strong>MY CART</strong></a><br>
                 Items(s) - $0.00
               </div>
           </div>

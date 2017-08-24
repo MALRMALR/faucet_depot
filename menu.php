@@ -19,7 +19,7 @@
 	          <li class="active"><a href="<?php echo $BASE_URL;?>">Home <span class="sr-only">(current)</span></a></li>
 
 	          <li class="dropdown megamenu-fw">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Kitchen</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Kitchen</a>
 	            <ul class="dropdown-menu megamenu-content" role="menu">
 	              	<li>
 					    <div class="row">
@@ -48,7 +48,7 @@
 										<a href="<?php echo $BASE_URL;?>/product_category.php" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -77,7 +77,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -106,7 +106,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -135,7 +135,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -164,7 +164,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -180,7 +180,7 @@
 	          </li>
 
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Bath</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Bath</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>
@@ -193,7 +193,7 @@
 	          </li>
 
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Fixtures</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Fixtures</a>
 	            <ul class="dropdown-menu megamenu-content" role="menu">
 	              	<li>
 					    <div class="row">
@@ -222,7 +222,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -251,7 +251,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -280,7 +280,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -309,7 +309,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -338,7 +338,7 @@
 										<a href="#" class="txt-link">Pot Fillers</a>
 					                </li>
 					                <li class="view-all">
-										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn">View all</a>
+										<a href="<?php echo $BASE_URL;?>/sub_category.php" class="read-more-btn arrow-right">View all</a>
 					                </li>
 					            </ul>
 					        </div>
@@ -355,7 +355,7 @@
 
 
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Plumbing & Utility</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Plumbing & Utility</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>
@@ -368,7 +368,7 @@
 	          </li>
 
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Water Heaters</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Water Heaters</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>
@@ -380,7 +380,7 @@
 	            </ul>
 	          </li>
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Filter</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Filter</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>
@@ -392,7 +392,7 @@
 	            </ul>
 	          </li>
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Parts</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Parts</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>
@@ -404,7 +404,7 @@
 	            </ul>
 	          </li>
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Tools</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Tools</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>
@@ -416,7 +416,7 @@
 	            </ul>
 	          </li>
 	          <li class="dropdown">
-	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false">Commercial</a>
+	            <a href="<?php echo $BASE_URL;?>/main_category.php" class="dropdown-toggle<?php if (!$isMobile) echo ' disabled';?>" data-toggle="dropdown" role="button" aria-expanded="false">Commercial</a>
 	            <ul class="dropdown-menu" role="menu">
 	              <li><a href="#">Action</a></li>
 	              <li><a href="#">Another action</a></li>

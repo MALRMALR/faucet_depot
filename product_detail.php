@@ -1,107 +1,113 @@
 <?php include ('header.php'); ?>
 
 <div class="container main">
-  <!-- top banner -->
-  <?php include ('banner.php'); ?>
+  
 
-  <div class="row margin-down">
+  <div class="row margin-down page-section-spacer">
 
     <!-- sidebar -->
-    <?php include ('sidebar.php'); ?>
+    <?php $show_filter = false; $show_manufacturer_filter = false; $show_prod_cats = true;  $show_search = true; include ('includes/sidebar.php'); ?>
 
 
     <div class="col-md-9 col-sm-12">
-
+      
       <div class="row">
-        <div class="taxonomy col-md-12">
+        <div class="col-md-12">
+          <h2 class="page-title">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet - Stainless</h2>
+        </div>
+      </div>
+
+
+      <div class="breadcrumbs row">
+        <div class="col-md-12">
           <a href="<?php echo $BASE_URL; ?>/index.php">Home</a>
           <span> &#62; </span>
           <a href="<?php echo $BASE_URL; ?>/main_category.php">Kitchen</a>
           <span> &#62; </span>
           <a href="<?php echo $BASE_URL; ?>/sub_category.php">Faucets</a>
           <span> &#62; </span>
-          <a href="<?php echo $BASE_URL; ?>/sub_category.php">Pullout</a>
+          <a href="<?php echo $BASE_URL; ?>/product_category.php">Pullout</a>
           <span> &#62; </span>
-          <a href="<?php echo $BASE_URL; ?>/manufacturer_detail.php">Delta Kitchen Pullout</a>
-          <span> &#62; </span>
-          <a href="<?php echo $BASE_URL; ?>/product_detail.php">DELTA 9159-AR-DST</a>
+          <a href="#">DELTA 9159-AR-DST</a>
         </div>
       </div>
 
 
       <div class="row">
 
-        <div class="col-md-12">
-          <h3 class="cat-title">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet - Stainless</h3>
-        </div>
-
-        <div class="col-md-6">
-          <div class="product-detail product-slider-image">
-            <img src="imgs/kohler_parq.png" alt="">
-            <img src="imgs/kohler_simplice.png" alt="">
-            <img src="imgs/kohler_torq.png" alt="">
+        <div class="col-md-7 product-slider">
+          
+          <div class="product-slider-image">
+            <div class="img-slide"><img src="imgs/kohler_parq.png" alt=""></div>
+            <div class="img-slide"><img src="imgs/kohler_simplice.png" alt=""></div>
+            <div class="img-slide"><img src="imgs/kohler_torq.png" alt=""></div>
           </div>
+
           <div class="product-slider-nav">
-            <div class="product-detail-nav">
-              <img src="imgs/kohler_parq.png" alt="">
-            </div>
-            <div class="product-detail-nav">
-              <img src="imgs/kohler_simplice.png" alt="">
-            </div>
-            <div class="product-detail-nav">
-              <img src="imgs/kohler_torq.png" alt="">
-            </div>
+            <div class="nav-slide"><img src="imgs/kohler_parq.png" alt=""></div>
+            <div class="nav-slide"><img src="imgs/kohler_simplice.png" alt=""></div>
+            <div class="nav-slide"><img src="imgs/kohler_torq.png" alt=""></div>
           </div>
+
         </div>
 
 
-        <div class="col-md-4 clearfix">
-          <!-- <div class="compare">
-            <button type="button" name="compare">Compare</button>
-          </div> -->
-          <div class="product-detail">
-            <div class="retail-price">
-              <span class="product-detail-info-price-label">Retail Price: $501.70</span>
-            </div>
-            <div class="our-price">
-              <span class="product-detail-info-price-label">Our Price: </span>
-              <span class="product-detail-info-price-number">$288.30</span>
-            </div>
+        <div class="col-md-4 col-md-offset-1 product-details">
+          <form action="shopping-cart-page.php" method="POST">
 
-            <div class="availability">
-              <span>In Stock - </span>Ships same day (M-F) if ordered by 2PM PST.
-            </div>
-            <div class="product-search-parameters">
-              <select class="" name="Choose Another Finish">
-                <option value="">Choose Another Finish</option>
-                <option value="">Choose Another Finish</option>
-                <option value="">Choose Another Finish</option>
-                <option value="">Choose Another Finish</option>
-                <option value="">Choose Another Finish</option>
+            <img class="vendor-logo" src="imgs/delta_logo.png" alt="">
+            
+            <div class="retail-price">Retail Price: $501.70</div>            
+            <div class="our-price">Our Price: <span class="price-number">$288.30</span></div>
+            <div class="note">* Free shipping on orders over $199.</div>
+       
+            <label for="qty">Quantity:</label><div class="qty-holder"><a href="#" class="minus-qty"><i class="fa fa-minus" aria-hidden="true"></i></a><input type="number" id="qty" value="1"><a href="#" class="plus-qty"><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+            
+            <div class="product-search-parameters select-holder">
+              <select class="" name="Choose a Different Finish">
+                <option value="">Choose a Different Finish</option>
+                <option value="">Choose a Different Finish</option>
+                <option value="">Choose a Different Finish</option>
+                <option value="">Choose a Different Finish</option>
+                <option value="">Choose a Different Finish</option>
               </select>
             </div>
 
-          <div class="shipping">Free Shipping!</div>
+            <!-- add to cart -->
+            <button id="add_to_cart" class="add_to_cart" type="submit" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
+          </form>
 
-          <!-- add to cart -->
-          <button id="add_to_cart" type="button" name="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add To Cart</button>
+          <div class="availability">
+            <div class="status available">In Stock</div>
+            <p class="note">Ships same day,<br>if ordered by 2PM PST (Mon-Fri).</p>
+          </div>
+          
 
-          <!-- select (compare) -->
-          <!-- <div class="compare">
-            <input id="select-checkbox" type="checkbox" name="compare" value="Select">
-            <span>Select</span>
-            <span>Compare Now</span>
-          </div> -->
-
-          <!-- Warranty Info / Spec Sheet -->
-          <div class="warranty-spec">
-            <a href="#"><span>Warranty Information</span></a>
-            <a href="#"><span>Spec Sheet</span></a>
+          <div class="model border-top">
+            <p>Model: <strong>GR19457EN1</strong></p>
+            <p>UPC: <strong>4005176888984</strong></p>
           </div>
 
-          <!-- Social Icons -->
+          <div class="warranty-spec border-top">
+            <p><a href="#" target="_blank">Spec Sheet</a></p>
+            <p><a href="#" target="_blank">Warranty Information</a></p>            
+          </div>
 
-          <div class="product-page-social-icons">
+          <div class="col-links border-top">
+            <p>View all <a href="#">Grohe</a> products</p>
+            <p>View <a href="#">Grohe Concetto Collection</a></p>
+          </div>
+
+          <div class="icons border-top">
+            <img src="imgs/adaapproved.jpg">
+            <img src="imgs/rir.jpg">
+          </div>
+          
+          <div class="border-top">
+            <a href="#" class="complaint-btn" target="_blank">AB 1953 Complaint</a>
+          </div>
+             
+          <div class="social-icons border-top">
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
@@ -109,20 +115,25 @@
             <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
           </div>
 
-        </div> <!-- END product-detail -->
-      </div>
+      
+        </div>
+
     </div> <!-- end row -->
 
-    <div class="row">
+
+
+
+    <div id="product-info" class="row">
       <div class="col-md-12">
-        <h3 class="cat-title">Delta 9159-AR-DST Trinsic Single Handle Pull-Down Kitchen Faucet - Stainless</h3>
-        <div id="product-information">
+        
           <ul class="prod-info-nav">
-            <li class="prod-nav"><a href="#prod-features">Features</a></li>
-            <li class="prod-nav "><a href="#prod-specs">Specifications</a></li>
-            <li class="prod-nav "><a href="#prod-video">Video</a></li>
+            <li class="tab-nav"><a href="#prod-description">Description</a></li>
+            <li class="tab-nav"><a href="#prod-reviews">Reviews</a></li>
+            <li class="tab-nav"><a href="#prod-video">Video</a></li>
+            <li class="tab-nav"><a href="#prod-sug-cats">Suggested Accessories</a></li>
           </ul>
-          <div id="prod-features" class="prod-info">
+          <div id="prod-description" class="prod-info-content">
+            <!-- <h3 class="cat-title">Description</h3> -->
             <ul>
               <li>The design was inspired by the sleek elegance of modern European design.</li>
               <li>A sleek sophistication in the kitchen for both style and functionality</li>
@@ -139,50 +150,61 @@
             </ul>
           </div>
 
-          <div id="prod-specs" class="prod-info">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec mattis leo. Vivamus molestie condimentum pulvinar. Ut volutpat elit justo, eget lacinia orci aliquam eu. Nullam bibendum, ipsum nec aliquet feugiat, turpis dolor sollicitudin lorem, nec finibus metus arcu a purus. Quisque finibus, lectus a faucibus mattis, neque tortor finibus eros, id bibendum massa augue eu purus. Sed ultrices a nunc quis suscipit. Donec ut arcu tempor, euismod nibh vel, euismod nunc. Aenean ac sapien congue, facilisis elit quis, pulvinar magna. Maecenas sed odio non tellus volutpat sagittis.</p>
+          <div id="prod-reviews" class="prod-info-content">
+            
+
+            <div class="overall-rating">
+              <div class="prod-cat-stars">
+                <span style="width:72%" class="star-ratings-sprite-rating"></span>
+              </div>
+              <div class="">
+                <p><span class="numerical-rating">4.5</span> Based on 6 Reviews</p>
+                <p>100% of Customers would recommend this product to a friend</p>
+              </div>
+            </div>
+
+            
+            <?php for ($i = 0; $i < 5; ++$i) { 
+                include ('includes/review.php'); 
+             } ?>
+
+
+
+             <div class="review submit-review">
+                <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
+                <div class="product-overall-rating">
+
+                  <select id="review-submit">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+
+                </div>
+                <br>
+                <a href="#" clas="submit-review-btn">Submit a review</a>
+              
+                
+              </div> <!-- end review -->
+
           </div>
 
-          <div id="prod-video" class="prod-info">
-            <p>Praesent nec hendrerit erat, eget consectetur justo. Aliquam tempor dolor volutpat, iaculis purus vel, ultricies enim. Nunc ornare neque non porta dictum. Donec interdum, sem et tempus semper, nunc magna lacinia lorem, sed lobortis est neque eget sapien. Vivamus vehicula venenatis lacinia. Maecenas posuere lectus ac urna aliquam mollis. Donec augue ex, tincidunt in ullamcorper sed, vestibulum eget tellus. Proin sed tellus interdum, varius nisi et, bibendum elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eget placerat dui. Nullam convallis mattis velit at bibendum. Nulla tempus quam a velit condimentum sodales. Cras molestie nibh nec consequat tempus. Cras id nulla et felis faucibus ultrices. Morbi sed orci tincidunt, finibus libero eget, iaculis lorem. Phasellus eleifend felis sed rutrum porta.</p>
+          <div id="prod-video" class="prod-info-content">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/wXoFWnFXqUo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
-        </div>
+
+          <div id="prod-sug-cats" class="prod-info-content">
+
+            <?php for($i=0; $i<3; $i++) { ?>
+              <?php $isAccessory = true; include ('includes/product-item.php'); ?>
+            <?php } ?>
+
+          </div>
+
       </div>
     </div>
-
-
-
-    <?php include('suggested-accessories.php'); ?>
-
-
-
-    <div class="review">
-      <h3 class="cat-title">Delta 9159-AR-DST - <a href="#">Submit A Review</a></h3>
-      <div class="product-overall-rating">
-        <?php include('rating.php'); ?>
-
-        <div class="overall-rating-wrapper">
-          <span class="overall-rating"><span class="numerical-rating">4.5</span> Based on 6 Reviews</span>
-          <span class="customer-recommendation">100% of Customers would recommend this product to a friend</span>
-        </div>
-      </div>
-    <?php for ($i = 0; $i < 5; ++$i) { ?>
-      <?php include('review.php'); ?>
-    <?php } ?>
-
-
-
-      <div class="recommended col-md-12">
-        <span>Recommend to a Friend?</span>
-        <span class="green">Yes</span>
-        <div class="">
-          <span>Submitted by JohnRamella in Columbus OH on 2016-04-15</span>
-          <div class="load-more-reviews">
-            <a href="#">Load More Reviews</a>
-          </div>
-        </div>
-      </div>
-    </div> <!-- end review -->
 
 
 
@@ -190,9 +212,18 @@
 
 </div>
 
-  <?php include ('featured.php') ?>
+  <?php $show_featured_products = true; $show_featured_collections = true; $show_popular_categories = true; include ('includes/featured.php') ?>
 
 </div> <!-- END container main -->
 
+
+<script src="js/jquery.barrating.min.js"></script>
+<script type="text/javascript">
+   $(function() {
+      $('#review-submit').barrating({
+        theme: 'br-theme-css-stars'
+      });
+   });
+</script>
 
 <?php include('footer.php'); ?>

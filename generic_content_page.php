@@ -2,7 +2,7 @@
  
 <div class="container main">
   <!-- top banner -->
-  <?php include ('banner.php'); ?>
+  <?php include ('includes/banner.php'); ?>
 
   <div class="row">
     <div class="col-md-12 generic-content-page">
@@ -30,7 +30,7 @@
     <p>Mon - Fri 6:00am - 4:00PM PT</p>
   </div>
 
-  <?php include ('featured.php') ?>
+  <?php $show_featured_products = true; $show_featured_collections = true; $show_popular_categories = true; include ('includes/featured.php') ?>
 </div> <!-- END container main -->
 
 

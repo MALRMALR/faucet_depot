@@ -30,7 +30,7 @@
 
 	</div>
 
-	<div class="border-around margin-down clearfix">
+	<div class="home-logos border-around margin-down clearfix">
 		<div id="logo-carousel" class="slider">
 			<div class="slick-slide">
 	          <img src="imgs/logo1.jpg">
@@ -78,7 +78,7 @@
 	          <img src="imgs/logo5.jpg">
 	        </div>
 
-	        <div class="side-arrows arrows">
+	        <div class="side-arrows  arrows">
 	          <a class="arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 	          <a class="arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 	        </div>
@@ -175,7 +175,7 @@
 				</div>
 			</div>
 
-			<div class="side-arrows arrows">
+			<div class="side-arrows slider-arrows arrows">
 	          <a class="arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 	          <a class="arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 	        </div>
@@ -184,41 +184,8 @@
 	</div>
 
 
-	<div class="feat-prods margin-down clearfix">
+	<?php $show_featured_products = true; $show_featured_collections = false; $show_popular_categories = false; include ('includes/featured.php') ?>
 
-		<div style="position:relative;">
-			<h2 class="section-title">Featured Products</h2>
-			<div class="<?php if ($isMobile) echo 'side-arrows';?> products-arrows arrows">
-	          <a class="arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-	          <a class="arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-	        </div>
-		</div>
-
-		<div id="products-carousel" class="slider">
-			<?php for ($i = 0; $i < 10; ++$i) { ?>
-				<div class="slick-slide img-text-box">
-		          <a href="<?php echo $BASE_URL; ?>/product_detail.php" class="img-link"><img src="imgs/faucet.jpg"></a>
-		          <div class="desc">
-		          	<h3><a href="<?php echo $BASE_URL; ?>/product_detail.php">Moen Arbor 123456 Kitchen Pullout</a></h3>
-
-		          		Our Price<br>$345.78
-
-		          </div>
-		        </div>
-
-			<?php } ?>
-
-
-
-
-
-
-
-
-
-
-		</div>
-	</div>
 
 	<div id="ads" class="row margin-down clearfix">
 		<div class="col-xs-12 col-sm-6">
@@ -238,7 +205,7 @@
 	<div class="guide-carousel-holder margin-down clearfix">
 		<div>
 			<h2 class="section-title">Faucet Depot Guide</h2>
-			<div class="guide-arrows arrows">
+			<div class="guide-arrows slider-arrows arrows">
 	          <a class="arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 	          <a class="arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 	        </div>
@@ -252,7 +219,7 @@
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
 
-	          	<a href="#" class="read-more-btn">Read more</a>
+	          	<a href="#" class="read-more-btn arrow-right">Read more</a>
 
 	          </div>
 	        </div>
@@ -263,7 +230,7 @@
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
 
-	          	<a href="#" class="read-more-btn">Read more</a>
+	          	<a href="#" class="read-more-btn arrow-right">Read more</a>
 
 	          </div>
 	        </div>
@@ -274,7 +241,7 @@
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
 
-	          	<a href="#" class="read-more-btn">Read more</a>
+	          	<a href="#" class="read-more-btn arrow-right">Read more</a>
 
 	          </div>
 	        </div>
@@ -285,7 +252,7 @@
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
 
-	          	<a href="#" class="read-more-btn">Read more</a>
+	          	<a href="#" class="read-more-btn arrow-right">Read more</a>
 
 	          </div>
 	        </div>
@@ -296,7 +263,7 @@
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
 
-	          	<a href="#" class="read-more-btn">Read more</a>
+	          	<a href="#" class="read-more-btn arrow-right">Read more</a>
 
 	          </div>
 	        </div>
@@ -307,7 +274,7 @@
 	          	<h3><a href="#">How to choose a Kitchen Faucet</a></h3>
 	          	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis </p>
 
-	          	<a href="#" class="read-more-btn">Read more</a>
+	          	<a href="#" class="read-more-btn arrow-right">Read more</a>
 
 	          </div>
 	        </div>

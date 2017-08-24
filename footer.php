@@ -22,7 +22,7 @@
           <div class="row menu-items">
 
             <div class="col-xs-12 col-sm-4">
-              <h3 class="title <?php if ($isMobile) echo 'arrow-down collapsed';?>" data-toggle="<?php if ($isMobile) echo 'collapse';?>" data-target="#faucet-depot-menu">Facuet Depot</h3>
+              <h3 class="title <?php if ($isMobile) echo 'arrow-down collapsed';?>" data-toggle="<?php if ($isMobile) echo 'collapse';?>" data-target="#faucet-depot-menu">Faucet Depot</h3>
               <ul id="faucet-depot-menu" class="<?php if ($isMobile) echo 'collapse';?>">
                 <li><a href="<?php echo $BASE_URL;?>/generic_content_page.php">About Us</a></li>
                 <li><a href="<?php echo $BASE_URL;?>/generic_content_page.php">Contact Us</a></li>
@@ -103,7 +103,7 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/slick.min.js"></script>
-<!-- <script src="js/scripts.min.js"></script> -->
-<script src="js/scripts.js"></script>
+<script src="js/scripts.min.js"></script>
+<!-- <script src="js/scripts.js"></script> -->
 
 </html>
